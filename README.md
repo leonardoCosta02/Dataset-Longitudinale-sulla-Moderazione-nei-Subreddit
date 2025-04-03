@@ -1,0 +1,1 @@
+In questa cartella si trova il codice dove dal 2012 al 2024 recupero le pagine HTML di varie pagine di subreddit, le pagine HTML vengono salvate nel fileSystem nella cartella html_cache e nel database (MongoDb) per ora salvo solamente l'URL della pagina e la posizione di dove si trova la pagina 

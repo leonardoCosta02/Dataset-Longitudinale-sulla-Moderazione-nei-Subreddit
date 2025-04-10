@@ -78,6 +78,7 @@ def get_wayback_with_cache_mongo(url, params,cache_collection):
     cached_response = get_cache_from_db(url, params,cache_collection)
     if cached_response:
         print("SNapshot già presente in cache")
+        return None,7 #con 7 indico che lo snapshot è già stato caricato in precedenza
     else:
     # Se non c'è nella cache, fai la richiesta
         response,err = get_wayback(url, params)

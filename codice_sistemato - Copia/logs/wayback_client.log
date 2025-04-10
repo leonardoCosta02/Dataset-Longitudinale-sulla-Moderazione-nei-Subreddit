@@ -1058,3 +1058,633 @@
 2025-04-09 15:14:04,707 - wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
 2025-04-09 15:14:04,709 - wayback_client - INFO - 🌐 GET http://web.archive.org/web/20230714084016/http://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
 2025-04-09 15:14:06,862 - wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20230714084016/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 10:11:13,606 - wayback_client - INFO - Parametri di richiesta: {'url': 'https://www.reddit.com/r/gaming/', 'from': '2012', 'to': '2024', 'output': 'json', 'collapse': 'digest'}
+2025-04-10 10:11:13,607 - wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 10:12:58,154 - wayback_client - INFO - Parametri di richiesta: {'url': 'https://www.reddit.com/r/gaming/', 'from': '2012', 'to': '2024', 'output': 'json', 'collapse': 'digest'}
+2025-04-10 10:12:58,155 - wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-10 10:13:02,079 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 0.08s
+2025-04-10 10:13:02,155 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:13:02,156 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20120102202536/http://www.reddit.com/r/gaming/ | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-10 10:13:08,201 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:13:08,202 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20120704231705/http://www.reddit.com/r/gaming/ | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 10:13:14,315 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:13:14,316 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20130101144449/http://www.reddit.com/r/gaming/ | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-10 10:13:22,900 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:13:22,901 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20130701125518/http://www.reddit.com/r/gaming/ | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 10:13:30,893 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:13:30,894 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20140101125929/http://www.reddit.com/r/gaming/ | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 10:13:39,094 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:13:39,095 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20140706084805/http://www.reddit.com/r/gaming/ | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-10 10:13:45,749 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:13:45,750 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20150106055433/http://www.reddit.com/r/gaming/ | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 10:13:50,374 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:13:50,376 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20150702234104/https://www.reddit.com/r/gaming | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 10:13:53,581 - wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-10 10:13:53,582 - wayback_client - INFO - 🌐 GET http://web.archive.org/web/20150702234104/http://www.reddit.com/r/gaming | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 10:13:55,125 - wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20150702234104/https://www.reddit.com/r/gaming
+2025-04-10 10:13:55,227 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:13:55,227 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20160101053427/https://www.reddit.com/r/gaming/ | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 10:14:01,431 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:14:01,432 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20160702132633/http://reddit.com/r/gaming | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 10:14:07,463 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:14:07,464 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20170101121026/https://www.reddit.com/r/gaming/ | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 10:14:14,969 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:14:14,969 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20170701041108/https://www.reddit.com/r/gaming/ | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 10:14:22,728 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:14:22,728 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20180101152221/https://www.reddit.com/r/gaming/ | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-10 10:14:29,779 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:14:29,780 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20180701005254/https://www.reddit.com/r/gaming/ | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 10:14:35,936 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:14:35,937 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20190101012737/https://www.reddit.com/r/gaming | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-10 10:14:43,366 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:14:43,366 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20190701174918/https://www.reddit.com/r/gaming/ | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-10 10:14:51,482 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:14:51,484 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20200103082017/https://www.reddit.com/r/gaming/ | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-10 10:14:58,365 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:14:58,366 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20200701021318/https://www.reddit.com/r/gaming/ | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 10:15:05,210 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:15:05,210 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20210101164951/https://www.reddit.com/r/gaming/ | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 10:15:08,228 - wayback_client - WARNING - 🔌 Errore di connessione: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /web/20210101164951/https://www.reddit.com/r/gaming/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001C214FCE240>: Failed to establish a new connection: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione'))
+2025-04-10 10:15:18,238 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:15:18,239 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20210701045122/https://www.reddit.com/r/gaming/ | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 10:15:22,755 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:15:22,756 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20220101044250/https://www.reddit.com/r/gaming/ | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-10 10:15:27,581 - wayback_client - WARNING - 🔌 Errore di connessione: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /web/20220101044250/https://www.reddit.com/r/gaming/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001C214FCE450>: Failed to establish a new connection: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione'))
+2025-04-10 10:15:37,590 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:15:37,591 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20220701012848/https://www.reddit.com/r/gaming/ | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-10 10:15:40,687 - wayback_client - WARNING - 🔌 Errore di connessione: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /web/20220701012848/https://www.reddit.com/r/gaming/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001C214FCEF30>: Failed to establish a new connection: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione'))
+2025-04-10 10:15:50,715 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:15:50,720 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20230101003246/https://www.reddit.com/r/gaming/ | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-10 10:15:53,797 - wayback_client - WARNING - 🔌 Errore di connessione: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /web/20230101003246/https://www.reddit.com/r/gaming/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001C214FCDD90>: Failed to establish a new connection: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione'))
+2025-04-10 10:16:03,811 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:16:03,812 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20230701130325/https://www.reddit.com/r/gaming/ | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 10:16:07,005 - wayback_client - WARNING - 🔌 Errore di connessione: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /web/20230701130325/https://www.reddit.com/r/gaming/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001C214FCF1A0>: Failed to establish a new connection: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione'))
+2025-04-10 10:16:17,035 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:16:17,044 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20240101045940/https://www.reddit.com/r/gaming/ | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 10:16:24,453 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:16:24,454 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20240701050608/https://www.reddit.com/r/gaming/ | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 10:17:02,068 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:17:02,069 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20210101164951/https://www.reddit.com/r/gaming/ | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 10:17:11,607 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:17:11,607 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20220101044250/https://www.reddit.com/r/gaming/ | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 10:17:19,541 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:17:19,542 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20220701012848/https://www.reddit.com/r/gaming/ | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-10 10:17:25,741 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:17:25,742 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20230101003246/https://www.reddit.com/r/gaming/ | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-10 10:17:31,141 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:17:31,142 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20230701130325/https://www.reddit.com/r/gaming/ | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-10 10:27:06,157 - wayback_client - INFO - Parametri di richiesta: {'url': 'https://www.reddit.com/r/formula1/about/moderators', 'from': '2012', 'to': '2024', 'output': 'json', 'collapse': 'digest'}
+2025-04-10 10:27:06,166 - wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-10 10:27:11,054 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:27:11,062 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20120116090123/http://www.reddit.com:80/r/formula1/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-10 10:27:16,032 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:27:16,047 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20150612194942/http://www.reddit.com/r/formula1/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 10:27:20,656 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:27:20,657 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20150703042520/http://www.reddit.com/r/formula1/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-10 10:27:25,235 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:27:25,237 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20170930064346/https://www.reddit.com/r/formula1/about/moderators | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 10:27:29,483 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:27:29,485 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20180201143040/https://www.reddit.com/r/formula1/about/moderators | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 10:27:33,093 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 0.39s
+2025-04-10 10:27:33,520 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:27:33,520 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20180923182812/https://www.reddit.com/r/formula1/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-10 10:27:38,316 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:27:38,317 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20190427185348/https://www.reddit.com/r/formula1/about/moderators | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 10:27:43,724 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:27:43,725 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20200312200005/https://www.reddit.com/r/formula1/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-10 10:27:50,640 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:27:50,641 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20201102010633/https://www.reddit.com/r/formula1/about/moderators | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 10:27:55,929 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:27:55,929 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20210328010323/https://www.reddit.com/r/formula1/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-10 10:28:00,737 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:28:00,739 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20210718192409/https://www.reddit.com/r/formula1/about/moderators | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 10:28:05,168 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:28:05,170 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20220201112617/https://www.reddit.com/r/formula1/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 10:28:07,243 - wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-10 10:28:07,244 - wayback_client - INFO - 🌐 GET http://web.archive.org/web/20220201112617/http://www.reddit.com/r/formula1/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 10:28:08,528 - wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20220201112617/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 10:28:08,534 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 0.63s
+2025-04-10 10:28:09,174 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:28:09,194 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20220713061335/https://www.reddit.com/r/formula1/about/moderators | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 10:28:11,463 - wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-10 10:28:11,464 - wayback_client - INFO - 🌐 GET http://web.archive.org/web/20220713061335/http://www.reddit.com/r/formula1/about/moderators | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 10:28:12,494 - wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20220713061335/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 10:28:12,557 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 0.62s
+2025-04-10 10:28:13,179 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:28:13,181 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20230519204419/https://www.reddit.com/r/formula1/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-10 10:28:16,342 - wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-10 10:28:16,343 - wayback_client - INFO - 🌐 GET http://web.archive.org/web/20230519204419/http://www.reddit.com/r/formula1/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-10 10:28:17,403 - wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20230519204419/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 10:28:17,415 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:28:17,420 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20230829121001/https://www.reddit.com/r/formula1/about/moderators | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 10:28:20,450 - wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-10 10:28:20,480 - wayback_client - INFO - 🌐 GET http://web.archive.org/web/20230829121001/http://www.reddit.com/r/formula1/about/moderators | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 10:28:21,893 - wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20230829121001/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 10:28:21,911 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 10:28:21,926 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20241002160532/https://www.reddit.com/r/formula1/about/moderators/ | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 10:53:54,374 - wayback_client - INFO - Parametri di richiesta: {'url': 'https://www.reddit.com/r/formula1/about/moderators', 'from': '2012', 'to': '2024', 'output': 'json', 'collapse': 'digest'}
+2025-04-10 10:53:54,406 - wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 10:55:44,491 - wayback_client - INFO - Parametri di richiesta: {'url': 'https://www.reddit.com/r/formula1/about/moderators', 'from': '2012', 'to': '2024', 'output': 'json', 'collapse': 'digest'}
+2025-04-10 10:55:44,546 - wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 10:57:52,370 - wayback_client - INFO - Parametri di richiesta: {'url': 'https://www.reddit.com/r/formula1/about/moderators', 'from': '2012', 'to': '2024', 'output': 'json', 'collapse': 'digest'}
+2025-04-10 10:57:52,373 - wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-10 11:00:07,858 - wayback_client - INFO - Parametri di richiesta: {'url': 'https://www.reddit.com/r/formula1/about/moderators', 'from': '2012', 'to': '2024', 'output': 'json', 'collapse': 'digest'}
+2025-04-10 11:00:07,860 - wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 11:01:53,926 - wayback_client - INFO - Parametri di richiesta: {'url': 'https://www.reddit.com/r/formula1/about/moderators', 'from': '2012', 'to': '2024', 'output': 'json', 'collapse': 'digest'}
+2025-04-10 11:01:53,928 - wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 11:04:35,583 - wayback_client - INFO - Parametri di richiesta: {'url': 'https://www.reddit.com/r/formula1/about/moderators', 'from': '2012', 'to': '2024', 'output': 'json', 'collapse': 'digest'}
+2025-04-10 11:04:35,584 - wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-10 11:07:33,624 - wayback_client - INFO - Parametri di richiesta: {'url': 'https://www.reddit.com/r/formula1/about/moderators', 'from': '2012', 'to': '2024', 'output': 'json', 'collapse': 'digest'}
+2025-04-10 11:07:33,626 - wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 11:11:01,190 - wayback_client - INFO - Parametri di richiesta: {'url': 'https://www.reddit.com/r/formula1/about/moderators', 'from': '2012', 'to': '2024', 'output': 'json', 'collapse': 'digest'}
+2025-04-10 11:11:01,191 - wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 11:11:04,059 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 1.13s
+2025-04-10 11:11:05,191 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 11:11:05,192 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20220201112617/https://www.reddit.com/r/formula1/about/moderators | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 11:11:07,303 - wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-10 11:11:07,303 - wayback_client - INFO - 🌐 GET http://web.archive.org/web/20220201112617/http://www.reddit.com/r/formula1/about/moderators | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 11:11:08,412 - wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20220201112617/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 11:11:08,423 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 0.77s
+2025-04-10 11:11:09,193 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 11:11:09,194 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20220713061335/https://www.reddit.com/r/formula1/about/moderators | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 11:11:11,693 - wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-10 11:11:11,694 - wayback_client - INFO - 🌐 GET http://web.archive.org/web/20220713061335/http://www.reddit.com/r/formula1/about/moderators | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 11:11:12,816 - wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20220713061335/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 11:11:12,827 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 0.37s
+2025-04-10 11:11:13,196 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 11:11:13,200 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20230519204419/https://www.reddit.com/r/formula1/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-10 11:11:15,269 - wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-10 11:11:15,269 - wayback_client - INFO - 🌐 GET http://web.archive.org/web/20230519204419/http://www.reddit.com/r/formula1/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-10 11:11:16,196 - wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20230519204419/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 11:19:57,728 - wayback_client - INFO - Parametri di richiesta: {'url': 'https://www.reddit.com/r/AskReddit/about/moderators', 'from': '2012', 'to': '2024', 'output': 'json', 'collapse': 'digest'}
+2025-04-10 11:19:57,730 - wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 11:20:02,928 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 11:20:02,929 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20120102194024/http://www.reddit.com:80/r/AskReddit/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-10 11:20:08,262 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 11:20:08,263 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20120705012333/http://www.reddit.com/r/AskReddit/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 11:20:14,297 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 11:20:14,299 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20130103214327/http://www.reddit.com/r/AskReddit/about/moderators | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 11:20:19,443 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 11:20:19,444 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20130709110929/http://www.reddit.com/r/AskReddit/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-10 11:20:25,202 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 11:20:25,203 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20140104205127/http://www.reddit.com/r/AskReddit/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-10 11:20:29,292 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 11:20:29,293 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20140701044623/http://www.reddit.com/r/AskReddit/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 11:20:37,554 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 11:20:37,555 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20150106072143/http://www.reddit.com/r/AskReddit/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 11:20:45,335 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 11:20:45,336 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20150703192959/https://www.reddit.com/r/AskReddit/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 11:20:50,946 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 11:20:50,947 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20160101105344/https://www.reddit.com/r/AskReddit/about/moderators | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 11:20:57,734 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 11:20:57,756 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20160706150944/https://www.reddit.com/r/AskReddit/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 11:21:03,987 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 11:21:03,987 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20170105092901/https://www.reddit.com/r/AskReddit/about/moderators | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 11:21:08,442 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 11:21:08,442 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20170701045512/https://www.reddit.com/r/AskReddit/about/moderators | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 11:21:14,820 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 11:21:14,821 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20180104011558/https://www.reddit.com/r/AskReddit/about/moderators | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 11:21:24,877 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 11:21:24,890 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20180711062058/https://www.reddit.com/r/AskReddit/about/moderators | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 11:21:30,655 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 11:21:30,656 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20190101000523/https://www.reddit.com/r/askreddit/about/moderators/ | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 11:21:38,689 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 11:21:38,690 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20190701002806/https://www.reddit.com/r/askreddit/about/moderators/ | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 11:21:44,243 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 11:21:44,243 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20200104121548/https://www.reddit.com/r/askreddit/about/moderators/ | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 11:21:52,333 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 11:21:52,334 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20200701204329/https://www.reddit.com/r/AskReddit/about/moderators | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 11:21:58,356 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 11:21:58,358 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20210101003019/https://www.reddit.com/r/askreddit/about/moderators/ | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 11:22:06,112 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 11:22:06,148 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20210701012632/https://www.reddit.com/r/askreddit/about/moderators/ | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-10 11:22:09,312 - wayback_client - WARNING - 🔌 Errore di connessione: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /web/20210701012632/https://www.reddit.com/r/askreddit/about/moderators/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000212F683F230>: Failed to establish a new connection: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione'))
+2025-04-10 11:22:19,322 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 11:22:19,328 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20220101211410/https://www.reddit.com/r/askreddit/about/moderators/ | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 11:22:22,498 - wayback_client - WARNING - 🔌 Errore di connessione: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /web/20220101211410/https://www.reddit.com/r/askreddit/about/moderators/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000212F683D4F0>: Failed to establish a new connection: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione'))
+2025-04-10 11:22:32,508 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 11:22:32,509 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20220703113228/https://www.reddit.com/r/askreddit/about/moderators/ | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 11:22:35,580 - wayback_client - WARNING - 🔌 Errore di connessione: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /web/20220703113228/https://www.reddit.com/r/askreddit/about/moderators/ (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000212F683D3A0>: Failed to establish a new connection: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione'))
+2025-04-10 11:22:45,629 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 11:22:45,653 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20230123140120/https://www.reddit.com/r/AskReddit/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-10 11:22:48,815 - wayback_client - WARNING - 🔌 Errore di connessione: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /web/20230123140120/https://www.reddit.com/r/AskReddit/about/moderators (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000212F7954140>: Failed to establish a new connection: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione'))
+2025-04-10 11:22:58,824 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 11:22:58,825 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20230928143638/https://www.reddit.com/r/AskReddit/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-10 11:23:01,922 - wayback_client - WARNING - 🔌 Errore di connessione: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /web/20230928143638/https://www.reddit.com/r/AskReddit/about/moderators (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000212F683D7C0>: Failed to establish a new connection: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione'))
+2025-04-10 11:23:11,947 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 11:23:11,948 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20240208221513/https://www.reddit.com/r/AskReddit/about/moderators/ | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 11:23:17,004 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 11:23:17,006 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20240710224608/https://www.reddit.com/r/AskReddit/about/moderators/ | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-10 11:23:53,685 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 11:23:53,686 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20230123140120/https://www.reddit.com/r/AskReddit/about/moderators | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 11:24:00,596 - wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-10 11:24:00,596 - wayback_client - INFO - 🌐 GET http://web.archive.org/web/20230123140120/http://www.reddit.com/r/AskReddit/about/moderators | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 11:24:02,212 - wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20230123140120/https://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:24:02,263 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 11:24:02,273 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20230928143638/https://www.reddit.com/r/AskReddit/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 11:24:05,412 - wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-10 11:24:05,413 - wayback_client - INFO - 🌐 GET http://web.archive.org/web/20230928143638/http://www.reddit.com/r/AskReddit/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 11:24:07,463 - wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20230928143638/https://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:41:24,783 - wayback_client - INFO - Parametri di richiesta: {'url': 'https://www.reddit.com/r/AskReddit/wiki/index', 'from': '2012', 'to': '2024', 'output': 'json', 'collapse': 'digest'}
+2025-04-10 11:41:24,783 - wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 11:41:46,117 - wayback_client - WARNING - ⏳ Timeout per https://web.archive.org/cdx/search/cdx (tentativo 1/3)
+2025-04-10 11:41:51,119 - wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 11:42:12,303 - wayback_client - WARNING - ⏳ Timeout per https://web.archive.org/cdx/search/cdx (tentativo 2/3)
+2025-04-10 11:42:17,309 - wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 11:42:22,829 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:42:22,832 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20130205084934/http://www.reddit.com:80/r/AskReddit/wiki/index | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-10 11:42:34,643 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:42:34,643 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20130709111307/http://www.reddit.com/r/AskReddit/wiki/index | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 11:42:37,083 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 1.56s
+2025-04-10 11:42:38,644 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:42:38,645 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20140104204945/http://www.reddit.com/r/AskReddit/wiki/index | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 11:42:42,716 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:42:42,726 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20140701073111/http://www.reddit.com/r/AskReddit/wiki/index | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 11:42:45,626 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 1.09s
+2025-04-10 11:42:46,720 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:42:46,726 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20150106071940/http://www.reddit.com/r/AskReddit/wiki/index | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 11:42:51,217 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:42:51,218 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20150703192921/http://www.reddit.com/r/AskReddit/wiki/index | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 11:42:54,574 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 0.64s
+2025-04-10 11:42:55,219 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:42:55,222 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20160101105212/https://www.reddit.com/r/AskReddit/wiki/index | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 11:43:00,141 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:43:00,142 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20160706150944/https://www.reddit.com/r/AskReddit/wiki/index | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-10 11:43:03,553 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 0.59s
+2025-04-10 11:43:04,151 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:43:04,152 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20170105092603/https://www.reddit.com/r/AskReddit/wiki/index | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-10 11:43:08,545 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:43:08,546 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20170701045416/https://www.reddit.com/r/AskReddit/wiki/index | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 11:43:11,099 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 1.45s
+2025-04-10 11:43:12,549 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:43:12,550 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20180104011420/https://www.reddit.com/r/AskReddit/wiki/index | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 11:43:16,378 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 0.17s
+2025-04-10 11:43:16,550 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:43:16,552 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20180702093145/https://www.reddit.com/r/askreddit/wiki/index | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 11:43:18,995 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 1.56s
+2025-04-10 11:43:20,552 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:43:20,553 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20190101000528/https://www.reddit.com/r/askreddit/wiki/index | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-10 11:43:24,536 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 0.02s
+2025-04-10 11:43:24,555 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:43:24,558 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20190701001416/https://www.reddit.com/r/AskReddit/wiki/index | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 11:43:27,111 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 1.44s
+2025-04-10 11:43:28,558 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:43:28,560 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20200106230845/https://www.reddit.com/r/AskReddit/wiki/index | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 11:43:34,013 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:43:34,014 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20200701041434/https://www.reddit.com/r/AskReddit/wiki/index | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 11:43:36,592 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 1.42s
+2025-04-10 11:43:38,017 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:43:38,019 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20210101003252/https://www.reddit.com/r/askreddit/wiki/index | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 11:43:46,403 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:43:46,404 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20210701060806/https://www.reddit.com/r/AskReddit/wiki/index | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 11:43:49,326 - wayback_client - WARNING - 🔌 Errore di connessione: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /web/20210701060806/https://www.reddit.com/r/AskReddit/wiki/index?noembed=true (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002063C0325A0>: Failed to establish a new connection: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione'))
+2025-04-10 11:43:59,359 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:43:59,375 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20220101235702/https://www.reddit.com/r/askreddit/wiki/index | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-10 11:44:02,277 - wayback_client - WARNING - 🔌 Errore di connessione: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /web/20220101235702/https://www.reddit.com/r/askreddit/wiki/index?noembed=true (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002063C0315B0>: Failed to establish a new connection: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione'))
+2025-04-10 11:44:12,287 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:44:12,288 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20220703002646/https://www.reddit.com/r/AskReddit/wiki/index | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-10 11:44:15,535 - wayback_client - WARNING - 🔌 Errore di connessione: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /web/20220703002646/https://www.reddit.com/r/AskReddit/wiki/index?noembed=true (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002063C031250>: Failed to establish a new connection: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione'))
+2025-04-10 11:44:25,561 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:44:25,563 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20230101020539/https://www.reddit.com/r/AskReddit/wiki/index | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-10 11:44:28,441 - wayback_client - WARNING - 🔌 Errore di connessione: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /web/20230101020539/https://www.reddit.com/r/AskReddit/wiki/index?noembed=true (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002063CB20500>: Failed to establish a new connection: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione'))
+2025-04-10 11:44:38,455 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:44:38,455 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20230714080308/https://www.reddit.com/r/AskReddit/wiki/index | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 11:44:41,341 - wayback_client - WARNING - 🔌 Errore di connessione: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /web/20230714080308/https://www.reddit.com/r/AskReddit/wiki/index?noembed=true (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002063CB20530>: Failed to establish a new connection: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione'))
+2025-04-10 11:44:51,356 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:44:51,358 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20240107031608/https://www.reddit.com/r/AskReddit/wiki/index | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 11:44:54,258 - wayback_client - WARNING - 🔌 Errore di connessione: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /web/20240107031608/https://www.reddit.com/r/AskReddit/wiki/index?noembed=true (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002063CB230B0>: Failed to establish a new connection: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione'))
+2025-04-10 11:45:04,265 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:45:04,266 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20240715215340/https://www.reddit.com/r/AskReddit/wiki/index | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-10 11:45:07,165 - wayback_client - WARNING - 🔌 Errore di connessione: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /web/20240715215340/https://www.reddit.com/r/AskReddit/wiki/index?noembed=true (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002063C0335F0>: Failed to establish a new connection: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione'))
+2025-04-10 11:45:47,197 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:45:47,201 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20210701060806/https://www.reddit.com/r/AskReddit/wiki/index | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 11:45:49,829 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 1.37s
+2025-04-10 11:45:51,199 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:45:51,203 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20220703002646/https://www.reddit.com/r/AskReddit/wiki/index | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 11:45:53,753 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 1.45s
+2025-04-10 11:45:55,200 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:45:55,216 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20230101020539/https://www.reddit.com/r/AskReddit/wiki/index | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-10 11:45:59,674 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:45:59,676 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20230714080308/https://www.reddit.com/r/AskReddit/wiki/index | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 11:46:07,724 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:46:07,724 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20240107031608/https://www.reddit.com/r/AskReddit/wiki/index | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 11:46:12,952 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:46:12,953 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20240715215340/https://www.reddit.com/r/AskReddit/wiki/index | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 11:48:04,630 - wayback_client - INFO - Parametri di richiesta: {'url': '', 'from': '2012', 'to': '2024', 'output': 'json', 'collapse': 'digest'}
+2025-04-10 11:48:04,633 - wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 11:48:06,032 - wayback_client - ERROR - ❌ HTTP error 400 per https://web.archive.org/cdx/search/cdx
+2025-04-10 11:48:16,045 - wayback_client - INFO - Parametri di richiesta: {'url': 'https://www.reddit.com/r/AskReddit/wiki/index', 'from': '2012', 'to': '2024', 'output': 'json', 'collapse': 'digest'}
+2025-04-10 11:48:16,048 - wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 11:48:35,714 - wayback_client - INFO - Parametri di richiesta: {'url': 'https://www.reddit.com/r/AskReddit/wiki/rules', 'from': '2012', 'to': '2024', 'output': 'json', 'collapse': 'digest'}
+2025-04-10 11:48:35,715 - wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 11:48:37,584 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 2.13s
+2025-04-10 11:48:39,718 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true', 'norecursive': 'true'}
+2025-04-10 11:48:39,718 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20150703194042/http://www.reddit.com/r/AskReddit/wiki/rules | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 11:50:27,358 - wayback_client - INFO - Parametri di richiesta: {'url': 'https://www.reddit.com/r/funny/wiki/rules', 'from': '2012', 'to': '2024', 'output': 'json', 'collapse': 'digest'}
+2025-04-10 11:50:27,359 - wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 11:50:29,743 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 1.62s
+2025-04-10 11:50:31,360 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true', 'norecursive': 'true'}
+2025-04-10 11:50:31,360 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20140129154411/http://www.reddit.com:80/r/funny/wiki/rules | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-10 11:50:45,642 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true', 'norecursive': 'true'}
+2025-04-10 11:50:45,648 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20171213092645/https://www.reddit.com/r/funny/wiki/rules | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-10 11:50:48,932 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 0.71s
+2025-04-10 11:50:49,643 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true', 'norecursive': 'true'}
+2025-04-10 11:50:49,645 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20180313095015/https://www.reddit.com/r/funny/wiki/rules | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 11:50:55,759 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true', 'norecursive': 'true'}
+2025-04-10 11:50:55,760 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20180913164210/https://www.reddit.com/r/funny/wiki/rules | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 11:50:58,327 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 1.43s
+2025-04-10 11:50:59,761 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true', 'norecursive': 'true'}
+2025-04-10 11:50:59,762 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20190103041351/https://www.reddit.com/r/funny/wiki/rules | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 11:51:03,315 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 0.45s
+2025-04-10 11:51:03,762 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true', 'norecursive': 'true'}
+2025-04-10 11:51:03,764 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20190701033050/https://www.reddit.com/r/funny/wiki/rules | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 11:51:06,466 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 1.30s
+2025-04-10 11:51:07,769 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true', 'norecursive': 'true'}
+2025-04-10 11:51:07,771 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20200106234726/https://www.reddit.com/r/funny/wiki/rules | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 11:51:12,355 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true', 'norecursive': 'true'}
+2025-04-10 11:51:12,356 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20200701011108/https://www.reddit.com/r/funny/wiki/rules | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 11:51:16,369 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true', 'norecursive': 'true'}
+2025-04-10 11:51:16,370 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20210109055937/https://www.reddit.com/r/funny/wiki/rules | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 11:51:20,979 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true', 'norecursive': 'true'}
+2025-04-10 11:51:20,979 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20210701062301/https://www.reddit.com/r/funny/wiki/rules | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 11:51:23,497 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 1.48s
+2025-04-10 11:51:24,981 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true', 'norecursive': 'true'}
+2025-04-10 11:51:24,982 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20220104004714/https://www.reddit.com/r/funny/wiki/rules | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 11:51:31,234 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true', 'norecursive': 'true'}
+2025-04-10 11:51:31,241 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20220704122534/https://www.reddit.com/r/funny/wiki/rules | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 11:51:33,899 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 1.34s
+2025-04-10 11:51:35,235 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true', 'norecursive': 'true'}
+2025-04-10 11:51:35,236 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20230101022531/https://www.reddit.com/r/funny/wiki/rules | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 11:51:39,427 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true', 'norecursive': 'true'}
+2025-04-10 11:51:39,428 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20230706162400/https://www.reddit.com/r/funny/wiki/rules | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 11:51:42,338 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 1.09s
+2025-04-10 11:51:43,430 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true', 'norecursive': 'true'}
+2025-04-10 11:51:43,431 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20240205005106/https://www.reddit.com/r/funny/wiki/rules | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 11:51:47,382 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 0.05s
+2025-04-10 11:51:47,431 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true', 'norecursive': 'true'}
+2025-04-10 11:51:47,436 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20240716061046/https://www.reddit.com/r/funny/wiki/rules | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 11:53:29,570 - wayback_client - INFO - Parametri di richiesta: {'url': 'https://www.reddit.com/r/funny/about/moderators', 'from': '2012', 'to': '2024', 'output': 'json', 'collapse': 'digest'}
+2025-04-10 11:53:29,571 - wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 11:53:33,103 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 0.47s
+2025-04-10 11:53:33,572 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true', 'norecursive': 'true'}
+2025-04-10 11:53:33,573 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20120103113356/http://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 11:53:35,955 - wayback_client - ERROR - ❌ HTTP error 404 per https://web.archive.org/web/20120103113356/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:53:35,964 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 1.61s
+2025-04-10 11:53:37,575 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true', 'norecursive': 'true'}
+2025-04-10 11:53:37,577 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20120712040420/http://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 11:53:40,459 - wayback_client - WARNING - 🔌 Errore di connessione: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /web/20120712040420/http://www.reddit.com/r/funny/about/moderators?noembed=true&norecursive=true (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001514FE71640>: Failed to establish a new connection: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione'))
+2025-04-10 11:53:50,475 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true', 'norecursive': 'true'}
+2025-04-10 11:53:50,476 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20130102223413/http://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-10 11:53:57,390 - wayback_client - ERROR - ❌ HTTP error 404 per https://web.archive.org/web/20130102223413/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:53:57,407 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true', 'norecursive': 'true'}
+2025-04-10 11:53:57,413 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20130702004427/http://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-10 11:54:00,345 - wayback_client - WARNING - 🔌 Errore di connessione: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /web/20130702004427/http://www.reddit.com/r/funny/about/moderators?noembed=true&norecursive=true (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001514FE73590>: Failed to establish a new connection: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione'))
+2025-04-10 11:54:10,356 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true', 'norecursive': 'true'}
+2025-04-10 11:54:10,357 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20140104224248/http://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 11:54:14,065 - wayback_client - ERROR - ❌ HTTP error 404 per https://web.archive.org/web/20140104224248/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:54:14,073 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 0.28s
+2025-04-10 11:54:14,371 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true', 'norecursive': 'true'}
+2025-04-10 11:54:14,372 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20140706110802/http://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-10 11:54:16,839 - wayback_client - ERROR - ❌ HTTP error 404 per https://web.archive.org/web/20140706110802/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:54:16,850 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 1.52s
+2025-04-10 11:54:18,384 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true', 'norecursive': 'true'}
+2025-04-10 11:54:18,389 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20150106091929/http://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-10 11:54:20,750 - wayback_client - ERROR - ❌ HTTP error 404 per https://web.archive.org/web/20150106091929/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:54:20,768 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 1.61s
+2025-04-10 11:54:22,392 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true', 'norecursive': 'true'}
+2025-04-10 11:54:22,394 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20150703024449/http://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 11:54:25,633 - wayback_client - ERROR - ❌ HTTP error 404 per https://web.archive.org/web/20150703024449/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:54:25,656 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 0.74s
+2025-04-10 11:54:26,407 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true', 'norecursive': 'true'}
+2025-04-10 11:54:26,408 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20160413042547/https://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 11:54:31,736 - wayback_client - ERROR - ❌ HTTP error 404 per https://web.archive.org/web/20160413042547/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:54:31,770 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true', 'norecursive': 'true'}
+2025-04-10 11:54:31,770 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20161223011131/https://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 11:54:33,825 - wayback_client - ERROR - ❌ HTTP error 404 per https://web.archive.org/web/20161223011131/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:54:33,846 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 1.92s
+2025-04-10 11:54:35,778 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true', 'norecursive': 'true'}
+2025-04-10 11:54:35,779 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20170101213503/https://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 11:54:39,271 - wayback_client - ERROR - ❌ HTTP error 404 per https://web.archive.org/web/20170101213503/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:54:39,333 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 0.44s
+2025-04-10 11:54:39,782 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true', 'norecursive': 'true'}
+2025-04-10 11:54:39,782 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20170701050618/https://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 11:54:42,058 - wayback_client - ERROR - ❌ HTTP error 404 per https://web.archive.org/web/20170701050618/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:54:42,089 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 1.69s
+2025-04-10 11:54:43,790 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true', 'norecursive': 'true'}
+2025-04-10 11:54:43,791 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20180104021955/https://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 11:54:46,471 - wayback_client - ERROR - ❌ HTTP error 404 per https://web.archive.org/web/20180104021955/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:54:46,499 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 1.29s
+2025-04-10 11:54:47,821 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true', 'norecursive': 'true'}
+2025-04-10 11:54:47,822 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20180717224144/https://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 11:54:50,536 - wayback_client - ERROR - ❌ HTTP error 404 per https://web.archive.org/web/20180717224144/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:54:50,557 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 1.26s
+2025-04-10 11:54:51,854 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true', 'norecursive': 'true'}
+2025-04-10 11:54:51,887 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20190104025605/https://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-10 11:54:54,486 - wayback_client - ERROR - ❌ HTTP error 404 per https://web.archive.org/web/20190104025605/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:54:54,519 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 1.34s
+2025-04-10 11:54:55,856 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true', 'norecursive': 'true'}
+2025-04-10 11:54:55,859 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20190701034014/https://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-10 11:54:57,766 - wayback_client - ERROR - ❌ HTTP error 404 per https://web.archive.org/web/20190701034014/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:54:57,772 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 2.08s
+2025-04-10 11:54:59,858 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true', 'norecursive': 'true'}
+2025-04-10 11:54:59,868 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20200106235115/https://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 11:55:02,376 - wayback_client - ERROR - ❌ HTTP error 404 per https://web.archive.org/web/20200106235115/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:55:02,950 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 0.91s
+2025-04-10 11:55:03,897 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true', 'norecursive': 'true'}
+2025-04-10 11:55:03,897 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20200701214458/https://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 11:55:06,108 - wayback_client - ERROR - ❌ HTTP error 404 per https://web.archive.org/web/20200701214458/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:55:06,114 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 1.78s
+2025-04-10 11:55:07,898 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true', 'norecursive': 'true'}
+2025-04-10 11:55:07,900 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20210119082925/https://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 11:55:09,794 - wayback_client - ERROR - ❌ HTTP error 404 per https://web.archive.org/web/20210119082925/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:55:09,807 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 2.09s
+2025-04-10 11:55:11,911 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true', 'norecursive': 'true'}
+2025-04-10 11:55:11,978 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20210701062628/https://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 11:55:14,627 - wayback_client - ERROR - ❌ HTTP error 404 per https://web.archive.org/web/20210701062628/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:55:14,647 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 1.26s
+2025-04-10 11:55:15,913 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true', 'norecursive': 'true'}
+2025-04-10 11:55:15,920 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20220104005114/https://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 11:55:25,582 - wayback_client - INFO - Parametri di richiesta: {'url': 'https://www.reddit.com/r/funny/about/moderators', 'from': '2012', 'to': '2024', 'output': 'json', 'collapse': 'digest'}
+2025-04-10 11:55:25,582 - wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 11:55:28,535 - wayback_client - WARNING - 🔌 Errore di connessione: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /cdx/search/cdx?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Ffunny%2Fabout%2Fmoderators&from=2012&to=2024&output=json&collapse=digest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000024CE69DF980>: Failed to establish a new connection: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione'))
+2025-04-10 11:55:48,590 - wayback_client - INFO - Parametri di richiesta: {'url': 'https://www.reddit.com/r/funny/about/moderators', 'from': '2012', 'to': '2024', 'output': 'json', 'collapse': 'digest'}
+2025-04-10 11:55:48,592 - wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 11:55:57,353 - wayback_client - WARNING - ⏳ Timeout per https://web.archive.org/cdx/search/cdx (tentativo 1/3)
+2025-04-10 11:56:02,389 - wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 11:56:05,291 - wayback_client - WARNING - 🔌 Errore di connessione: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /cdx/search/cdx?url=https%3A%2F%2Fwww.reddit.com%2Fr%2Ffunny%2Fabout%2Fmoderators&from=2012&to=2024&output=json&collapse=digest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000020E1BC716D0>: Failed to establish a new connection: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione'))
+2025-04-10 11:57:27,652 - wayback_client - INFO - Parametri di richiesta: {'url': 'https://www.reddit.com/r/funny/about/moderators', 'from': '2012', 'to': '2024', 'output': 'json', 'collapse': 'digest'}
+2025-04-10 11:57:27,652 - wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-10 11:57:36,077 - wayback_client - INFO - Parametri di richiesta: {'norecursive': 'true'}
+2025-04-10 11:57:36,078 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20120103113356/http://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-10 11:57:38,511 - wayback_client - ERROR - ❌ HTTP error 404 per https://web.archive.org/web/20120103113356/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:57:38,526 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 1.55s
+2025-04-10 11:57:40,079 - wayback_client - INFO - Parametri di richiesta: {'norecursive': 'true'}
+2025-04-10 11:57:40,080 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20120712040420/http://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-10 11:57:42,434 - wayback_client - ERROR - ❌ HTTP error 404 per https://web.archive.org/web/20120712040420/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:57:42,456 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 1.62s
+2025-04-10 11:57:44,100 - wayback_client - INFO - Parametri di richiesta: {'norecursive': 'true'}
+2025-04-10 11:57:44,105 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20130102223413/http://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 11:58:18,955 - wayback_client - INFO - Parametri di richiesta: {'url': 'https://www.reddit.com/r/funny/about/moderators', 'from': '2012', 'to': '2024', 'output': 'json', 'collapse': 'digest'}
+2025-04-10 11:58:18,980 - wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 11:58:24,364 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:58:24,364 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20120103113356/http://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-10 11:58:26,830 - wayback_client - ERROR - ❌ HTTP error 404 per https://web.archive.org/web/20120103113356/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:58:26,916 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 1.45s
+2025-04-10 11:58:28,385 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:58:28,388 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20120712040420/http://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 11:58:30,287 - wayback_client - ERROR - ❌ HTTP error 404 per https://web.archive.org/web/20120712040420/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:58:30,301 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 2.08s
+2025-04-10 11:58:32,394 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:58:32,395 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20130102223413/http://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 11:58:34,300 - wayback_client - ERROR - ❌ HTTP error 404 per https://web.archive.org/web/20130102223413/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:58:34,311 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 2.08s
+2025-04-10 11:58:36,398 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:58:36,401 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20130702004427/http://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 11:58:38,467 - wayback_client - ERROR - ❌ HTTP error 404 per https://web.archive.org/web/20130702004427/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:58:38,480 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 1.92s
+2025-04-10 11:58:40,404 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:58:40,404 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20140104224248/http://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 11:58:42,363 - wayback_client - ERROR - ❌ HTTP error 404 per https://web.archive.org/web/20140104224248/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:58:42,373 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 2.03s
+2025-04-10 11:58:44,408 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:58:44,413 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20140706110802/http://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 11:58:46,349 - wayback_client - ERROR - ❌ HTTP error 404 per https://web.archive.org/web/20140706110802/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:58:46,359 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 2.05s
+2025-04-10 11:58:48,411 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:58:48,412 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20150106091929/http://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 11:58:50,481 - wayback_client - ERROR - ❌ HTTP error 404 per https://web.archive.org/web/20150106091929/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:58:50,519 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 1.89s
+2025-04-10 11:58:52,421 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:58:52,424 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20150703024449/http://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 11:58:54,301 - wayback_client - ERROR - ❌ HTTP error 404 per https://web.archive.org/web/20150703024449/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:58:54,316 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 2.10s
+2025-04-10 11:58:56,422 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:58:56,423 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20160413042547/https://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 11:59:13,392 - wayback_client - INFO - Parametri di richiesta: {'url': 'https://www.reddit.com/r/AskReddit/about/moderators', 'from': '2012', 'to': '2024', 'output': 'json', 'collapse': 'digest'}
+2025-04-10 11:59:13,394 - wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 11:59:17,876 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:59:17,876 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20120102194024/http://www.reddit.com:80/r/AskReddit/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-10 11:59:21,355 - wayback_client - ERROR - ❌ HTTP error 404 per https://web.archive.org/web/20120102194024/http://www.reddit.com:80/r/AskReddit/about/moderators
+2025-04-10 11:59:21,362 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 0.51s
+2025-04-10 11:59:21,877 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:59:21,881 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20120705012333/http://www.reddit.com/r/AskReddit/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-10 11:59:23,979 - wayback_client - ERROR - ❌ HTTP error 404 per https://web.archive.org/web/20120705012333/http://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:59:24,050 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 1.83s
+2025-04-10 11:59:25,902 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:59:25,904 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20130103214327/http://www.reddit.com/r/AskReddit/about/moderators | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 11:59:27,790 - wayback_client - ERROR - ❌ HTTP error 404 per https://web.archive.org/web/20130103214327/http://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:59:27,804 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 2.10s
+2025-04-10 11:59:29,908 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:59:29,909 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20130709110929/http://www.reddit.com/r/AskReddit/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-10 11:59:36,976 - wayback_client - ERROR - ❌ HTTP error 404 per https://web.archive.org/web/20130709110929/http://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:59:36,994 - wayback_client - INFO - Parametri di richiesta: {'noembed': 'true'}
+2025-04-10 11:59:36,996 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20140104205127/http://www.reddit.com/r/AskReddit/about/moderators | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 11:59:39,934 - wayback_client - WARNING - 🔌 Errore di connessione: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /web/20140104205127/http://www.reddit.com/r/AskReddit/about/moderators?noembed=true (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000023AC6B71AF0>: Failed to establish a new connection: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione'))
+2025-04-10 12:00:06,074 - wayback_client - INFO - Parametri di richiesta: {'url': 'https://www.reddit.com/r/AskReddit/about/moderators', 'from': '2012', 'to': '2024', 'output': 'json', 'collapse': 'digest'}
+2025-04-10 12:00:06,075 - wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 12:00:08,957 - wayback_client - WARNING - 🔌 Errore di connessione: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /cdx/search/cdx?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FAskReddit%2Fabout%2Fmoderators&from=2012&to=2024&output=json&collapse=digest (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000021F009FFD40>: Failed to establish a new connection: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione'))
+2025-04-10 12:04:53,280 - wayback_client - INFO - Parametri di richiesta: {'url': 'https://www.reddit.com/r/AskReddit/about/moderators', 'from': '2012', 'to': '2024', 'output': 'json', 'collapse': 'digest'}
+2025-04-10 12:04:53,281 - wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-10 12:05:14,570 - wayback_client - WARNING - ⏳ Timeout per https://web.archive.org/cdx/search/cdx (tentativo 1/3)
+2025-04-10 12:05:19,572 - wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-10 12:05:40,780 - wayback_client - WARNING - ⏳ Timeout per https://web.archive.org/cdx/search/cdx (tentativo 2/3)
+2025-04-10 12:05:45,782 - wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-10 12:06:07,202 - wayback_client - WARNING - ⏳ Timeout per https://web.archive.org/cdx/search/cdx (tentativo 3/3)
+2025-04-10 12:06:12,206 - wayback_client - ERROR - ❌ Fallimento dopo 3 tentativi per https://web.archive.org/cdx/search/cdx
+2025-04-10 12:07:16,114 - wayback_client - INFO - Parametri di richiesta: {'url': 'https://www.reddit.com/r/funny/about/moderators', 'from': '2012', 'to': '2024', 'output': 'json', 'collapse': 'digest'}
+2025-04-10 12:07:16,115 - wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-10 12:07:31,425 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 12:07:31,428 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20120103113356/http://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-10 12:07:37,734 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 12:07:37,735 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20120712040420/http://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 12:07:45,169 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 12:07:45,186 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20130102223413/http://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 12:07:49,617 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 12:07:49,618 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20130702004427/http://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 12:07:54,312 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 12:07:54,313 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20140104224248/http://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 12:07:59,644 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 12:07:59,651 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20140706110802/http://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-10 12:08:04,383 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 12:08:04,407 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20150106091929/http://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-10 12:08:10,266 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 12:08:10,267 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20150703024449/http://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-10 12:08:14,221 - wayback_client - INFO - ⏳ Rate limit attivo: attendo 0.04s
+2025-04-10 12:08:14,269 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 12:08:14,270 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20160413042547/https://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-10 12:08:22,594 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 12:08:22,594 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20161223011131/https://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 12:08:27,900 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 12:08:27,901 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20170101213503/https://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 12:08:33,744 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 12:08:33,745 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20170701050618/https://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 12:08:40,169 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 12:08:40,170 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20180104021955/https://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-10 12:08:46,086 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 12:08:46,087 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20180717224144/https://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-10 12:08:51,498 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 12:08:51,499 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20190104025605/https://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 12:08:57,350 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 12:08:57,351 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20190701034014/https://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 12:09:04,382 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 12:09:04,384 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20200106235115/https://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 12:09:07,289 - wayback_client - WARNING - 🔌 Errore di connessione: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /web/20200106235115/https://www.reddit.com/r/funny/about/moderators (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000021AE0492FF0>: Failed to establish a new connection: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione'))
+2025-04-10 12:09:17,296 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 12:09:17,296 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20200701214458/https://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-10 12:09:20,215 - wayback_client - WARNING - 🔌 Errore di connessione: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /web/20200701214458/https://www.reddit.com/r/funny/about/moderators (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000021AE0493320>: Failed to establish a new connection: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione'))
+2025-04-10 12:09:30,227 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 12:09:30,232 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20210119082925/https://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-10 12:09:33,116 - wayback_client - WARNING - 🔌 Errore di connessione: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /web/20210119082925/https://www.reddit.com/r/funny/about/moderators (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000021AE04922A0>: Failed to establish a new connection: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione'))
+2025-04-10 12:09:43,129 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 12:09:43,130 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20210701062628/https://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 12:09:46,054 - wayback_client - WARNING - 🔌 Errore di connessione: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /web/20210701062628/https://www.reddit.com/r/funny/about/moderators (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000021AE04F4230>: Failed to establish a new connection: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione'))
+2025-04-10 12:09:56,076 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 12:09:56,079 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20220104005114/https://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 12:09:58,992 - wayback_client - WARNING - 🔌 Errore di connessione: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /web/20220104005114/https://www.reddit.com/r/funny/about/moderators (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000021AE0492FC0>: Failed to establish a new connection: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione'))
+2025-04-10 12:10:09,085 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 12:10:09,150 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20220704122852/https://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 12:10:12,181 - wayback_client - WARNING - 🔌 Errore di connessione: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /web/20220704122852/https://www.reddit.com/r/funny/about/moderators (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000021AE0493F50>: Failed to establish a new connection: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione'))
+2025-04-10 12:10:22,196 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 12:10:22,197 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20230101022841/https://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 12:10:25,089 - wayback_client - WARNING - 🔌 Errore di connessione: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /web/20230101022841/https://www.reddit.com/r/funny/about/moderators (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000021AE0492F90>: Failed to establish a new connection: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione'))
+2025-04-10 12:10:35,094 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 12:10:35,097 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20230714084016/https://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 12:10:40,279 - wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-10 12:10:40,281 - wayback_client - INFO - 🌐 GET http://web.archive.org/web/20230714084016/http://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 12:10:44,178 - wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20230714084016/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:10:44,204 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 12:10:44,218 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20240409143015/https://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-10 12:10:47,176 - wayback_client - WARNING - 🔌 Errore di connessione: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /web/20240409143015/https://www.reddit.com/r/funny/about/moderators (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000021AE0493830>: Failed to establish a new connection: [WinError 10061] Impossibile stabilire la connessione. Rifiuto persistente del computer di destinazione'))
+2025-04-10 12:10:57,186 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 12:10:57,187 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20240930222157/https://www.reddit.com/r/funny/about/moderators/ | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-10 12:11:33,324 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 12:11:33,325 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20200106235115/https://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-10 12:11:39,121 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 12:11:39,121 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20200701214458/https://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-10 12:11:48,655 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 12:11:48,656 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20210119082925/https://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 12:11:53,716 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 12:11:53,717 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20210701062628/https://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 12:11:57,273 - wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-10 12:11:57,273 - wayback_client - INFO - 🌐 GET http://web.archive.org/web/20210701062628/http://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 12:11:59,479 - wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20210701062628/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:11:59,486 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 12:11:59,487 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20220104005114/https://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 12:12:02,966 - wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-10 12:12:02,967 - wayback_client - INFO - 🌐 GET http://web.archive.org/web/20220104005114/http://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 12:12:04,699 - wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20220104005114/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:12:04,713 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 12:12:04,716 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20220704122852/https://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-10 12:12:08,764 - wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-10 12:12:08,765 - wayback_client - INFO - 🌐 GET http://web.archive.org/web/20220704122852/http://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-10 12:12:11,431 - wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20220704122852/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:12:11,443 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 12:12:11,449 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20230101022841/https://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 12:12:14,320 - wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-10 12:12:14,322 - wayback_client - INFO - 🌐 GET http://web.archive.org/web/20230101022841/http://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-10 12:12:17,319 - wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20230101022841/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:12:17,324 - wayback_client - INFO - Parametri di richiesta: {}
+2025-04-10 12:12:17,325 - wayback_client - INFO - 🌐 GET https://web.archive.org/web/20240409143015/https://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 12:12:23,789 - wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-10 12:12:23,796 - wayback_client - INFO - 🌐 GET http://web.archive.org/web/20240409143015/http://www.reddit.com/r/funny/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-10 12:12:25,322 - wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20240409143015/https://www.reddit.com/r/funny/about/moderators

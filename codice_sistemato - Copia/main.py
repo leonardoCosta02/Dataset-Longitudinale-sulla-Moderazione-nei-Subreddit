@@ -7,6 +7,7 @@ from utils import get_valid_snapshot  # Funzione per filtrare gli snapshot valid
 from scraper import download_single_snapshot_page
 from logger_setup import setup_logger
 from database import resque_page
+from utils import extract_month
 logger = setup_logger(__name__, to_file=True)
 def scrape_snapshots(url):
     
@@ -29,7 +30,20 @@ def scrape_snapshots(url):
         # Cerca i due snapshot validi
         first = get_valid_snapshot(year_snapshots, 1, 6)
         second = get_valid_snapshot(year_snapshots, 7, 12)
-
+        #check se gli snapshot scelti abbiano una distanza temporale di almeno 4 mesi in python non esiste direttamente il do while
+        ok=True
+        tentativo=8
+        if first is not None and second is not None :
+            while ok and tentativo<=12:
+                if second is None:
+                    break  # Uscita sicura dal ciclo se non ci sono più snapshot validi
+                
+                if(extract_month(second[0])-extract_month(first[0])<4):
+                    tentativo += 1
+                    second = get_valid_snapshot(year_snapshots, tentativo, 12)
+                else:
+                    ok=False
+        
         if first:
             success = download_single_snapshot_page(first[0], collection,cache_collection,collection_fail)
             if success:
@@ -46,7 +60,9 @@ def scrape_snapshots(url):
     
     print("Adesso provo a recuperare le pagine web che possono essere recuperate se ci sono ")
     resque=resque_page(url,collection_fail)
+   
     if resque is not None:
+        time.sleep(30)
         for doc in resque:
             success = download_single_snapshot_page(doc, collection,cache_collection,collection_fail)
             if success:

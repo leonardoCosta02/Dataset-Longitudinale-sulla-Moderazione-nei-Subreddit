@@ -4,7 +4,7 @@ from database import insert_html_document
 from logger_setup import setup_logger
 from wayback_client import get_wayback
 from database import log_failed_request
-from wayback_client import get_wayback, ErrorType
+from wayback_client import get_wayback
 
 logger = setup_logger(__name__, to_file=True)
 user_agents = [
@@ -64,7 +64,8 @@ def download_single_snapshot_page(url, collection,cache_collection,collection_fa
     Ritorna:
     - bool: True se il download ha avuto successo, False altrimenti.
     """
-     
+    expected_month= int(url.split("/")[4][4:6])
+    expected_year=int(url.split("/")[4][0:4])  # Es: .../web/202307... => 2023
     logger.info(f"⬇️ Downloading snapshot: {url}")
     response,err_code = get_wayback_with_cache_mongo(url, {},cache_collection)
     if response is None:
@@ -74,12 +75,17 @@ def download_single_snapshot_page(url, collection,cache_collection,collection_fa
         return False      
 
     final_url = response.url
-    if expected_month and final_url != url:
+    if  final_url != url:
         # Controllo del redirect: estrae la data dallo snapshot
         redirected_month = int(final_url.split("/")[4][4:6])  # Es: .../web/202307... => 07
+        redirected_year= int(final_url.split("/")[4][0:4])
         if get_semester(redirected_month) != get_semester(expected_month):
             logger.warning(f"⚠️ Redirect fuori semestre: da {url} a {final_url}")
             return False
+        if redirected_year != expected_year:
+            logger.warning(f"⚠️ Redirect fuori anno: da {url} a {final_url}")
+            return False
+        
 
     file_path = save_html_page(final_url, response.text)
     insert_html_document(final_url, file_path, collection)

@@ -85,6 +85,7 @@ def get_wayback(url, params, headers=None, timeout=20, max_retries=3, fallback_t
                 logger.warning("🔁 403 Forbidden. Provo fallback a HTTP...")
                 url = url.replace("https://", "http://")
                 fallback_to_http = False  # evita loop infinito
+            
             elif 500 <= response.status_code < 600:
                 logger.warning(f"⚠️ Server error {response.status_code}. Ritento...")
                 time.sleep(10)

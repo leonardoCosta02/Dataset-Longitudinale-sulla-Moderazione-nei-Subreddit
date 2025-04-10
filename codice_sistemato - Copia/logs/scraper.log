@@ -2127,3 +2127,473 @@
 2025-04-09 15:14:01,429 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20230101022841/https://www.reddit.com/r/funny/about/moderators
 2025-04-09 15:14:01,429 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20230714084016/https://www.reddit.com/r/funny/about/moderators
 2025-04-09 15:14:06,868 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20230714084016/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 10:11:13,602 - scraper - INFO - 🚀 Richiesta snapshot per https://www.reddit.com/r/gaming/ (2012–2024)
+2025-04-10 10:11:18,404 - scraper - INFO - ✅ 20531 snapshot trovati per https://www.reddit.com/r/gaming/
+2025-04-10 10:12:58,153 - scraper - INFO - 🚀 Richiesta snapshot per https://www.reddit.com/r/gaming/ (2012–2024)
+2025-04-10 10:13:02,037 - scraper - INFO - ✅ 20531 snapshot trovati per https://www.reddit.com/r/gaming/
+2025-04-10 10:13:02,061 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20120102202536/http://www.reddit.com/r/gaming/
+2025-04-10 10:13:06,157 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20120102202536/http://www.reddit.com/r/gaming/
+2025-04-10 10:13:08,196 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20120704231705/http://www.reddit.com/r/gaming/
+2025-04-10 10:13:12,523 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20120704231705/http://www.reddit.com/r/gaming/
+2025-04-10 10:13:14,310 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20130101144449/http://www.reddit.com/r/gaming/
+2025-04-10 10:13:20,018 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20130101144449/http://www.reddit.com/r/gaming/
+2025-04-10 10:13:22,895 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20130701125518/http://www.reddit.com/r/gaming/
+2025-04-10 10:13:28,754 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20130701125518/http://www.reddit.com/r/gaming/
+2025-04-10 10:13:30,887 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20140101125929/http://www.reddit.com/r/gaming/
+2025-04-10 10:13:36,298 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20140101125929/http://www.reddit.com/r/gaming/
+2025-04-10 10:13:39,093 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20140706084805/http://www.reddit.com/r/gaming/
+2025-04-10 10:13:43,489 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20140706084805/http://www.reddit.com/r/gaming/
+2025-04-10 10:13:45,744 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20150106055433/http://www.reddit.com/r/gaming/
+2025-04-10 10:13:48,991 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20150106055433/http://www.reddit.com/r/gaming/
+2025-04-10 10:13:50,368 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20150702234104/https://www.reddit.com/r/gaming
+2025-04-10 10:13:55,214 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20150702234104/https://www.reddit.com/r/gaming
+2025-04-10 10:13:55,225 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20160101053427/https://www.reddit.com/r/gaming/
+2025-04-10 10:13:58,790 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20160101053427/https://www.reddit.com/r/gaming/
+2025-04-10 10:14:01,426 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20160702132633/http://reddit.com/r/gaming
+2025-04-10 10:14:05,996 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20160702132634/https://www.reddit.com/r/gaming
+2025-04-10 10:14:07,459 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20170101121026/https://www.reddit.com/r/gaming/
+2025-04-10 10:14:13,056 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20170101121026/https://www.reddit.com/r/gaming/
+2025-04-10 10:14:14,968 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20170701041108/https://www.reddit.com/r/gaming/
+2025-04-10 10:14:20,194 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20170701041108/https://www.reddit.com/r/gaming/
+2025-04-10 10:14:22,725 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20180101152221/https://www.reddit.com/r/gaming/
+2025-04-10 10:14:27,194 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20180101152221/https://www.reddit.com/r/gaming/
+2025-04-10 10:14:29,774 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20180701005254/https://www.reddit.com/r/gaming/
+2025-04-10 10:14:34,477 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20180701005254/https://www.reddit.com/r/gaming/
+2025-04-10 10:14:35,931 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20190101012737/https://www.reddit.com/r/gaming
+2025-04-10 10:14:40,723 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20190101012737/https://www.reddit.com/r/gaming
+2025-04-10 10:14:43,361 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20190701174918/https://www.reddit.com/r/gaming/
+2025-04-10 10:14:48,480 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20190701174918/https://www.reddit.com/r/gaming/
+2025-04-10 10:14:51,478 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20200103082017/https://www.reddit.com/r/gaming/
+2025-04-10 10:14:56,506 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20200103082017/https://www.reddit.com/r/gaming/
+2025-04-10 10:14:58,361 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20200701021318/https://www.reddit.com/r/gaming/
+2025-04-10 10:15:03,166 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20200701021318/https://www.reddit.com/r/gaming/
+2025-04-10 10:15:05,205 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20210101164951/https://www.reddit.com/r/gaming/
+2025-04-10 10:15:18,233 - scraper - ERROR - ❌ Errore tipo 2 per https://web.archive.org/web/20210101164951/https://www.reddit.com/r/gaming/
+2025-04-10 10:15:18,233 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20210701045122/https://www.reddit.com/r/gaming/
+2025-04-10 10:15:21,569 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20210701045122/https://www.reddit.com/r/gaming/
+2025-04-10 10:15:22,754 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20220101044250/https://www.reddit.com/r/gaming/
+2025-04-10 10:15:37,585 - scraper - ERROR - ❌ Errore tipo 2 per https://web.archive.org/web/20220101044250/https://www.reddit.com/r/gaming/
+2025-04-10 10:15:37,585 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20220701012848/https://www.reddit.com/r/gaming/
+2025-04-10 10:15:50,692 - scraper - ERROR - ❌ Errore tipo 2 per https://web.archive.org/web/20220701012848/https://www.reddit.com/r/gaming/
+2025-04-10 10:15:50,712 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20230101003246/https://www.reddit.com/r/gaming/
+2025-04-10 10:16:03,804 - scraper - ERROR - ❌ Errore tipo 2 per https://web.archive.org/web/20230101003246/https://www.reddit.com/r/gaming/
+2025-04-10 10:16:03,806 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20230701130325/https://www.reddit.com/r/gaming/
+2025-04-10 10:16:17,011 - scraper - ERROR - ❌ Errore tipo 2 per https://web.archive.org/web/20230701130325/https://www.reddit.com/r/gaming/
+2025-04-10 10:16:17,029 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20240101045940/https://www.reddit.com/r/gaming/
+2025-04-10 10:16:21,622 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20240101045940/https://www.reddit.com/r/gaming/?rdt=54504
+2025-04-10 10:16:24,451 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20240701050608/https://www.reddit.com/r/gaming/
+2025-04-10 10:16:29,472 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20240701050608/https://www.reddit.com/r/gaming/?rdt=45841
+2025-04-10 10:17:02,063 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20210101164951/https://www.reddit.com/r/gaming/
+2025-04-10 10:17:10,343 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20210101164951/https://www.reddit.com/r/gaming/
+2025-04-10 10:17:11,604 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20220101044250/https://www.reddit.com/r/gaming/
+2025-04-10 10:17:17,283 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20220101044250/https://www.reddit.com/r/gaming/
+2025-04-10 10:17:19,536 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20220701012848/https://www.reddit.com/r/gaming/
+2025-04-10 10:17:23,956 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20220701012848/https://www.reddit.com/r/gaming/
+2025-04-10 10:17:25,736 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20230101003246/https://www.reddit.com/r/gaming/
+2025-04-10 10:17:29,368 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20230101003246/https://www.reddit.com/r/gaming/
+2025-04-10 10:17:31,137 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20230701130325/https://www.reddit.com/r/gaming/
+2025-04-10 10:17:35,608 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20230701130325/https://www.reddit.com/r/gaming/
+2025-04-10 10:27:06,112 - scraper - INFO - 🚀 Richiesta snapshot per https://www.reddit.com/r/formula1/about/moderators (2012–2024)
+2025-04-10 10:27:11,046 - scraper - INFO - ✅ 38 snapshot trovati per https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 10:27:11,048 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20120116090123/http://www.reddit.com:80/r/formula1/about/moderators
+2025-04-10 10:27:13,733 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20120116090123/http://www.reddit.com:80/r/formula1/about/moderators
+2025-04-10 10:27:15,981 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20150612194942/http://www.reddit.com/r/formula1/about/moderators
+2025-04-10 10:27:18,551 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20150612194942/http://www.reddit.com/r/formula1/about/moderators
+2025-04-10 10:27:20,651 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20150703042520/http://www.reddit.com/r/formula1/about/moderators
+2025-04-10 10:27:23,103 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20150703042520/http://www.reddit.com/r/formula1/about/moderators
+2025-04-10 10:27:25,232 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20170930064346/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 10:27:27,516 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20170930064346/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 10:27:29,479 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20180201143040/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 10:27:31,524 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20180201143040/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 10:27:33,082 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20180923182812/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 10:27:36,028 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20180923182812/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 10:27:38,312 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20190427185348/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 10:27:41,548 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20190427185348/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 10:27:43,723 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20200312200005/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 10:27:48,057 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20200312200005/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 10:27:50,635 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20201102010633/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 10:27:54,308 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20201102010633/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 10:27:55,927 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20210328010323/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 10:27:59,237 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20210328010323/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 10:28:00,732 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20210718192409/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 10:28:03,740 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20210718192409/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 10:28:05,164 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20220201112617/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 10:28:08,529 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20220201112617/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 10:28:08,530 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20220713061335/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 10:28:12,504 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20220713061335/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 10:28:12,514 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20230519204419/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 10:28:17,409 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20230519204419/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 10:28:17,410 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20230829121001/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 10:28:21,897 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20230829121001/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 10:28:21,900 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20241002160532/https://www.reddit.com/r/formula1/about/moderators/
+2025-04-10 10:28:27,552 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20241002160533/https://www.reddit.com/login/?dest=https%3A%2F%2Fwww.reddit.com%2Fmod%2Fformula1%2Fmoderators%2F
+2025-04-10 10:53:54,371 - scraper - INFO - 🚀 Richiesta snapshot per https://www.reddit.com/r/formula1/about/moderators (2012–2024)
+2025-04-10 10:54:02,682 - scraper - INFO - ✅ 38 snapshot trovati per https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 10:55:44,487 - scraper - INFO - 🚀 Richiesta snapshot per https://www.reddit.com/r/formula1/about/moderators (2012–2024)
+2025-04-10 10:55:52,355 - scraper - INFO - ✅ 38 snapshot trovati per https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 10:57:52,367 - scraper - INFO - 🚀 Richiesta snapshot per https://www.reddit.com/r/formula1/about/moderators (2012–2024)
+2025-04-10 10:57:58,612 - scraper - INFO - ✅ 38 snapshot trovati per https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 10:57:58,619 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20120116090123/http://www.reddit.com:80/r/formula1/about/moderators
+2025-04-10 11:00:07,856 - scraper - INFO - 🚀 Richiesta snapshot per https://www.reddit.com/r/formula1/about/moderators (2012–2024)
+2025-04-10 11:00:11,012 - scraper - INFO - ✅ 38 snapshot trovati per https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 11:00:11,018 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20120116090123/http://www.reddit.com:80/r/formula1/about/moderators
+2025-04-10 11:00:11,041 - scraper - ERROR - ❌ Errore tipo 7 per https://web.archive.org/web/20120116090123/http://www.reddit.com:80/r/formula1/about/moderators
+2025-04-10 11:01:53,925 - scraper - INFO - 🚀 Richiesta snapshot per https://www.reddit.com/r/formula1/about/moderators (2012–2024)
+2025-04-10 11:01:56,277 - scraper - INFO - ✅ 38 snapshot trovati per https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 11:04:35,582 - scraper - INFO - 🚀 Richiesta snapshot per https://www.reddit.com/r/formula1/about/moderators (2012–2024)
+2025-04-10 11:04:38,936 - scraper - INFO - ✅ 38 snapshot trovati per https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 11:04:38,943 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20120116090123/http://www.reddit.com:80/r/formula1/about/moderators
+2025-04-10 11:04:39,021 - scraper - ERROR - ❌ Errore tipo 7 per https://web.archive.org/web/20120116090123/http://www.reddit.com:80/r/formula1/about/moderators
+2025-04-10 11:07:33,621 - scraper - INFO - 🚀 Richiesta snapshot per https://www.reddit.com/r/formula1/about/moderators (2012–2024)
+2025-04-10 11:07:42,484 - scraper - INFO - ✅ 38 snapshot trovati per https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 11:07:42,487 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20120116090123/http://www.reddit.com:80/r/formula1/about/moderators
+2025-04-10 11:07:42,510 - scraper - ERROR - ❌ Errore tipo 7 per https://web.archive.org/web/20120116090123/http://www.reddit.com:80/r/formula1/about/moderators
+2025-04-10 11:11:01,188 - scraper - INFO - 🚀 Richiesta snapshot per https://www.reddit.com/r/formula1/about/moderators (2012–2024)
+2025-04-10 11:11:03,803 - scraper - INFO - ✅ 38 snapshot trovati per https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 11:11:03,810 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20120116090123/http://www.reddit.com:80/r/formula1/about/moderators
+2025-04-10 11:11:03,877 - scraper - ERROR - ❌ Errore tipo 7 per https://web.archive.org/web/20120116090123/http://www.reddit.com:80/r/formula1/about/moderators
+2025-04-10 11:11:03,880 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20150612194942/http://www.reddit.com/r/formula1/about/moderators
+2025-04-10 11:11:03,896 - scraper - ERROR - ❌ Errore tipo 7 per https://web.archive.org/web/20150612194942/http://www.reddit.com/r/formula1/about/moderators
+2025-04-10 11:11:03,901 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20170930064346/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 11:11:03,913 - scraper - ERROR - ❌ Errore tipo 7 per https://web.archive.org/web/20170930064346/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 11:11:03,915 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20180201143040/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 11:11:03,937 - scraper - ERROR - ❌ Errore tipo 7 per https://web.archive.org/web/20180201143040/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 11:11:03,938 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20180923182812/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 11:11:03,946 - scraper - ERROR - ❌ Errore tipo 7 per https://web.archive.org/web/20180923182812/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 11:11:03,946 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20190427185348/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 11:11:03,975 - scraper - ERROR - ❌ Errore tipo 7 per https://web.archive.org/web/20190427185348/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 11:11:03,976 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20200312200005/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 11:11:03,994 - scraper - ERROR - ❌ Errore tipo 7 per https://web.archive.org/web/20200312200005/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 11:11:03,995 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20201102010633/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 11:11:04,015 - scraper - ERROR - ❌ Errore tipo 7 per https://web.archive.org/web/20201102010633/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 11:11:04,019 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20210328010323/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 11:11:04,028 - scraper - ERROR - ❌ Errore tipo 7 per https://web.archive.org/web/20210328010323/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 11:11:04,029 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20210718192409/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 11:11:04,055 - scraper - ERROR - ❌ Errore tipo 7 per https://web.archive.org/web/20210718192409/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 11:11:04,056 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20220201112617/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 11:11:08,417 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20220201112617/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 11:11:08,419 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20220713061335/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 11:11:12,822 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20220713061335/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 11:11:12,823 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20230519204419/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 11:11:16,204 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20230519204419/https://www.reddit.com/r/formula1/about/moderators
+2025-04-10 11:11:16,210 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20241002160532/https://www.reddit.com/r/formula1/about/moderators/
+2025-04-10 11:11:16,228 - scraper - ERROR - ❌ Errore tipo 7 per https://web.archive.org/web/20241002160532/https://www.reddit.com/r/formula1/about/moderators/
+2025-04-10 11:19:57,725 - scraper - INFO - 🚀 Richiesta snapshot per https://www.reddit.com/r/AskReddit/about/moderators (2012–2024)
+2025-04-10 11:20:02,889 - scraper - INFO - ✅ 14234 snapshot trovati per https://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:20:02,921 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20120102194024/http://www.reddit.com:80/r/AskReddit/about/moderators
+2025-04-10 11:20:06,963 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20120102194024/http://www.reddit.com:80/r/AskReddit/about/moderators
+2025-04-10 11:20:08,256 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20120705012333/http://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:20:11,571 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20120705012333/http://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:20:14,293 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20130103214327/http://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:20:17,487 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20130103214327/http://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:20:19,438 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20130709110929/http://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:20:24,042 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20130709110929/http://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:20:25,197 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20140104205127/http://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:20:28,245 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20140104205127/http://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:20:29,285 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20140701044623/http://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:20:36,437 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20140701044623/http://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:20:37,550 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20150106072143/http://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:20:43,300 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20150106072143/http://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:20:45,331 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20150703192959/https://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:20:49,105 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20150703192959/https://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:20:50,942 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20160101105344/https://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:20:55,992 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20160101105344/https://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:20:57,686 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20160706150944/https://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:21:02,817 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20160706150944/https://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:21:03,985 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20170105092901/https://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:21:07,168 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20170105092901/https://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:21:08,441 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20170701045512/https://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:21:12,288 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20170701045512/https://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:21:14,816 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20180104011558/https://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:21:21,925 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20180104011558/https://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:21:24,871 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20180711062058/https://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:21:28,957 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20180711062058/https://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:21:30,644 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20190101000523/https://www.reddit.com/r/askreddit/about/moderators/
+2025-04-10 11:21:35,717 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20190101000523/https://www.reddit.com/r/askreddit/about/moderators/
+2025-04-10 11:21:38,683 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20190701002806/https://www.reddit.com/r/askreddit/about/moderators/
+2025-04-10 11:21:42,827 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20190701002806/https://www.reddit.com/r/askreddit/about/moderators/
+2025-04-10 11:21:44,241 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20200104121548/https://www.reddit.com/r/askreddit/about/moderators/
+2025-04-10 11:21:49,623 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20200104121548/https://www.reddit.com/r/askreddit/about/moderators/
+2025-04-10 11:21:52,328 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20200701204329/https://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:21:57,081 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20200701204329/https://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:21:58,352 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20210101003019/https://www.reddit.com/r/askreddit/about/moderators/
+2025-04-10 11:22:03,101 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20210101003019/https://www.reddit.com/r/askreddit/about/moderators/
+2025-04-10 11:22:06,100 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20210701012632/https://www.reddit.com/r/askreddit/about/moderators/
+2025-04-10 11:22:19,315 - scraper - ERROR - ❌ Errore tipo 2 per https://web.archive.org/web/20210701012632/https://www.reddit.com/r/askreddit/about/moderators/
+2025-04-10 11:22:19,320 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20220101211410/https://www.reddit.com/r/askreddit/about/moderators/
+2025-04-10 11:22:32,502 - scraper - ERROR - ❌ Errore tipo 2 per https://web.archive.org/web/20220101211410/https://www.reddit.com/r/askreddit/about/moderators/
+2025-04-10 11:22:32,504 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20220703113228/https://www.reddit.com/r/askreddit/about/moderators/
+2025-04-10 11:22:45,584 - scraper - ERROR - ❌ Errore tipo 2 per https://web.archive.org/web/20220703113228/https://www.reddit.com/r/askreddit/about/moderators/
+2025-04-10 11:22:45,625 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20230123140120/https://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:22:58,817 - scraper - ERROR - ❌ Errore tipo 2 per https://web.archive.org/web/20230123140120/https://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:22:58,822 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20230928143638/https://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:23:11,927 - scraper - ERROR - ❌ Errore tipo 2 per https://web.archive.org/web/20230928143638/https://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:23:11,940 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20240208221513/https://www.reddit.com/r/AskReddit/about/moderators/
+2025-04-10 11:23:15,886 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20240208221513/https://www.reddit.com/r/AskReddit/about/moderators/
+2025-04-10 11:23:16,996 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20240710224608/https://www.reddit.com/r/AskReddit/about/moderators/
+2025-04-10 11:23:21,028 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20240710224608/https://www.reddit.com/r/AskReddit/about/moderators/
+2025-04-10 11:23:53,680 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20230123140120/https://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:24:02,217 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20230123140120/https://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:24:02,219 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20230928143638/https://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:24:07,467 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20230928143638/https://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:41:24,781 - scraper - INFO - 🚀 Richiesta snapshot per https://www.reddit.com/r/AskReddit/wiki/index (2012–2024)
+2025-04-10 11:42:22,767 - scraper - INFO - ✅ 16798 snapshot trovati per https://www.reddit.com/r/AskReddit/wiki/index
+2025-04-10 11:42:22,793 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20130205084934/http://www.reddit.com:80/r/AskReddit/wiki/index
+2025-04-10 11:42:33,253 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20250410094225/http://www.reddit.com/r/AskReddit/wiki/index/?noembed=true&rdt=50042
+2025-04-10 11:42:34,640 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20130709111307/http://www.reddit.com/r/AskReddit/wiki/index
+2025-04-10 11:42:37,056 - scraper - WARNING - ⚠️ Redirect fuori semestre: da https://web.archive.org/web/20130709111307/http://www.reddit.com/r/AskReddit/wiki/index a https://web.archive.org/web/20250410094225/http://www.reddit.com/r/AskReddit/wiki/index/?noembed=true&rdt=50042
+2025-04-10 11:42:37,063 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20140104204945/http://www.reddit.com/r/AskReddit/wiki/index
+2025-04-10 11:42:41,298 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20250410094225/http://www.reddit.com/r/AskReddit/wiki/index/?noembed=true&rdt=50042
+2025-04-10 11:42:42,711 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20140701073111/http://www.reddit.com/r/AskReddit/wiki/index
+2025-04-10 11:42:45,617 - scraper - WARNING - ⚠️ Redirect fuori semestre: da https://web.archive.org/web/20140701073111/http://www.reddit.com/r/AskReddit/wiki/index a https://web.archive.org/web/20250410094225/http://www.reddit.com/r/AskReddit/wiki/index/?noembed=true&rdt=50042
+2025-04-10 11:42:45,623 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20150106071940/http://www.reddit.com/r/AskReddit/wiki/index
+2025-04-10 11:42:49,188 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20250410094225/http://www.reddit.com/r/AskReddit/wiki/index/?noembed=true&rdt=50042
+2025-04-10 11:42:51,215 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20150703192921/http://www.reddit.com/r/AskReddit/wiki/index
+2025-04-10 11:42:54,566 - scraper - WARNING - ⚠️ Redirect fuori semestre: da https://web.archive.org/web/20150703192921/http://www.reddit.com/r/AskReddit/wiki/index a https://web.archive.org/web/20250410094225/http://www.reddit.com/r/AskReddit/wiki/index/?noembed=true&rdt=50042
+2025-04-10 11:42:54,572 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20160101105212/https://www.reddit.com/r/AskReddit/wiki/index
+2025-04-10 11:42:57,718 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20250410094225/http://www.reddit.com/r/AskReddit/wiki/index/?noembed=true&rdt=50042
+2025-04-10 11:43:00,135 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20160706150944/https://www.reddit.com/r/AskReddit/wiki/index
+2025-04-10 11:43:03,504 - scraper - WARNING - ⚠️ Redirect fuori semestre: da https://web.archive.org/web/20160706150944/https://www.reddit.com/r/AskReddit/wiki/index a https://web.archive.org/web/20250410094225/http://www.reddit.com/r/AskReddit/wiki/index/?noembed=true&rdt=50042
+2025-04-10 11:43:03,533 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20170105092603/https://www.reddit.com/r/AskReddit/wiki/index
+2025-04-10 11:43:06,803 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20250410094225/http://www.reddit.com/r/AskReddit/wiki/index/?noembed=true&rdt=50042
+2025-04-10 11:43:08,540 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20170701045416/https://www.reddit.com/r/AskReddit/wiki/index
+2025-04-10 11:43:11,086 - scraper - WARNING - ⚠️ Redirect fuori semestre: da https://web.archive.org/web/20170701045416/https://www.reddit.com/r/AskReddit/wiki/index a https://web.archive.org/web/20250410094225/http://www.reddit.com/r/AskReddit/wiki/index/?noembed=true&rdt=50042
+2025-04-10 11:43:11,097 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20180104011420/https://www.reddit.com/r/AskReddit/wiki/index
+2025-04-10 11:43:15,224 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20250410094225/http://www.reddit.com/r/AskReddit/wiki/index/?noembed=true&rdt=50042
+2025-04-10 11:43:16,377 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20180702093145/https://www.reddit.com/r/askreddit/wiki/index
+2025-04-10 11:43:18,981 - scraper - WARNING - ⚠️ Redirect fuori semestre: da https://web.archive.org/web/20180702093145/https://www.reddit.com/r/askreddit/wiki/index a https://web.archive.org/web/20250410094225/http://www.reddit.com/r/AskReddit/wiki/index/?noembed=true&rdt=50042
+2025-04-10 11:43:18,993 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20190101000528/https://www.reddit.com/r/askreddit/wiki/index
+2025-04-10 11:43:23,483 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20250410094225/http://www.reddit.com/r/AskReddit/wiki/index/?noembed=true&rdt=50042
+2025-04-10 11:43:24,518 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20190701001416/https://www.reddit.com/r/AskReddit/wiki/index
+2025-04-10 11:43:27,088 - scraper - WARNING - ⚠️ Redirect fuori semestre: da https://web.archive.org/web/20190701001416/https://www.reddit.com/r/AskReddit/wiki/index a https://web.archive.org/web/20250410094225/http://www.reddit.com/r/AskReddit/wiki/index/?noembed=true&rdt=50042
+2025-04-10 11:43:27,105 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20200106230845/https://www.reddit.com/r/AskReddit/wiki/index
+2025-04-10 11:43:31,202 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20250410094225/http://www.reddit.com/r/AskReddit/wiki/index/?noembed=true&rdt=50042
+2025-04-10 11:43:34,009 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20200701041434/https://www.reddit.com/r/AskReddit/wiki/index
+2025-04-10 11:43:36,583 - scraper - WARNING - ⚠️ Redirect fuori semestre: da https://web.archive.org/web/20200701041434/https://www.reddit.com/r/AskReddit/wiki/index a https://web.archive.org/web/20250410094225/http://www.reddit.com/r/AskReddit/wiki/index/?noembed=true&rdt=50042
+2025-04-10 11:43:36,591 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20210101003252/https://www.reddit.com/r/askreddit/wiki/index
+2025-04-10 11:43:43,600 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20250410094225/http://www.reddit.com/r/AskReddit/wiki/index/?noembed=true&rdt=50042
+2025-04-10 11:43:46,398 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20210701060806/https://www.reddit.com/r/AskReddit/wiki/index
+2025-04-10 11:43:59,330 - scraper - ERROR - ❌ Errore tipo 2 per https://web.archive.org/web/20210701060806/https://www.reddit.com/r/AskReddit/wiki/index
+2025-04-10 11:43:59,337 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20220101235702/https://www.reddit.com/r/askreddit/wiki/index
+2025-04-10 11:44:12,281 - scraper - ERROR - ❌ Errore tipo 2 per https://web.archive.org/web/20220101235702/https://www.reddit.com/r/askreddit/wiki/index
+2025-04-10 11:44:12,283 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20220703002646/https://www.reddit.com/r/AskReddit/wiki/index
+2025-04-10 11:44:25,541 - scraper - ERROR - ❌ Errore tipo 2 per https://web.archive.org/web/20220703002646/https://www.reddit.com/r/AskReddit/wiki/index
+2025-04-10 11:44:25,553 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20230101020539/https://www.reddit.com/r/AskReddit/wiki/index
+2025-04-10 11:44:38,449 - scraper - ERROR - ❌ Errore tipo 2 per https://web.archive.org/web/20230101020539/https://www.reddit.com/r/AskReddit/wiki/index
+2025-04-10 11:44:38,450 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20230714080308/https://www.reddit.com/r/AskReddit/wiki/index
+2025-04-10 11:44:51,346 - scraper - ERROR - ❌ Errore tipo 2 per https://web.archive.org/web/20230714080308/https://www.reddit.com/r/AskReddit/wiki/index
+2025-04-10 11:44:51,354 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20240107031608/https://www.reddit.com/r/AskReddit/wiki/index
+2025-04-10 11:45:04,262 - scraper - ERROR - ❌ Errore tipo 2 per https://web.archive.org/web/20240107031608/https://www.reddit.com/r/AskReddit/wiki/index
+2025-04-10 11:45:04,263 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20240715215340/https://www.reddit.com/r/AskReddit/wiki/index
+2025-04-10 11:45:17,169 - scraper - ERROR - ❌ Errore tipo 2 per https://web.archive.org/web/20240715215340/https://www.reddit.com/r/AskReddit/wiki/index
+2025-04-10 11:45:47,192 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20210701060806/https://www.reddit.com/r/AskReddit/wiki/index
+2025-04-10 11:45:49,826 - scraper - WARNING - ⚠️ Redirect fuori semestre: da https://web.archive.org/web/20210701060806/https://www.reddit.com/r/AskReddit/wiki/index a https://web.archive.org/web/20250410094225/http://www.reddit.com/r/AskReddit/wiki/index/?noembed=true&rdt=50042
+2025-04-10 11:45:49,827 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20220703002646/https://www.reddit.com/r/AskReddit/wiki/index
+2025-04-10 11:45:53,750 - scraper - WARNING - ⚠️ Redirect fuori semestre: da https://web.archive.org/web/20220703002646/https://www.reddit.com/r/AskReddit/wiki/index a https://web.archive.org/web/20250410094225/http://www.reddit.com/r/AskReddit/wiki/index/?noembed=true&rdt=50042
+2025-04-10 11:45:53,751 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20230101020539/https://www.reddit.com/r/AskReddit/wiki/index
+2025-04-10 11:45:57,777 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20250410094225/http://www.reddit.com/r/AskReddit/wiki/index/?noembed=true&rdt=50042
+2025-04-10 11:45:59,670 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20230714080308/https://www.reddit.com/r/AskReddit/wiki/index
+2025-04-10 11:46:07,704 - scraper - WARNING - ⚠️ Redirect fuori semestre: da https://web.archive.org/web/20230714080308/https://www.reddit.com/r/AskReddit/wiki/index a https://web.archive.org/web/20250410094225/http://www.reddit.com/r/AskReddit/wiki/index/?noembed=true&rdt=50042
+2025-04-10 11:46:07,711 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20240107031608/https://www.reddit.com/r/AskReddit/wiki/index
+2025-04-10 11:46:10,608 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20250410094225/http://www.reddit.com/r/AskReddit/wiki/index/?noembed=true&rdt=50042
+2025-04-10 11:46:12,946 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20240715215340/https://www.reddit.com/r/AskReddit/wiki/index
+2025-04-10 11:46:16,073 - scraper - WARNING - ⚠️ Redirect fuori semestre: da https://web.archive.org/web/20240715215340/https://www.reddit.com/r/AskReddit/wiki/index a https://web.archive.org/web/20250410094225/http://www.reddit.com/r/AskReddit/wiki/index/?noembed=true&rdt=50042
+2025-04-10 11:48:04,624 - scraper - INFO - 🚀 Richiesta snapshot per  (2012–2024)
+2025-04-10 11:48:06,040 - scraper - ERROR - ❌ Nessuna risposta per 
+2025-04-10 11:48:16,034 - scraper - INFO - 🚀 Richiesta snapshot per https://www.reddit.com/r/AskReddit/wiki/index (2012–2024)
+2025-04-10 11:48:35,712 - scraper - INFO - 🚀 Richiesta snapshot per https://www.reddit.com/r/AskReddit/wiki/rules (2012–2024)
+2025-04-10 11:48:37,524 - scraper - INFO - ✅ 2 snapshot trovati per https://www.reddit.com/r/AskReddit/wiki/rules
+2025-04-10 11:48:37,544 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20150703194042/http://www.reddit.com/r/AskReddit/wiki/rules
+2025-04-10 11:48:50,406 - scraper - WARNING - ⚠️ Redirect fuori semestre: da https://web.archive.org/web/20150703194042/http://www.reddit.com/r/AskReddit/wiki/rules a https://web.archive.org/web/20250410094843/http://www.reddit.com/r/AskReddit/wiki/rules/?noembed=true&norecursive=true&rdt=49383
+2025-04-10 11:50:27,357 - scraper - INFO - 🚀 Richiesta snapshot per https://www.reddit.com/r/funny/wiki/rules (2012–2024)
+2025-04-10 11:50:29,707 - scraper - INFO - ✅ 1005 snapshot trovati per https://www.reddit.com/r/funny/wiki/rules
+2025-04-10 11:50:29,722 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20140129154411/http://www.reddit.com:80/r/funny/wiki/rules
+2025-04-10 11:50:43,701 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20250410095034/http://www.reddit.com/r/funny/wiki/rules/?noembed=true&norecursive=true&rdt=64706
+2025-04-10 11:50:45,637 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20171213092645/https://www.reddit.com/r/funny/wiki/rules
+2025-04-10 11:50:48,929 - scraper - WARNING - ⚠️ Redirect fuori semestre: da https://web.archive.org/web/20171213092645/https://www.reddit.com/r/funny/wiki/rules a https://web.archive.org/web/20250410095034/http://www.reddit.com/r/funny/wiki/rules/?noembed=true&norecursive=true&rdt=64706
+2025-04-10 11:50:48,930 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20180313095015/https://www.reddit.com/r/funny/wiki/rules
+2025-04-10 11:50:52,877 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20250410095034/http://www.reddit.com/r/funny/wiki/rules/?noembed=true&norecursive=true&rdt=64706
+2025-04-10 11:50:55,741 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20180913164210/https://www.reddit.com/r/funny/wiki/rules
+2025-04-10 11:50:58,324 - scraper - WARNING - ⚠️ Redirect fuori semestre: da https://web.archive.org/web/20180913164210/https://www.reddit.com/r/funny/wiki/rules a https://web.archive.org/web/20250410095034/http://www.reddit.com/r/funny/wiki/rules/?noembed=true&norecursive=true&rdt=64706
+2025-04-10 11:50:58,326 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20190103041351/https://www.reddit.com/r/funny/wiki/rules
+2025-04-10 11:51:02,215 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20250410095034/http://www.reddit.com/r/funny/wiki/rules/?noembed=true&norecursive=true&rdt=64706
+2025-04-10 11:51:03,313 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20190701033050/https://www.reddit.com/r/funny/wiki/rules
+2025-04-10 11:51:06,444 - scraper - WARNING - ⚠️ Redirect fuori semestre: da https://web.archive.org/web/20190701033050/https://www.reddit.com/r/funny/wiki/rules a https://web.archive.org/web/20250410095034/http://www.reddit.com/r/funny/wiki/rules/?noembed=true&norecursive=true&rdt=64706
+2025-04-10 11:51:06,451 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20200106234726/https://www.reddit.com/r/funny/wiki/rules
+2025-04-10 11:51:10,291 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20250410095034/http://www.reddit.com/r/funny/wiki/rules/?noembed=true&norecursive=true&rdt=64706
+2025-04-10 11:51:12,350 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20200701011108/https://www.reddit.com/r/funny/wiki/rules
+2025-04-10 11:51:16,362 - scraper - WARNING - ⚠️ Redirect fuori semestre: da https://web.archive.org/web/20200701011108/https://www.reddit.com/r/funny/wiki/rules a https://web.archive.org/web/20250410095034/http://www.reddit.com/r/funny/wiki/rules/?noembed=true&norecursive=true&rdt=64706
+2025-04-10 11:51:16,365 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20210109055937/https://www.reddit.com/r/funny/wiki/rules
+2025-04-10 11:51:19,421 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20250410095034/http://www.reddit.com/r/funny/wiki/rules/?noembed=true&norecursive=true&rdt=64706
+2025-04-10 11:51:20,977 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20210701062301/https://www.reddit.com/r/funny/wiki/rules
+2025-04-10 11:51:23,493 - scraper - WARNING - ⚠️ Redirect fuori semestre: da https://web.archive.org/web/20210701062301/https://www.reddit.com/r/funny/wiki/rules a https://web.archive.org/web/20250410095034/http://www.reddit.com/r/funny/wiki/rules/?noembed=true&norecursive=true&rdt=64706
+2025-04-10 11:51:23,495 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20220104004714/https://www.reddit.com/r/funny/wiki/rules
+2025-04-10 11:51:28,233 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20250410095034/http://www.reddit.com/r/funny/wiki/rules/?noembed=true&norecursive=true&rdt=64706
+2025-04-10 11:51:31,229 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20220704122534/https://www.reddit.com/r/funny/wiki/rules
+2025-04-10 11:51:33,892 - scraper - WARNING - ⚠️ Redirect fuori semestre: da https://web.archive.org/web/20220704122534/https://www.reddit.com/r/funny/wiki/rules a https://web.archive.org/web/20250410095034/http://www.reddit.com/r/funny/wiki/rules/?noembed=true&norecursive=true&rdt=64706
+2025-04-10 11:51:33,895 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20230101022531/https://www.reddit.com/r/funny/wiki/rules
+2025-04-10 11:51:37,801 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20250410095034/http://www.reddit.com/r/funny/wiki/rules/?noembed=true&norecursive=true&rdt=64706
+2025-04-10 11:51:39,414 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20230706162400/https://www.reddit.com/r/funny/wiki/rules
+2025-04-10 11:51:42,335 - scraper - WARNING - ⚠️ Redirect fuori semestre: da https://web.archive.org/web/20230706162400/https://www.reddit.com/r/funny/wiki/rules a https://web.archive.org/web/20250410095034/http://www.reddit.com/r/funny/wiki/rules/?noembed=true&norecursive=true&rdt=64706
+2025-04-10 11:51:42,336 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20240205005106/https://www.reddit.com/r/funny/wiki/rules
+2025-04-10 11:51:46,182 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20250410095034/http://www.reddit.com/r/funny/wiki/rules/?noembed=true&norecursive=true&rdt=64706
+2025-04-10 11:51:47,373 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20240716061046/https://www.reddit.com/r/funny/wiki/rules
+2025-04-10 11:51:50,948 - scraper - WARNING - ⚠️ Redirect fuori semestre: da https://web.archive.org/web/20240716061046/https://www.reddit.com/r/funny/wiki/rules a https://web.archive.org/web/20250410095034/http://www.reddit.com/r/funny/wiki/rules/?noembed=true&norecursive=true&rdt=64706
+2025-04-10 11:53:29,564 - scraper - INFO - 🚀 Richiesta snapshot per https://www.reddit.com/r/funny/about/moderators (2012–2024)
+2025-04-10 11:53:33,080 - scraper - INFO - ✅ 1034 snapshot trovati per https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:53:33,087 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20120103113356/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:53:35,961 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20120103113356/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:53:35,961 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20120712040420/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:53:50,470 - scraper - ERROR - ❌ Errore tipo 2 per https://web.archive.org/web/20120712040420/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:53:50,471 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20130102223413/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:53:57,395 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20130102223413/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:53:57,402 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20130702004427/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:54:10,350 - scraper - ERROR - ❌ Errore tipo 2 per https://web.archive.org/web/20130702004427/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:54:10,352 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20140104224248/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:54:14,069 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20140104224248/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:54:14,070 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20140706110802/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:54:16,845 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20140706110802/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:54:16,847 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20150106091929/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:54:20,758 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20150106091929/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:54:20,760 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20150703024449/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:54:25,644 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20150703024449/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:54:25,647 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20160413042547/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:54:31,750 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20160413042547/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:54:31,758 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20161223011131/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:54:33,833 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20161223011131/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:54:33,836 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20170101213503/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:54:39,280 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20170101213503/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:54:39,314 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20170701050618/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:54:42,079 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20170701050618/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:54:42,086 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20180104021955/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:54:46,478 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20180104021955/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:54:46,496 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20180717224144/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:54:50,547 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20180717224144/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:54:50,550 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20190104025605/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:54:54,503 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20190104025605/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:54:54,505 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20190701034014/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:54:57,770 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20190701034014/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:54:57,771 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20200106235115/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:55:02,768 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20200106235115/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:55:02,770 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20200701214458/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:55:06,112 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20200701214458/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:55:06,113 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20210119082925/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:55:09,803 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20210119082925/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:55:09,804 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20210701062628/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:55:14,634 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20210701062628/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:55:14,636 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20220104005114/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:55:25,581 - scraper - INFO - 🚀 Richiesta snapshot per https://www.reddit.com/r/funny/about/moderators (2012–2024)
+2025-04-10 11:55:38,537 - scraper - ERROR - ❌ Nessuna risposta per https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:55:48,588 - scraper - INFO - 🚀 Richiesta snapshot per https://www.reddit.com/r/funny/about/moderators (2012–2024)
+2025-04-10 11:56:15,294 - scraper - ERROR - ❌ Nessuna risposta per https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:57:27,650 - scraper - INFO - 🚀 Richiesta snapshot per https://www.reddit.com/r/funny/about/moderators (2012–2024)
+2025-04-10 11:57:36,054 - scraper - INFO - ✅ 1034 snapshot trovati per https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:57:36,060 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20120103113356/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:57:38,518 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20120103113356/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:57:38,523 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20120712040420/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:57:42,443 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20120712040420/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:57:42,445 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20130102223413/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:58:18,942 - scraper - INFO - 🚀 Richiesta snapshot per https://www.reddit.com/r/funny/about/moderators (2012–2024)
+2025-04-10 11:58:24,347 - scraper - INFO - ✅ 1034 snapshot trovati per https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:58:24,351 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20120103113356/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:58:26,856 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20120103113356/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:58:26,874 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20120712040420/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:58:30,296 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20120712040420/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:58:30,297 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20130102223413/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:58:34,308 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20130102223413/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:58:34,309 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20130702004427/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:58:38,472 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20130702004427/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:58:38,473 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20140104224248/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:58:42,367 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20140104224248/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:58:42,368 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20140706110802/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:58:46,354 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20140706110802/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:58:46,357 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20150106091929/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:58:50,488 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20150106091929/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:58:50,495 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20150703024449/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:58:54,310 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20150703024449/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:58:54,312 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20160413042547/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 11:59:13,389 - scraper - INFO - 🚀 Richiesta snapshot per https://www.reddit.com/r/AskReddit/about/moderators (2012–2024)
+2025-04-10 11:59:17,811 - scraper - INFO - ✅ 14234 snapshot trovati per https://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:59:17,830 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20120102194024/http://www.reddit.com:80/r/AskReddit/about/moderators
+2025-04-10 11:59:21,358 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20120102194024/http://www.reddit.com:80/r/AskReddit/about/moderators
+2025-04-10 11:59:21,360 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20120705012333/http://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:59:24,027 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20120705012333/http://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:59:24,033 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20130103214327/http://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:59:27,800 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20130103214327/http://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:59:27,800 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20130709110929/http://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:59:36,984 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20130709110929/http://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 11:59:36,989 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20140104205127/http://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 12:00:06,073 - scraper - INFO - 🚀 Richiesta snapshot per https://www.reddit.com/r/AskReddit/about/moderators (2012–2024)
+2025-04-10 12:00:18,958 - scraper - ERROR - ❌ Nessuna risposta per https://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 12:04:53,278 - scraper - INFO - 🚀 Richiesta snapshot per https://www.reddit.com/r/AskReddit/about/moderators (2012–2024)
+2025-04-10 12:06:12,206 - scraper - ERROR - ❌ Nessuna risposta per https://www.reddit.com/r/AskReddit/about/moderators
+2025-04-10 12:07:16,112 - scraper - INFO - 🚀 Richiesta snapshot per https://www.reddit.com/r/funny/about/moderators (2012–2024)
+2025-04-10 12:07:31,345 - scraper - INFO - ✅ 1034 snapshot trovati per https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:07:31,349 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20120103113356/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:07:34,925 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20120103113356/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:07:37,729 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20120712040420/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:07:42,160 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20120712040420/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:07:45,159 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20130102223413/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:07:48,262 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20130102223413/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:07:49,612 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20130702004427/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:07:53,180 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20130702004427/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:07:54,308 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20140104224248/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:07:57,369 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20140104224248/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:07:59,638 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20140706110802/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:08:02,712 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20140706110802/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:08:04,325 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20150106091929/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:08:07,544 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20150106091929/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:08:10,264 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20150703024449/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:08:13,174 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20150703024449/http://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:08:14,217 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20160413042547/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:08:19,614 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20160413042547/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:08:22,589 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20161223011131/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:08:25,489 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20161223011131/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:08:27,895 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20170101213503/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:08:31,453 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20170101213503/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:08:33,742 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20170701050618/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:08:37,486 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20170701050618/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:08:40,166 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20180104021955/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:08:43,230 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20180104021955/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:08:46,081 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20180717224144/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:08:49,562 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20180717224144/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:08:51,496 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20190104025605/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:08:55,099 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20190104025605/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:08:57,345 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20190701034014/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:09:03,084 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20190701034014/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:09:04,377 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20200106235115/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:09:17,292 - scraper - ERROR - ❌ Errore tipo 2 per https://web.archive.org/web/20200106235115/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:09:17,294 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20200701214458/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:09:30,218 - scraper - ERROR - ❌ Errore tipo 2 per https://web.archive.org/web/20200701214458/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:09:30,224 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20210119082925/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:09:43,122 - scraper - ERROR - ❌ Errore tipo 2 per https://web.archive.org/web/20210119082925/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:09:43,124 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20210701062628/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:09:56,070 - scraper - ERROR - ❌ Errore tipo 2 per https://web.archive.org/web/20210701062628/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:09:56,071 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20220104005114/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:10:08,998 - scraper - ERROR - ❌ Errore tipo 2 per https://web.archive.org/web/20220104005114/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:10:09,031 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20220704122852/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:10:22,190 - scraper - ERROR - ❌ Errore tipo 2 per https://web.archive.org/web/20220704122852/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:10:22,192 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20230101022841/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:10:35,092 - scraper - ERROR - ❌ Errore tipo 2 per https://web.archive.org/web/20230101022841/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:10:35,093 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20230714084016/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:10:44,197 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20230714084016/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:10:44,199 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20240409143015/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:10:57,180 - scraper - ERROR - ❌ Errore tipo 2 per https://web.archive.org/web/20240409143015/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:10:57,182 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20240930222157/https://www.reddit.com/r/funny/about/moderators/
+2025-04-10 12:11:01,959 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20240930222157/https://www.reddit.com/login/?dest=https%3A%2F%2Fwww.reddit.com%2Fmod%2Ffunny%2Fmoderators%2F
+2025-04-10 12:11:33,319 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20200106235115/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:11:37,812 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20200106235115/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:11:39,119 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20200701214458/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:11:46,271 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20200701214458/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:11:48,650 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20210119082925/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:11:52,329 - scraper - INFO - ✅ Pagina scaricata con successo: https://web.archive.org/web/20210119082925/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:11:53,711 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20210701062628/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:11:59,482 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20210701062628/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:11:59,483 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20220104005114/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:12:04,704 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20220104005114/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:12:04,705 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20220704122852/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:12:11,437 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20220704122852/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:12:11,438 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20230101022841/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:12:17,322 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20230101022841/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:12:17,323 - scraper - INFO - ⬇️ Downloading snapshot: https://web.archive.org/web/20240409143015/https://www.reddit.com/r/funny/about/moderators
+2025-04-10 12:12:25,333 - scraper - ERROR - ❌ Errore tipo 3 per https://web.archive.org/web/20240409143015/https://www.reddit.com/r/funny/about/moderators

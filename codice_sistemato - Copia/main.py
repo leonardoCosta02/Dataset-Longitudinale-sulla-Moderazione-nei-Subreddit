@@ -8,6 +8,7 @@ from scraper import download_single_snapshot_page
 from logger_setup import setup_logger
 from database import resque_page
 from utils import extract_month
+from database import log_failed_request
 logger = setup_logger(__name__, to_file=True)
 def scrape_snapshots(url):
     
@@ -66,6 +67,7 @@ def scrape_snapshots(url):
         for doc in resque:
             success = download_single_snapshot_page(doc, collection,cache_collection,collection_fail)
             if success:
+                log_failed_request(collection_fail, doc, 8) # 8 implica che la pagina è stata recuperata e la metto nel db 
                 time.sleep(random.uniform(1, 3))
 
 

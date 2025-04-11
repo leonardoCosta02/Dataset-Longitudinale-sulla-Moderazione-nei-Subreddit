@@ -2,6 +2,8 @@ import hashlib
 import json
 import time
 from wayback_client import get_wayback
+from urllib.parse import urlparse
+import re
 def insert_html_document(url, file_path, collection):
     """Inserisce nel database un documento con URL e percorso del file HTML.
     
@@ -95,28 +97,48 @@ def log_failed_request(collection_fail, url, error_code):
         "timestamp": time.time()
     })
 
-def resque_page(base_url,collection_fail):
-    # Trova documenti con error_code 2 o 6 e URL Wayback che termina con il base_url
-    query = {
-        "error_code": {"$in": [2, 6]},
-        "url": {"$regex": f"{base_url}$"}  # matcha URL che terminano con quello di interesse
+def normalize_base_url(base_url):
+    # Estrae solo la parte host + path (senza schema, tipo http/https)
+    parsed = urlparse(base_url)
+    return parsed.netloc + parsed.path.rstrip("/")
+
+def resque_page(base_url, collection_fail):
+    normalized = normalize_base_url(base_url)
+    # la query è più strutturata perchè uno stesso URL ma con id diverso può avere come codice 2,8,7 (errore+recupero+già in cache ) ma se in futuro
+    #voglio rieseguire il programma con lo stesso URL , devo prendere i documenti che hanno URL solo con errore 2 o 6 senza che ci siano altri errori associati 
+    pipeline = [
+    {
+        "$match": {
+            "url": {"$regex": f"{re.escape(normalized)}/?$"}
+        }
+    },
+    {
+        "$group": {
+            "_id": "$url",
+            "error_codes": {"$addToSet": "$error_code"}
+        }
+    },
+    {
+        "$match": {
+            # Se tutti i codici sono solo tra 2 e 6
+            "error_codes": {
+                "$not": {"$elemMatch": {"$nin": [2, 6]}}
+            }
+        }
+    },
+    {
+        "$project": {
+            "_id": 0,
+            "url": "$_id"
+        }
     }
+]
 
-    # Estrai solo il campo 'url'
-    #Questa parte:
+    retry_docs = list(collection_fail.aggregate(pipeline))  # Esegui la pipeline
+    retry_urls = [doc["url"] for doc in retry_docs]  # Estrai solo gli URL dai risultati
 
-    #esegue la query su MongoDB (query l’abbiamo definita prima per error_code in [2,6] e url che finisce con l’URL base),
-
-    #chiede di restituire solo il campo url ("url": 1)
-
-    #e di escludere il campo _id ("_id": 0), che MongoDB include di default.
-
-    #è una list comprehension: itera su tutti i risultati della find() e costruisce una lista con solo il valore del campo "url" di ciascun documento
-    retry_urls = [doc["url"] for doc in collection_fail.find(query, {"url": 1, "_id": 0})]
-
-    # Verifica
     print(f"Trovati {len(retry_urls)} URL da ritentare:")
     for url in retry_urls:
         print(url)
     return retry_urls
- 
+

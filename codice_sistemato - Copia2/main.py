@@ -1,5 +1,5 @@
 import os  # Importa il modulo os per interagire con il filesystem (per creare cartelle, gestire file, ecc.)
-from pymongo import MongoClient  # Importa il client di MongoDB per interagire con il database
+from pymongo import MongoClient,errors  # Importa il client di MongoDB per interagire con il database
 import time  # Modulo per gestire le operazioni temporali (es. sleep)
 import random  # Modulo per generare numeri casuali
 from scraper import get_snapshot_urls  # Funzione per recuperare gli snapshot da Wayback Machine
@@ -7,9 +7,8 @@ from utils import get_valid_snapshot  # Funzione per filtrare gli snapshot valid
 from scraper import download_single_snapshot_page
 from logger_setup import setup_logger
 from database import resque_page
-from utils import extract_month
-from database import log_failed_request
 from database import remove_document
+from utils import leggi_subreddit_da_tsv
 logger = setup_logger(__name__, to_file=True)
 def scrape_snapshots(url):
     
@@ -33,24 +32,25 @@ def scrape_snapshots(url):
         # Cerca i due snapshot validi
         first = get_valid_snapshot(year_snapshots, 1, 6)
         second = get_valid_snapshot(year_snapshots, 7, 12)
-        #check se gli snapshot scelti abbiano una distanza temporale di almeno 4 mesi in python non esiste direttamente il do while
-        ok=True
-        tentativo=8
-        if first is not None and second is not None :
-            while ok and tentativo<=12:
-                if second is None:
-                    break  # Uscita sicura dal ciclo se non ci sono più snapshot validi
-                
-                if(extract_month(second[0])-extract_month(first[0])<4):
-                    tentativo += 1
-                    second = get_valid_snapshot(year_snapshots, tentativo, 12)
-                else:
-                    ok=False
+        
         
         if first:
             success = download_single_snapshot_page(first[0],cache_collection,collection_fail,error_urls)
             if success:
                 time.sleep(random.uniform(1, 3))
+            else:#entro qui se ho preso una pagina con errori non recuperabili o redirect fuori semestre o fuori anno 
+                 # Se snapshot non valido, rimuovo first[0] dalla lista snapshot dell'anno
+                
+                    
+                    while success== False and year_snapshots and first:
+                      if first[0] in year_snapshots:
+                        year_snapshots.remove(first[0])
+                        logger.warning(f"🗑️  Rimosso snapshot non valido: {first[0]}")
+                        logger.warning(f"Provo a prendere il prossimo snapshot ")
+                        first = get_valid_snapshot(year_snapshots, 1, 6)
+                        if first:
+                         success = download_single_snapshot_page(first[0],cache_collection,collection_fail,error_urls)  
+                       
         else:
             logger.warning(f"⚠️ Nessun snapshot valido per il primo semestre {year}")
 
@@ -58,6 +58,20 @@ def scrape_snapshots(url):
             success = download_single_snapshot_page(second[0],cache_collection,collection_fail,error_urls)
             if success:
                 time.sleep(random.uniform(1, 3))
+            else:#entro qui se ho preso una pagina con errori non recuperabili o redirect fuori semestre o fuori anno 
+                 # Se snapshot non valido, rimuovo second[0] dalla lista snapshot dell'anno
+                
+                    while success== False and year_snapshots and second:
+                      if second[0] in year_snapshots:
+                        year_snapshots.remove(second[0])
+                        logger.warning(f"🗑️  Rimosso snapshot non valido: {second[0]}")
+                        logger.warning(f"Provo a prendere il prossimo snapshot ")
+                        second = get_valid_snapshot(year_snapshots, 7, 12)
+                        if second: 
+                            success = download_single_snapshot_page(second[0],cache_collection,collection_fail,error_urls)
+                    
+
+                           
         else:
             logger.warning(f"⚠️ Nessun snapshot valido per il secondo semestre {year}")
     
@@ -68,23 +82,51 @@ def scrape_snapshots(url):
     if resque is not None:
         time.sleep(30)
         for doc in resque:
-            success = download_single_snapshot_page(doc,cache_collection,collection_fail,error_urls)
+            success = download_single_snapshot_page(doc,cache_collection,collection_fail,error_urls,)
             if success:
                 remove_document(collection_fail, doc) 
                 time.sleep(random.uniform(1, 3))
 
 
 if __name__ == "__main__":
-    # Connessione al database MongoDB
-    client = MongoClient("mongodb://localhost:27017/")
-    db = client["reddit_db"]  # Seleziona il database
-    cache_collection = db["cache"]
-    collection_fail=db["fail"]
-    CACHE_DIR = "html_cache"  # Cartella per il salvataggio delle pagine HTML
-    os.makedirs(CACHE_DIR, exist_ok=True)  # Crea la cartella se non esiste
+    # Template degli URL da generare per ogni subreddit
+    url_templates = [
+        "https://old.reddit.com/r/{}/about/rules",
+        "https://old.reddit.com/r/{}/about/rules/.json",
+        "https://www.reddit.com/mod/{}/rules",
+        "https://www.reddit.com/r/{}",
+        "https://old.reddit.com/r/{}",
+        "https://old.reddit.com/r/{}/about/moderators/.json",
+        "https://old.reddit.com/r/{}/about/moderators",
+        "https://www.reddit.com/mod/{}/moderators",
+    ]
     
-    # Richiesta degli URL da analizzare
-    urls = input("Inserisci  URL da analizzare  ")
     
-    # Esecuzione dello scraping in parallelo utilizzando ThreadPoolExecutor
-    scrape_snapshots(urls)   
+    try:
+        # Tentativo di connessione a MongoDB
+        client = MongoClient("mongodb://localhost:27017/", serverSelectionTimeoutMS=3000)  # Timeout a 3 secondi
+        client.admin.command('ping')  # Comando per testare la connessione
+
+        # Connessione riuscita
+        print("✅ Connessione a MongoDB riuscita.")
+
+        db = client["reddit_db"]
+        cache_collection = db["cache"]
+        collection_fail = db["fail"]
+        CACHE_DIR = "html_cache"  # Cartella per il salvataggio delle pagine HTML
+        os.makedirs(CACHE_DIR, exist_ok=True)  # Crea la cartella se non esiste
+         # Lettura e stampa dei subreddit
+        subreddits = leggi_subreddit_da_tsv("embedding-metadata.tsv")
+        for subreddit in subreddits:
+            for template in url_templates:
+                url = template.format(subreddit)
+                logger.info(f"🔍 Inizio scraping per {url}")
+                scrape_snapshots(url)
+        
+
+    except errors.ServerSelectionTimeoutError as e:
+        print("❌ Errore: impossibile connettersi a MongoDB.")
+        print(f"Dettagli: {e}")
+    except Exception as e:
+        print("❌ Errore generico durante la connessione a MongoDB.")
+        print(f"Dettagli: {e}")

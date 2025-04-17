@@ -70,12 +70,16 @@ def download_single_snapshot_page(url,cache_collection,collection_fail,error_lis
     if response is None:
         if err_code == 7:
             # Snapshot già in cache, quindi non loggare niente
-            return False
+            return True
         
         log_failed_request(collection_fail, url, err_code)
         logger.error(f"❌ Errore tipo {err_code} per {url}")
         error_list.append(url)
-        return False      
+        if err_code ==3 or err_code == 4 or err_code == 5: 
+         return False
+        else:
+            print(f"errore che mi permette di provare di recuperare la pagina dopo ")  
+            return True    
 
     final_url = response.url
     if  final_url != url:

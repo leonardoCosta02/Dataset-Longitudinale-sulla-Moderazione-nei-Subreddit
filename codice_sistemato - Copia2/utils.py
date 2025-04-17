@@ -1,7 +1,7 @@
 import re 
 from logger_setup import setup_logger
 logger = setup_logger(__name__, to_file=True)
-
+import csv
 def sanitize_filename(url):
     # Sostituisci i caratteri non validi (inclusi '?', '=', '&', ':', '/', etc.) con '_'
     return re.sub(r'[\\/*?:"<>|&=]', '_', url)
@@ -133,3 +133,23 @@ def save_html_page(url, html_content):
     except OSError as e:
         logger.error(f"❌ Errore nel salvataggio del file {file_path}: {e}")
         return None
+
+
+
+
+def leggi_subreddit_da_tsv(percorso_file, max_subreddit=50):
+    subreddit_list = []
+    with open(percorso_file, newline='', encoding='utf-8') as tsvfile:
+        reader = csv.reader(tsvfile, delimiter='\t')
+        next(reader)  # ❗ Salta la prima riga (header)
+        for row in reader:
+            if row:  # Se la riga non è vuota
+                subreddit = row[0].strip() #Prende il primo valore della riga (row[0], cioè il nome del subreddit), e usa .strip() per rimuovere eventuali spazi vuoti o newline.
+                subreddit_list.append(subreddit)
+                if len(subreddit_list) >= max_subreddit:
+                    break
+    # Stampa i subreddit letti
+    print("📋 Subreddit letti dal file:")
+    for idx, subreddit in enumerate(subreddit_list, start=1):
+        print(f"{idx}. {subreddit}")
+    return subreddit_list

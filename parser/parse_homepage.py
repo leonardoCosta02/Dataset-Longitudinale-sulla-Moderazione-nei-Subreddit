@@ -1,4 +1,4 @@
-from app.scraper.logger_setup import setup_logger
+from scraper.logger_setup import setup_logger
 from bs4 import BeautifulSoup  # Importa BeautifulSoup per il parsing dei file HTML
 import re  # Importa il modulo delle espressioni regolari per pattern matching
 logger = setup_logger("parser_logger", to_file=True, log_dir="app/parser/logger")

@@ -1,7 +1,6 @@
 from bs4 import BeautifulSoup
 from scraper.logger_setup import setup_logger
-
-logger = setup_logger("parser_logger", to_file=True, log_dir="app/parser/logger")
+logger = setup_logger("parser_logger", to_file=True, log_dir="parser/logger")
 
 def  extract_moderators(html):
     soup = BeautifulSoup(html, 'html.parser')

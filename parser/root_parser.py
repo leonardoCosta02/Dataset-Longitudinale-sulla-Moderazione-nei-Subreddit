@@ -1,11 +1,12 @@
 import re
 import os
 from parser.parse_homepage import parse_rules_from_html
+from parser.parse_old_homepage import parse_rules_from_old_html
 from parser.parse_mod import extract_moderators
 from parser.parse_wiki import extract_rules_from_wiki
 from scraper.logger_setup import setup_logger
 
-logger = setup_logger("parser_logger", to_file=True, log_dir="app/parser/logger")
+logger = setup_logger("parser_logger", to_file=True, log_dir="parser/logger")
 
 
 def root_parser(doc):
@@ -39,14 +40,18 @@ def root_parser(doc):
         "moderators": re.compile(rf"https?://(www\.)?reddit\.com/r/{subreddit}/about/moderators/?$"),
         "wiki": re.compile(rf"https?://(www\.)?reddit\.com/r/{subreddit}/wiki/index/?$"),
         "homepage": re.compile(rf"https?://(www\.)?reddit\.com/r/{subreddit}/?$"),
+        "homepage_old": re.compile(rf"https?://(old\.)?reddit\.com/r/{subreddit}/?$"),
+        "moderators_old": re.compile(rf"https?://(old\.)?reddit\.com/r/{subreddit}/about/moderators/?$")
     }
 
-    if patterns["moderators"].match(url):
+    if patterns["moderators"].match(url) or patterns["moderators_old"].match(url):
         return extract_moderators(html_content)
     elif patterns["wiki"].match(url):
         return extract_rules_from_wiki(html_content)
     elif patterns["homepage"].match(url):
         return parse_rules_from_html(html_content)
+    elif patterns["homepage_old"].match(url):
+        return parse_rules_from_old_html(html_content)
     else:
         logger.warning("⚠️ URL non corrisponde a nessun pattern noto.")
         return None

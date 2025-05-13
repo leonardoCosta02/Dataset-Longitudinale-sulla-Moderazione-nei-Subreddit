@@ -1,7 +1,10 @@
 from scraper.logger_setup import setup_logger
 from bs4 import BeautifulSoup  # Importa BeautifulSoup per il parsing dei file HTML
 import re  # Importa il modulo delle espressioni regolari per pattern matching
-logger = setup_logger("parser_logger", to_file=True, log_dir="app/parser/logger")
+import joblib
+clf = joblib.load("parser/rule_classifier.joblib")
+vectorizer = joblib.load("parser/rule_vectorizer.joblib")
+logger = setup_logger("parser_logger", to_file=True, log_dir="parser/logger")
 # ----------- PARSER CASE 1 -----------
 # Estrae regole da una lista <ul> situata in una posizione precisa del DOM
 def parse_case_1(soup):
@@ -169,27 +172,39 @@ def parse_case_11(soup):
     """
     return [div.get_text(strip=True) for div in soup.find_all('div') if re.match(r"^\s*\d+[\.\)]\s+", div.get_text(strip=True))]
 
-# ----------- FUNZIONE PRINCIPALE -----------
+# ----------- FUNZIONE PRINCIPALE CON ML -----------
 def parse_rules_from_html(html_content):
-    """
-    Applica in sequenza i casi di parsing definiti sopra fino a trovare regole.
-    """
     soup = BeautifulSoup(html_content, 'html.parser')
     parsing_functions = [
         parse_case_1, parse_case_2, parse_case_3, parse_case_4,
         parse_case_5, parse_case_6, parse_case_7, parse_case_8, 
         parse_case_9, parse_case_10, parse_case_11
     ]
-    """Ciclo `for` che scorre tutte le funzioni nella lista, con:
-    - `i`: indice del caso (parte da 1).
-    - `func`: la funzione di parsing corrente (es. `parse_case_1`...)."""
     for i, func in enumerate(parsing_functions, start=1):
         rules = func(soup)
-        if rules:
-            
+        filtered_rules = []
+        rejected_rules = []
+
+        for r in rules:
+            if _is_likely_rule(r):
+                filtered_rules.append(r)
+            else:
+                rejected_rules.append(r)
+
+        if filtered_rules:
             logger.info(f"✅ Caso {i} selezionato:")
-            for j, rule in enumerate(rules, start=1):
+            for j, rule in enumerate(filtered_rules, start=1):
                 logger.info(f"Regola {j}: {rule}")
-            return rules
+            if rejected_rules:
+                logger.info("⚠️ Regole escluse dal classificatore ML:")
+                for r in rejected_rules:
+                    logger.info(f"❌ Scartata: {r}")
+            return filtered_rules
+
     logger.warning("❌ Nessuna regola trovata in nessun caso.")
     return []
+
+def _is_likely_rule(text):
+    vec = vectorizer.transform([text.strip()])
+    pred = clf.predict(vec)[0]
+    return pred == "rule"

@@ -1,8 +1,9 @@
 from pymongo import MongoClient
 from parser.root_parser import root_parser
 from scraper.logger_setup import setup_logger
+from db.database import wait_for_mongodb
 import os
-logger = setup_logger("parser_logger", to_file=True, log_dir="app/parser/logger")
+logger = setup_logger("parser_logger", to_file=True, log_dir="parser/logger")
 
 def save_to_mongo(doc_id, data, collection, key):
     collection.update_one(
@@ -13,9 +14,7 @@ def save_to_mongo(doc_id, data, collection, key):
 if __name__ == "__main__":
     try:
         mongo_uri = os.getenv("MONGO_URI", "mongodb://mongodb:27017/")#mongodb://mongodb: il secondo è il nome del servizio che ho creato 
-        client = MongoClient(mongo_uri)
-        client.admin.command("ping")
-        logger.info("✅ MongoDB è attivo e raggiungibile.")
+        client = wait_for_mongodb(mongo_uri)  # Usa la funzione per aspettare MongoDB
     except Exception as e:
         print("MongoDB non pronto...")
 
@@ -26,7 +25,8 @@ if __name__ == "__main__":
 
     subreddits = [
         "funny", "FIFA", "fantasyfootball", "hockey",
-        "darksouls3", "gaming","pokemon", "Overwatch"
+        "darksouls3", "gaming","pokemon", "Overwatch","AskReddit",
+        "guns","halo"
     ]
 
     for subreddit in subreddits:
@@ -36,6 +36,8 @@ if __name__ == "__main__":
             rf"https?://(www\.)?reddit\.com/r/{subreddit}/about/moderators/?$",
             rf"https?://(www\.)?reddit\.com/r/{subreddit}/wiki/index/?$",
             rf"https?://(www\.)?reddit\.com/r/{subreddit}/?$",
+            rf"https?://(old\.)?reddit\.com/r/{subreddit}/?$",
+            rf"https?://(old\.)?reddit\.com/r/{subreddit}/about/moderators/?$"
         ]
 
         query = {"$or": [{"subreddit": {"$regex": pattern}} for pattern in patterns]}
@@ -63,7 +65,7 @@ if __name__ == "__main__":
                         logger.info(f"✅ Regole (wiki) salvate per {doc['_id']}")
                 elif isinstance(result, list) and result and isinstance(result[0], str):
                     # È una lista di regole come stringhe (homepage)
-                    rules = [{'title': r, 'description': None} for r in result]
+                    rules = [{'title': r} for r in result]
                     save_to_mongo(doc['_id'], rules, collection_rules,"regole")
                     logger.info(f"✅ Regole (homepage) salvate per {doc['_id']}")
 

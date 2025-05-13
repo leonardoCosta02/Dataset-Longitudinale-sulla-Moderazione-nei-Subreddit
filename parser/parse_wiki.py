@@ -1,49 +1,88 @@
 from bs4 import BeautifulSoup
-import re
 from scraper.logger_setup import setup_logger
+import joblib
 
-logger = setup_logger("parser_logger", to_file=True, log_dir="app/parser/logger")
+# Carica il classificatore e il vettorizzatore
+clf = joblib.load("parser/rule_classifier.joblib")
+vectorizer = joblib.load("parser/rule_vectorizer.joblib")
+logger = setup_logger("parser_logger", to_file=True, log_dir="parser/logger")
 
 def extract_rules_from_wiki(html):
     soup = BeautifulSoup(html, "html.parser")
     rules = []
+    seen = set()
 
-    seen = set()  # Evita duplicati
+    def add_rule(title, desc):
+        rules.append((title.strip(), desc.strip()))
 
-    # Caso 1: Tabella dopo <h1> "Rules"
-    rules_header = soup.find("h1", string=re.compile(r"rules", re.I))
-    if rules_header:
-        table = rules_header.find_next("table")
-        if table:
-            for row in table.find_all("tr"):
-                cols = row.find_all("td")
-                if len(cols) == 2:
-                    title_raw = cols[0].get_text(strip=True)
-                    desc_raw = cols[1].get_text(" ", strip=True)
-                    rules.append((title_raw, desc_raw))
+    rules_found = False
 
-    # Caso 2: Lista <ul> o <ol> dentro <div class="md"> con <li>
-    for div in soup.find_all("div", class_="md"):
-        for li in div.find_all("li"):
-            texts = li.stripped_strings
-            text = " ".join(texts)
-            match = re.match(r"(\d+)\.\s+(.*)", text)
-            if match:
-                title = match.group(2)
-                desc = li.get_text(" ", strip=True).replace(match.group(0), "").strip()
-                rules.append((title, desc))
-            elif len(text) > 20:  # Evita rumore
-                rules.append((text, ""))
+    # 🔹 Cerca nel primo <div class="md">
+    md_div = soup.find("div", class_="md")
+    if md_div:
+        # 🔹 Caso 1: PRIMA tabella dopo header con "rule" dentro <div class="md">
+        header = md_div.find(["h1", "h2", "h3", "h4", "h5"], string=lambda s: s and "rule" in s.lower())
+        if header:
+            table = header.find_next("table")
+            if table and md_div in table.parents:
+                for row in table.find_all("tr"):
+                    cols = row.find_all("td")
+                    if len(cols) == 2:
+                        title = cols[0].get_text(strip=True)
+                        desc = cols[1].get_text(" ", strip=True)
+                        add_rule(title, desc)
+                if rules:
+                    rules_found = True
 
-    # Caso 3: Div layout strutturati (reddit redesign)
-    for rule_block in soup.select('div.qib3ca-1'):
-        title = rule_block.get_text(strip=True)
-        desc_div = rule_block.find_next_sibling("div")
-        desc = desc_div.get_text(" ", strip=True) if desc_div else ""
-        if title:
-            rules.append((title, desc))
+        # 🔹 Caso 2: PRIMA lista dopo header con "rule" dentro <div class="md">
+        if not rules_found and header:
+            lst = header.find_next(["ul", "ol"])
+            if lst and md_div in lst.parents:
+                for li in lst.find_all("li", recursive=False):
+                    strong = li.find("strong")
+                    if strong:
+                        title = strong.get_text(strip=True)
+                        desc = li.get_text(" ", strip=True).replace(title, "").strip()
+                        add_rule(title, desc)
+                        continue
 
-    # Pulizia e numerazione
+                    a_tag = li.find("a")
+                    if a_tag:
+                        title = a_tag.get_text(strip=True)
+                        desc = li.get_text(" ", strip=True).replace(title, "").strip()
+                        add_rule(title, desc)
+                        continue
+
+                    full = li.get_text(" ", strip=True)
+                    if len(full) > 10:
+                        add_rule(full, "")
+                if rules:
+                    rules_found = True
+
+ # 🔍 Classificazione ML delle regole
+    filtered_rules = []
+    rejected_rules = []
+
+    for t, d in rules:
+        if _is_likely_rule(t, d):
+            filtered_rules.append((t, d))
+        else:
+            rejected_rules.append((t, d))
+
+    if rejected_rules:
+        logger.info("⚠️ Regole escluse dal classificatore ML:")
+        for t, d in rejected_rules:
+            logger.info(f"❌ Scartata: {t} {d}")
+
+    return _finalize_rules(filtered_rules, seen)
+
+def _is_likely_rule(title, description):
+    text = f"{title} {description}".strip()
+    vec = vectorizer.transform([text])
+    pred = clf.predict(vec)[0]
+    return pred == "rule"
+
+def _finalize_rules(rules, seen):
     final_rules = []
     for i, (title, desc) in enumerate(rules, start=1):
         key = (title.strip().lower(), desc.strip().lower())
@@ -56,12 +95,11 @@ def extract_rules_from_wiki(html):
             "description": desc.strip()
         })
 
-    # Log finale
     if not final_rules:
         logger.warning("❌ Nessuna regola trovata.")
     else:
         for rule in final_rules:
-            logger.info(f"Regola {rule['number']}. {rule['title']}")
+            logger.info(f"✅ Regola {rule['number']}: {rule['title']}")
             logger.info(f"Descrizione: {rule['description']}")
             logger.info("---")
 

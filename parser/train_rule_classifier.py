@@ -24,9 +24,8 @@ vectorizer = TfidfVectorizer(ngram_range=(1, 2), max_features=2000)
 X_train_vec = vectorizer.fit_transform(X_train)  # Applica fit+transform al training set
 X_test_vec = vectorizer.transform(X_test)        # Solo transform al test set
 
-# 🔹 Addestra un classificatore di regressione logistica
-# - max_iter alto per evitare warning di convergenza
-clf = LogisticRegression(max_iter=1000)
+
+clf = LogisticRegression(max_iter=1000, class_weight="balanced")
 clf.fit(X_train_vec, y_train)
 
 # 🔹 Valuta il classificatore sul test set

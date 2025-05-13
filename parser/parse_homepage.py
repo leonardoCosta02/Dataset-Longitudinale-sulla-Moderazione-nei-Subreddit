@@ -12,7 +12,6 @@ def parse_case_1(soup):
     Estrae le regole da una lista <ul> all'interno del form.
     Ogni <li> contiene un <p> con il testo della regola.
     """
-    #select_one di BeautifulSoup serve per selezionare un solo elemento HTML (il primo che trova) che corrisponde a un selettore CSS.
     ul = soup.select_one('form > div > div > ul:nth-child(7)')  # Seleziona la settima lista <ul> nel form
     rules = []  # Lista delle regole estratte
     if ul:  # Se la lista è stata trovata
@@ -160,6 +159,7 @@ def parse_case_10(soup):
         ol = heading.find_next('ol')
         if ol:
             for li in ol.find_all('li'):
+                
                     text = li.get_text(strip=True)
                     if text:
                         rules.append(text)
@@ -204,7 +204,7 @@ def parse_rules_from_html(html_content):
     logger.warning("❌ Nessuna regola trovata in nessun caso.")
     return []
 
-def _is_likely_rule(text):
+def _is_likely_rule(text, threshold=0.40):
     vec = vectorizer.transform([text.strip()])
-    pred = clf.predict(vec)[0]
-    return pred == "rule"
+    prob = clf.predict_proba(vec)[0][1]
+    return prob >= threshold

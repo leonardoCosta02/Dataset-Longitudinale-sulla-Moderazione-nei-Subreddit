@@ -102,11 +102,11 @@ def parse_rules_from_old_html(html):
 
     return _finalize_rules(filtered_rules, seen)
 
-def _is_likely_rule(title, description):
+def _is_likely_rule(title, description, threshold=0.40):
     text = f"{title} {description}".strip()
     vec = vectorizer.transform([text])
-    pred = clf.predict(vec)[0]
-    return pred == "rule"
+    prob = clf.predict_proba(vec)[0][1]  # probabilità della classe "rule"
+    return prob >= threshold
 
 def _finalize_rules(rules, seen):
     final_rules = []

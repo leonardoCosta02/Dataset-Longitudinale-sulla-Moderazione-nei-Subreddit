@@ -76,7 +76,7 @@ def extract_rules_from_wiki(html):
 
     return _finalize_rules(filtered_rules, seen)
 
-def _is_likely_rule(title, description, threshold=0.40):
+def _is_likely_rule(title, description, threshold=0.80):
     text = f"{title} {description}".strip()
     vec = vectorizer.transform([text])
     prob = clf.predict_proba(vec)[0][1]  # probabilità della classe "rule"

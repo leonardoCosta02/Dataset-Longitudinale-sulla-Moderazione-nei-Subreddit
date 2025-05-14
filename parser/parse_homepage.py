@@ -204,7 +204,7 @@ def parse_rules_from_html(html_content):
     logger.warning("❌ Nessuna regola trovata in nessun caso.")
     return []
 
-def _is_likely_rule(text, threshold=0.40):
+def _is_likely_rule(text, threshold=0.80):
     vec = vectorizer.transform([text.strip()])
     prob = clf.predict_proba(vec)[0][1]
     return prob >= threshold

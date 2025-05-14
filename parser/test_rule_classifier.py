@@ -6,7 +6,7 @@ from sklearn.metrics import classification_report
 TSV_FILE = "app/parser/sample_rules_dataset.tsv"           # <== Cambia con il tuo percorso
 CLASSIFIER_FILE = "app/parser/rule_classifier.joblib"
 VECTORIZER_FILE = "app/parser/rule_vectorizer.joblib"
-THRESHOLD = 0.5                                  # <== Cambia la soglia qui
+THRESHOLD = 0.4                                  # <== Cambia la soglia qui
 OUTPUT_FILE = "app/parser/classified_rules_with_probs.tsv"
 
 # === CARICAMENTO ===

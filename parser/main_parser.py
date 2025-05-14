@@ -2,6 +2,8 @@ from pymongo import MongoClient
 from parser.root_parser import root_parser
 from scraper.logger_setup import setup_logger
 from db.database import wait_for_mongodb
+from parser.train_rule_classifier import start_class
+
 import os
 logger = setup_logger("parser_logger", to_file=True, log_dir="parser/logger")
 
@@ -28,7 +30,7 @@ if __name__ == "__main__":
         "darksouls3", "gaming","pokemon", "Overwatch","AskReddit",
         "guns","halo"
     ]
-
+    start_class()  
     for subreddit in subreddits:
         logger.info(f"🔍 Inizio parsing per subreddit: {subreddit}")
 

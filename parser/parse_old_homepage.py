@@ -2,8 +2,8 @@ from bs4 import BeautifulSoup
 from scraper.logger_setup import setup_logger
 import joblib
 
-clf = joblib.load("parser/rule_classifier.joblib")
-vectorizer = joblib.load("parser/rule_vectorizer.joblib")
+clf = joblib.load("parser/rule_classifier_xgb.joblib")
+vectorizer = joblib.load("parser/rule_vectorizer_xgb.joblib")
 logger = setup_logger("parser_logger", to_file=True, log_dir="parser/logger")
 
 def parse_rules_from_old_html(html):
@@ -102,10 +102,11 @@ def parse_rules_from_old_html(html):
 
     return _finalize_rules(filtered_rules, seen)
 
-def _is_likely_rule(title, description, threshold=0.80):
+def _is_likely_rule(title, description, threshold=0.562):
     text = f"{title} {description}".strip()
     vec = vectorizer.transform([text])
     prob = clf.predict_proba(vec)[0][1]  # probabilità della classe "rule"
+    logger.info(f"💡 Valutazione ML: '{text[:50]}...' → Probabilità: {prob:.3f}")
     return prob >= threshold
 
 def _finalize_rules(rules, seen):

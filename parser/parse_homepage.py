@@ -2,8 +2,8 @@ from scraper.logger_setup import setup_logger
 from bs4 import BeautifulSoup  # Importa BeautifulSoup per il parsing dei file HTML
 import re  # Importa il modulo delle espressioni regolari per pattern matching
 import joblib
-clf = joblib.load("parser/rule_classifier.joblib")
-vectorizer = joblib.load("parser/rule_vectorizer.joblib")
+clf = joblib.load("parser/rule_classifier_xgb.joblib")
+vectorizer = joblib.load("parser/rule_vectorizer_xgb.joblib")
 logger = setup_logger("parser_logger", to_file=True, log_dir="parser/logger")
 # ----------- PARSER CASE 1 -----------
 # Estrae regole da una lista <ul> situata in una posizione precisa del DOM
@@ -204,7 +204,8 @@ def parse_rules_from_html(html_content):
     logger.warning("❌ Nessuna regola trovata in nessun caso.")
     return []
 
-def _is_likely_rule(text, threshold=0.80):
+def _is_likely_rule(text, threshold=0.562):
     vec = vectorizer.transform([text.strip()])
     prob = clf.predict_proba(vec)[0][1]
+    logger.info(f"💡 Valutazione ML: '{text[:50]}...' → Probabilità: {prob:.3f}")
     return prob >= threshold

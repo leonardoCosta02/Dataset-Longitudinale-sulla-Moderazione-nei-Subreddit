@@ -12223,3 +12223,648 @@ Until shortages subside, photos depicting only ammunition will be removed.
 2025-05-14 19:01:47,265 - parser_logger - INFO - Moderatore trovato (MODERATOR-TABLE): -343-Guilty-Spark- - Karma: 11470, Permessi: -access,-chat_config,-chat_operator,-config,+flair,-mail,+posts,-wiki, Time: 9 months ago
 2025-05-14 19:01:47,267 - parser_logger - INFO - Moderatore trovato (MODERATOR-TABLE): RhysWX - Karma: 1293, Permessi: +all, Time: 2 months ago
 2025-05-14 19:01:47,274 - parser_logger - INFO - ✅ Moderatori salvati per https://web.archive.org/web/20201006020102/https://old.reddit.com/r/halo/about/moderators
+2025-05-14 19:04:38,849 - parser_logger - INFO - 
+📊 Report di classificazione:
+
+2025-05-14 19:04:38,886 - parser_logger - INFO -               precision    recall  f1-score   support
+
+           0       0.87      0.97      0.92        34
+           1       1.00      0.99      1.00       647
+
+    accuracy                           0.99       681
+   macro avg       0.93      0.98      0.96       681
+weighted avg       0.99      0.99      0.99       681
+
+2025-05-14 19:04:38,898 - parser_logger - INFO - 
+⚙️ Soglia ottimale consigliata: 0.350
+
+2025-05-14 19:04:39,281 - parser_logger - INFO - 
+✅ Modello XGBoost e vettorizzatore salvati.
+2025-05-14 19:04:39,284 - parser_logger - INFO - 🔍 Inizio parsing per subreddit: funny
+2025-05-14 19:04:39,466 - parser_logger - INFO - ✅ Trovati 88 documenti per funny
+2025-05-14 19:04:39,471 - parser_logger - INFO - Url estratto: http://www.reddit.com/r/funny/
+2025-05-14 19:04:39,494 - parser_logger - INFO - 📄 Inizio parsing file: /app/html_cache/fun/https___web.archive.org_web_20120102204718_http___www.reddit.com_r_funny_.html
+2025-05-14 19:04:39,657 - parser_logger - INFO - 💡 Valutazione ML: 'Politics - This includes OWS & SOPA posts....' → Probabilità: 0.350
+2025-05-14 19:04:39,662 - parser_logger - INFO - 💡 Valutazione ML: 'Rage comics - Go to/F7U12instead....' → Probabilità: 0.463
+2025-05-14 19:04:39,666 - parser_logger - INFO - 💡 Valutazione ML: 'Memes - Go to/AdviceAnimalsinstead....' → Probabilità: 0.463
+2025-05-14 19:04:39,679 - parser_logger - INFO - 💡 Valutazione ML: 'Pictures of just text - Make a self post instead....' → Probabilità: 0.312
+2025-05-14 19:04:39,718 - parser_logger - INFO - 💡 Valutazione ML: 'Should this type of comic be allowed in r/funny? C...' → Probabilità: 0.963
+2025-05-14 19:04:39,891 - parser_logger - INFO - 💡 Valutazione ML: 'And let your voice be heard here....' → Probabilità: 0.983
+2025-05-14 19:04:39,916 - parser_logger - INFO - ✅ Caso 3 selezionato:
+2025-05-14 19:04:39,919 - parser_logger - INFO - Regola 1: Should this type of comic be allowed in r/funny? Click here to see.
+2025-05-14 19:04:39,920 - parser_logger - INFO - Regola 2: And let your voice be heard here.
+2025-05-14 19:04:39,923 - parser_logger - INFO - ✅ Regole (homepage) salvate per https://web.archive.org/web/20120102204718/http://www.reddit.com/r/funny/
+2025-05-14 19:04:39,928 - parser_logger - INFO - Url estratto: http://www.reddit.com/r/funny/
+2025-05-14 19:04:39,937 - parser_logger - INFO - 📄 Inizio parsing file: /app/html_cache/fun/https___web.archive.org_web_20120704223800_http___www.reddit.com_r_funny_.html
+2025-05-14 19:04:40,231 - parser_logger - INFO - 💡 Valutazione ML: 'Screenshots of comment threads. Post a link with c...' → Probabilità: 0.745
+2025-05-14 19:04:40,238 - parser_logger - INFO - 💡 Valutazione ML: 'Posts for the specific point of it being your redd...' → Probabilità: 0.999
+2025-05-14 19:04:40,241 - parser_logger - INFO - 💡 Valutazione ML: 'Politics - This includes the 2012 Presidential can...' → Probabilità: 0.945
+2025-05-14 19:04:40,258 - parser_logger - INFO - 💡 Valutazione ML: 'Rage comics - Go to/fffffffuuuuuuuuuuuuinstead....' → Probabilità: 0.463
+2025-05-14 19:04:40,275 - parser_logger - INFO - 💡 Valutazione ML: 'Memes - Go to/r/AdviceAnimalsinstead....' → Probabilità: 0.463
+2025-05-14 19:04:40,296 - parser_logger - INFO - 💡 Valutazione ML: 'Demotivational posters - Go to/r/Demotivationalins...' → Probabilità: 0.503
+2025-05-14 19:04:40,305 - parser_logger - INFO - 💡 Valutazione ML: 'Pictures of just text - Make a self post instead....' → Probabilità: 0.312
+2025-05-14 19:04:40,322 - parser_logger - INFO - 💡 Valutazione ML: 'DAE posts - Go to/r/doesanybodyelse...' → Probabilità: 0.706
+2025-05-14 19:04:40,343 - parser_logger - INFO - 💡 Valutazione ML: 'No eCards - thepoll resultwas 55.02% in favor of r...' → Probabilità: 1.000
+2025-05-14 19:04:40,363 - parser_logger - INFO - ✅ Caso 1 selezionato:
+2025-05-14 19:04:40,371 - parser_logger - INFO - Regola 1: Screenshots of comment threads. Post a link with context to/r/bestofinstead.
+2025-05-14 19:04:40,373 - parser_logger - INFO - Regola 2: Posts for the specific point of it being your reddit birthday.
+2025-05-14 19:04:40,374 - parser_logger - INFO - Regola 3: Politics - This includes the 2012 Presidential candidates or bills in congress.
+2025-05-14 19:04:40,376 - parser_logger - INFO - Regola 4: DAE posts - Go to/r/doesanybodyelse
+2025-05-14 19:04:40,378 - parser_logger - INFO - Regola 5: No eCards - thepoll resultwas 55.02% in favor of removal. Please submit eCards to/r/ecards
+2025-05-14 19:04:40,379 - parser_logger - INFO - ⚠️ Regole escluse dal classificatore ML:
+2025-05-14 19:04:40,380 - parser_logger - INFO - ❌ Scartata: Rage comics - Go to/fffffffuuuuuuuuuuuuinstead.
+2025-05-14 19:04:40,389 - parser_logger - INFO - ❌ Scartata: Memes - Go to/r/AdviceAnimalsinstead.
+2025-05-14 19:04:40,390 - parser_logger - INFO - ❌ Scartata: Demotivational posters - Go to/r/Demotivationalinstead.
+2025-05-14 19:04:40,391 - parser_logger - INFO - ❌ Scartata: Pictures of just text - Make a self post instead.
+2025-05-14 19:04:40,394 - parser_logger - INFO - ✅ Regole (homepage) salvate per https://web.archive.org/web/20120704223800/http://www.reddit.com/r/funny/
+2025-05-14 19:04:40,395 - parser_logger - INFO - Url estratto: http://www.reddit.com/r/funny/
+2025-05-14 19:04:40,409 - parser_logger - INFO - 📄 Inizio parsing file: /app/html_cache/fun/https___web.archive.org_web_20130101144502_http___www.reddit.com_r_funny_.html
+2025-05-14 19:04:40,736 - parser_logger - INFO - 💡 Valutazione ML: 'posts with their sole purpose being to communicate...' → Probabilità: 0.994
+2025-05-14 19:04:40,765 - parser_logger - INFO - 💡 Valutazione ML: 'Screenshots of reddit comment threads. Post a link...' → Probabilità: 0.985
+2025-05-14 19:04:40,780 - parser_logger - INFO - 💡 Valutazione ML: 'Posts for the specific point of it being your redd...' → Probabilità: 0.999
+2025-05-14 19:04:40,807 - parser_logger - INFO - 💡 Valutazione ML: 'Politics - This includes the 2012 Presidential can...' → Probabilità: 0.945
+2025-05-14 19:04:40,811 - parser_logger - INFO - 💡 Valutazione ML: 'Rage comics - Go to/r/fffffffuuuuuuuuuuuuinstead....' → Probabilità: 0.463
+2025-05-14 19:04:40,825 - parser_logger - INFO - 💡 Valutazione ML: 'Memes - Go to/r/AdviceAnimalsor/r/Memesinstead....' → Probabilità: 0.463
+2025-05-14 19:04:40,847 - parser_logger - INFO - 💡 Valutazione ML: 'Demotivational posters - Go to/r/Demotivationalins...' → Probabilità: 0.503
+2025-05-14 19:04:40,861 - parser_logger - INFO - 💡 Valutazione ML: 'Pictures of just text - Make a self post instead....' → Probabilità: 0.312
+2025-05-14 19:04:40,876 - parser_logger - INFO - 💡 Valutazione ML: 'DAE posts - Go to/r/doesanybodyelse...' → Probabilità: 0.706
+2025-05-14 19:04:40,892 - parser_logger - INFO - 💡 Valutazione ML: 'eCards - thepoll resultwas 55.02% in favor of remo...' → Probabilità: 1.000
+2025-05-14 19:04:40,904 - parser_logger - INFO - 💡 Valutazione ML: 'URL shorteners - No link shorteners (or HugeURL) i...' → Probabilità: 1.000
+2025-05-14 19:04:40,948 - parser_logger - INFO - 💡 Valutazione ML: 'No gore or porn (including sexually graphic images...' → Probabilità: 0.986
+2025-05-14 19:04:40,962 - parser_logger - INFO - 💡 Valutazione ML: 'Please DO NOT postpersonal information. This inclu...' → Probabilità: 1.000
+2025-05-14 19:04:40,989 - parser_logger - INFO - ✅ Caso 1 selezionato:
+2025-05-14 19:04:40,991 - parser_logger - INFO - Regola 1: posts with their sole purpose being to communicate with another redditor.Click for an Example.. This includes asking for upvotes.
+2025-05-14 19:04:40,997 - parser_logger - INFO - Regola 2: Screenshots of reddit comment threads. Post a link with context to/r/bestofor/r/defaultgemsif from a default subreddit instead.
+2025-05-14 19:04:41,014 - parser_logger - INFO - Regola 3: Posts for the specific point of it being your reddit birthday.
+2025-05-14 19:04:41,015 - parser_logger - INFO - Regola 4: Politics - This includes the 2012 Presidential candidates or bills in congress. Try/r/politicalhumorinstead.
+2025-05-14 19:04:41,021 - parser_logger - INFO - Regola 5: DAE posts - Go to/r/doesanybodyelse
+2025-05-14 19:04:41,022 - parser_logger - INFO - Regola 6: eCards - thepoll resultwas 55.02% in favor of removal. Please submit eCards to/r/ecards
+2025-05-14 19:04:41,023 - parser_logger - INFO - Regola 7: URL shorteners - No link shorteners (or HugeURL) in either post links or comments. They will be deleted regardless of intent.
+2025-05-14 19:04:41,024 - parser_logger - INFO - Regola 8: No gore or porn (including sexually graphic images). Other NSFW content must be tagged as such
+2025-05-14 19:04:41,025 - parser_logger - INFO - Regola 9: Please DO NOT postpersonal information. This includes anything hosted on Facebook's servers, as they can be traced to the original account holder.
+2025-05-14 19:04:41,027 - parser_logger - INFO - ⚠️ Regole escluse dal classificatore ML:
+2025-05-14 19:04:41,030 - parser_logger - INFO - ❌ Scartata: Rage comics - Go to/r/fffffffuuuuuuuuuuuuinstead.
+2025-05-14 19:04:41,031 - parser_logger - INFO - ❌ Scartata: Memes - Go to/r/AdviceAnimalsor/r/Memesinstead.
+2025-05-14 19:04:41,037 - parser_logger - INFO - ❌ Scartata: Demotivational posters - Go to/r/Demotivationalinstead.
+2025-05-14 19:04:41,039 - parser_logger - INFO - ❌ Scartata: Pictures of just text - Make a self post instead.
+2025-05-14 19:04:41,042 - parser_logger - INFO - ✅ Regole (homepage) salvate per https://web.archive.org/web/20130101144502/http://www.reddit.com/r/funny/
+2025-05-14 19:04:41,043 - parser_logger - INFO - Url estratto: http://www.reddit.com/r/funny/
+2025-05-14 19:04:41,059 - parser_logger - INFO - 📄 Inizio parsing file: /app/html_cache/fun/https___web.archive.org_web_20130701125516_http___www.reddit.com_r_funny_.html
+2025-05-14 19:04:41,437 - parser_logger - INFO - 💡 Valutazione ML: '1. No reactiongifs or HIFW posts - How I Feel When...' → Probabilità: 0.995
+2025-05-14 19:04:41,445 - parser_logger - INFO - 💡 Valutazione ML: '2. No posts with their sole purpose being to commu...' → Probabilità: 1.000
+2025-05-14 19:04:41,460 - parser_logger - INFO - 💡 Valutazione ML: '3. No Screenshots of reddit comment threads. - Pos...' → Probabilità: 0.999
+2025-05-14 19:04:41,475 - parser_logger - INFO - 💡 Valutazione ML: '4. No Posts for the specific point of it being you...' → Probabilità: 1.000
+2025-05-14 19:04:41,478 - parser_logger - INFO - 💡 Valutazione ML: '5. No Politics - Anything involving politics or a ...' → Probabilità: 0.853
+2025-05-14 19:04:41,492 - parser_logger - INFO - 💡 Valutazione ML: '6. No Rage comics - Go to/r/fffffffuuuuuuuuuuuuins...' → Probabilità: 0.964
+2025-05-14 19:04:41,514 - parser_logger - INFO - 💡 Valutazione ML: '7. No Memes - Go to/r/AdviceAnimalsor/r/Memesinste...' → Probabilità: 0.958
+2025-05-14 19:04:41,524 - parser_logger - INFO - 💡 Valutazione ML: '8. No Demotivational posters - Go to/r/Demotivatio...' → Probabilità: 0.964
+2025-05-14 19:04:41,532 - parser_logger - INFO - 💡 Valutazione ML: '9. No Pictures of just text - Make a self post ins...' → Probabilità: 0.995
+2025-05-14 19:04:41,545 - parser_logger - INFO - 💡 Valutazione ML: '10. No DAE posts - Go to/r/doesanybodyelse...' → Probabilità: 0.987
+2025-05-14 19:04:41,567 - parser_logger - INFO - 💡 Valutazione ML: '11. No eCards - Please submit eCards to/r/ecards...' → Probabilità: 0.998
+2025-05-14 19:04:41,583 - parser_logger - INFO - 💡 Valutazione ML: '12. No Links to tumblr - Direct links to images ho...' → Probabilità: 0.983
+2025-05-14 19:04:41,593 - parser_logger - INFO - 💡 Valutazione ML: '13. No URL shorteners - No link shorteners (or Hug...' → Probabilità: 1.000
+2025-05-14 19:04:41,607 - parser_logger - INFO - 💡 Valutazione ML: '14. No gore or porn (including sexually graphic im...' → Probabilità: 0.986
+2025-05-14 19:04:41,613 - parser_logger - INFO - 💡 Valutazione ML: '15. No personal information. - This includes anyth...' → Probabilità: 0.999
+2025-05-14 19:04:41,629 - parser_logger - INFO - 💡 Valutazione ML: '16. Do not rehost webcomics - Rehosted webcomics w...' → Probabilità: 1.000
+2025-05-14 19:04:41,644 - parser_logger - INFO - 💡 Valutazione ML: '17. No screenshots of social media websites - This...' → Probabilità: 1.000
+2025-05-14 19:04:41,645 - parser_logger - INFO - ✅ Caso 6 selezionato:
+2025-05-14 19:04:41,647 - parser_logger - INFO - Regola 1: 1. No reactiongifs or HIFW posts - How I Feel When posts belong in/r/HIFW. Reaction gifs belong in/r/reactiongifs.
+2025-05-14 19:04:41,656 - parser_logger - INFO - Regola 2: 2. No posts with their sole purpose being to communicate with another redditor. - Click for an Example.. This includes asking for upvotes.
+2025-05-14 19:04:41,658 - parser_logger - INFO - Regola 3: 3. No Screenshots of reddit comment threads. - Post a link with context to/r/bestofor/r/defaultgemsif from a default subreddit instead.
+2025-05-14 19:04:41,659 - parser_logger - INFO - Regola 4: 4. No Posts for the specific point of it being your reddit birthday. - Cake day posts are not allowed.
+2025-05-14 19:04:41,660 - parser_logger - INFO - Regola 5: 5. No Politics - Anything involving politics or a political figure. Try/r/politicalhumorinstead.
+2025-05-14 19:04:41,666 - parser_logger - INFO - Regola 6: 6. No Rage comics - Go to/r/fffffffuuuuuuuuuuuuinstead.
+2025-05-14 19:04:41,674 - parser_logger - INFO - Regola 7: 7. No Memes - Go to/r/AdviceAnimalsor/r/Memesinstead.
+2025-05-14 19:04:41,676 - parser_logger - INFO - Regola 8: 8. No Demotivational posters - Go to/r/Demotivationalinstead.
+2025-05-14 19:04:41,677 - parser_logger - INFO - Regola 9: 9. No Pictures of just text - Make a self post instead.Example
+2025-05-14 19:04:41,678 - parser_logger - INFO - Regola 10: 10. No DAE posts - Go to/r/doesanybodyelse
+2025-05-14 19:04:41,679 - parser_logger - INFO - Regola 11: 11. No eCards - Please submit eCards to/r/ecards
+2025-05-14 19:04:41,680 - parser_logger - INFO - Regola 12: 12. No Links to tumblr - Direct links to images hosted on tumblr (ex. 24.media.tumblr.com/img.jpg) are allowed.
+2025-05-14 19:04:41,692 - parser_logger - INFO - Regola 13: 13. No URL shorteners - No link shorteners (or HugeURL) in either post links or comments. They will be deleted regardless of intent.
+2025-05-14 19:04:41,709 - parser_logger - INFO - Regola 14: 14. No gore or porn (including sexually graphic images). - Other NSFW content must be tagged as such
+2025-05-14 19:04:41,712 - parser_logger - INFO - Regola 15: 15. No personal information. - This includes anything hosted on Facebook's servers, as they can be traced to the original account holder.
+2025-05-14 19:04:41,742 - parser_logger - INFO - Regola 16: 16. Do not rehost webcomics - Rehosted webcomics will be removed. Please submit a link to the original comic's site and preferably an imgur link in the comments. Do not post a link to the comic image, it must be linked to the page of the comic.(*)(*)
+2025-05-14 19:04:41,743 - parser_logger - INFO - Regola 17: 17. No screenshots of social media websites - This includes screenshots of facebook, youtube comments, twitter, tumblr, reddit, and yahoo answers. Also not allowed are screenshots of 4chan, cleverbot, omegle, and text messages. Please read theannouncement.Want to see/r/funnywith these posts?Click here!
+2025-05-14 19:04:41,746 - parser_logger - INFO - ✅ Regole (homepage) salvate per https://web.archive.org/web/20130701125516/http://www.reddit.com/r/funny/
+2025-05-14 19:04:41,747 - parser_logger - INFO - Url estratto: http://www.reddit.com/r/funny
+2025-05-14 19:04:41,762 - parser_logger - INFO - 📄 Inizio parsing file: /app/html_cache/fun/https___web.archive.org_web_20140101103220_http___www.reddit.com_r_funny.html
+2025-05-14 19:04:42,053 - parser_logger - INFO - 💡 Valutazione ML: '1. No reactiongifs or HIFW posts - How I Feel When...' → Probabilità: 0.995
+2025-05-14 19:04:42,056 - parser_logger - INFO - 💡 Valutazione ML: '2. No posts with their sole purpose being to commu...' → Probabilità: 1.000
+2025-05-14 19:04:42,061 - parser_logger - INFO - 💡 Valutazione ML: '3. No Posts for the specific point of it being you...' → Probabilità: 1.000
+2025-05-14 19:04:42,073 - parser_logger - INFO - 💡 Valutazione ML: '4. Posts which result in harassment of any individ...' → Probabilità: 1.000
+2025-05-14 19:04:42,080 - parser_logger - INFO - 💡 Valutazione ML: '5. No Politics - Anything involving politics or a ...' → Probabilità: 0.853
+2025-05-14 19:04:42,093 - parser_logger - INFO - 💡 Valutazione ML: '6. No Pictures of just text - Make a self post ins...' → Probabilità: 0.995
+2025-05-14 19:04:42,107 - parser_logger - INFO - 💡 Valutazione ML: '7. No DAE posts - Go to/r/doesanybodyelse...' → Probabilità: 0.987
+2025-05-14 19:04:42,127 - parser_logger - INFO - 💡 Valutazione ML: '8. No Links to tumblr - Direct links to images hos...' → Probabilità: 0.983
+2025-05-14 19:04:42,131 - parser_logger - INFO - 💡 Valutazione ML: '9. No URL shorteners - No link shorteners (or Huge...' → Probabilità: 1.000
+2025-05-14 19:04:42,146 - parser_logger - INFO - 💡 Valutazione ML: '10. No gore or porn (including sexually graphic im...' → Probabilità: 0.986
+2025-05-14 19:04:42,149 - parser_logger - INFO - 💡 Valutazione ML: '11. No personal information. - This includes anyth...' → Probabilità: 0.999
+2025-05-14 19:04:42,167 - parser_logger - INFO - 💡 Valutazione ML: '12.  No memes, rage comics, demotivationals, eCard...' → Probabilità: 1.000
+2025-05-14 19:04:42,179 - parser_logger - INFO - 💡 Valutazione ML: '13. Do not rehost webcomics - Rehosted webcomics w...' → Probabilità: 1.000
+2025-05-14 19:04:42,182 - parser_logger - INFO - 💡 Valutazione ML: '14. No SMS or Social Media Content (including Redd...' → Probabilità: 1.000
+2025-05-14 19:04:42,194 - parser_logger - INFO - ✅ Caso 6 selezionato:
+2025-05-14 19:04:42,195 - parser_logger - INFO - Regola 1: 1. No reactiongifs or HIFW posts - How I Feel When posts belong in/r/HIFW. Reaction gifs belong in/r/reactiongifs.
+2025-05-14 19:04:42,195 - parser_logger - INFO - Regola 2: 2. No posts with their sole purpose being to communicate with another redditor. - Click for an Example.. This includes asking for upvotes.
+2025-05-14 19:04:42,197 - parser_logger - INFO - Regola 3: 3. No Posts for the specific point of it being your reddit birthday. - Cake day posts are not allowed.
+2025-05-14 19:04:42,206 - parser_logger - INFO - Regola 4: 4. Posts which result in harassment of any individual, subreddit, or other entity may be removed at the moderators' discretion. - Posts with titles such as "I got banned from /r/___" or "This got removed from /r/___" are not allowed.
+2025-05-14 19:04:42,208 - parser_logger - INFO - Regola 5: 5. No Politics - Anything involving politics or a political figure. Try/r/politicalhumorinstead.
+2025-05-14 19:04:42,211 - parser_logger - INFO - Regola 6: 6. No Pictures of just text - Make a self post instead.Example
+2025-05-14 19:04:42,212 - parser_logger - INFO - Regola 7: 7. No DAE posts - Go to/r/doesanybodyelse
+2025-05-14 19:04:42,221 - parser_logger - INFO - Regola 8: 8. No Links to tumblr - Direct links to images hosted on tumblr (ex. 24.media.tumblr.com/img.jpg) are allowed.
+2025-05-14 19:04:42,222 - parser_logger - INFO - Regola 9: 9. No URL shorteners - No link shorteners (or HugeURL) in either post links or comments. They will be deleted regardless of intent.
+2025-05-14 19:04:42,224 - parser_logger - INFO - Regola 10: 10. No gore or porn (including sexually graphic images). - Other NSFW content must be tagged as such
+2025-05-14 19:04:42,225 - parser_logger - INFO - Regola 11: 11. No personal information. - This includes anything hosted on Facebook's servers, as they can be traced to the original account holder.
+2025-05-14 19:04:42,227 - parser_logger - INFO - Regola 12: 12.  No memes, rage comics, demotivationals, eCards, or standupshots - Memes belong in/r/adviceanimals, rage comics go to/r/fffffffuuuuuuuuuuuu, demotivationals go to/r/Demotivational, submit eCards to/r/ecards, and standupshots go to/r/standupshots.Image Macros that aren't memes are allowed
+2025-05-14 19:04:42,228 - parser_logger - INFO - Regola 13: 13. Do not rehost webcomics - Rehosted webcomics will be removed. Please submit a link to the original comic's site and preferably an imgur link in the comments. Do not post a link to the comic image, it must be linked to the page of the comic.(*)(*)
+2025-05-14 19:04:42,230 - parser_logger - INFO - Regola 14: 14. No SMS or Social Media Content (including Reddit) - This includes direct linking to reddit threads, reddit comments, other subreddits, facebook profiles, twitter profiles, tweets, embedded tweets, and screenshots of the above, including text messages, omegle, snapchat, and others. This also includes any other sites that may be considered social network sites. Please read theannouncement.
+2025-05-14 19:04:42,241 - parser_logger - INFO - ✅ Regole (homepage) salvate per https://web.archive.org/web/20140101103220/http://www.reddit.com/r/funny
+2025-05-14 19:04:42,243 - parser_logger - INFO - Url estratto: http://www.reddit.com/r/funny/
+2025-05-14 19:04:42,256 - parser_logger - INFO - 📄 Inizio parsing file: /app/html_cache/fun/https___web.archive.org_web_20140706084758_http___www.reddit.com_r_funny_.html
+2025-05-14 19:04:42,633 - parser_logger - INFO - 💡 Valutazione ML: '1. No reactiongifs or HIFW posts - How I Feel When...' → Probabilità: 0.995
+2025-05-14 19:04:42,646 - parser_logger - INFO - 💡 Valutazione ML: '2. No posts with their sole purpose being to commu...' → Probabilità: 1.000
+2025-05-14 19:04:42,661 - parser_logger - INFO - 💡 Valutazione ML: '3. No Posts for the specific point of it being you...' → Probabilità: 1.000
+2025-05-14 19:04:42,679 - parser_logger - INFO - 💡 Valutazione ML: '4. Posts which result in harassment of any individ...' → Probabilità: 1.000
+2025-05-14 19:04:42,692 - parser_logger - INFO - 💡 Valutazione ML: '5. No Politics - Anything involving politics or a ...' → Probabilità: 0.853
+2025-05-14 19:04:42,743 - parser_logger - INFO - 💡 Valutazione ML: '6. No Pictures of just text - Make a self post ins...' → Probabilità: 0.995
+2025-05-14 19:04:42,794 - parser_logger - INFO - 💡 Valutazione ML: '7. No DAE posts - Go to/r/doesanybodyelse...' → Probabilità: 0.987
+2025-05-14 19:04:42,872 - parser_logger - INFO - 💡 Valutazione ML: '8. No Links to tumblr - Direct links to images hos...' → Probabilità: 0.983
+2025-05-14 19:04:42,881 - parser_logger - INFO - 💡 Valutazione ML: '9. No URL shorteners - No link shorteners (or Huge...' → Probabilità: 1.000
+2025-05-14 19:04:42,897 - parser_logger - INFO - 💡 Valutazione ML: '10. No gore or porn (including sexually graphic im...' → Probabilità: 0.986
+2025-05-14 19:04:42,937 - parser_logger - INFO - 💡 Valutazione ML: '11. No personal information. - This includes anyth...' → Probabilità: 0.999
+2025-05-14 19:04:42,979 - parser_logger - INFO - 💡 Valutazione ML: '12.  No memes, rage comics, demotivationals, eCard...' → Probabilità: 1.000
+2025-05-14 19:04:43,182 - parser_logger - INFO - 💡 Valutazione ML: '13. Do not rehost webcomics - Rehosted andhotlinke...' → Probabilità: 1.000
+2025-05-14 19:04:43,190 - parser_logger - INFO - 💡 Valutazione ML: '14. No SMS or Social Media Content (including Redd...' → Probabilità: 1.000
+2025-05-14 19:04:43,213 - parser_logger - INFO - ✅ Caso 6 selezionato:
+2025-05-14 19:04:43,220 - parser_logger - INFO - Regola 1: 1. No reactiongifs or HIFW posts - How I Feel When posts belong in/r/HIFW. Reaction gifs belong in/r/reactiongifs.
+2025-05-14 19:04:43,222 - parser_logger - INFO - Regola 2: 2. No posts with their sole purpose being to communicate with another redditor. - Click for an Example. This includes asking for upvotes.
+2025-05-14 19:04:43,226 - parser_logger - INFO - Regola 3: 3. No Posts for the specific point of it being your reddit birthday. - Cake day posts are not allowed.
+2025-05-14 19:04:43,228 - parser_logger - INFO - Regola 4: 4. Posts which result in harassment of any individual, subreddit, or other entity may be removed at the moderators' discretion. - Posts with titles such as "I got banned from /r/___" or "This got removed from /r/___" are not allowed.
+2025-05-14 19:04:43,239 - parser_logger - INFO - Regola 5: 5. No Politics - Anything involving politics or a political figure. Try/r/politicalhumorinstead.
+2025-05-14 19:04:43,245 - parser_logger - INFO - Regola 6: 6. No Pictures of just text - Make a self post instead.Example
+2025-05-14 19:04:43,263 - parser_logger - INFO - Regola 7: 7. No DAE posts - Go to/r/doesanybodyelse
+2025-05-14 19:04:43,277 - parser_logger - INFO - Regola 8: 8. No Links to tumblr - Direct links to images hosted on tumblr (ex. 24.media.tumblr.com/img.jpg) are allowed.
+2025-05-14 19:04:43,279 - parser_logger - INFO - Regola 9: 9. No URL shorteners - No link shorteners (or HugeURL) in either post links or comments. They will be deleted regardless of intent.
+2025-05-14 19:04:43,313 - parser_logger - INFO - Regola 10: 10. No gore or porn (including sexually graphic images). - Other NSFW content must be tagged as such
+2025-05-14 19:04:43,321 - parser_logger - INFO - Regola 11: 11. No personal information. - This includes anything hosted on Facebook's servers, as they can be traced to the original account holder.
+2025-05-14 19:04:43,326 - parser_logger - INFO - Regola 12: 12.  No memes, rage comics, demotivationals, eCards, or standupshots - Memes belong in/r/adviceanimals, rage comics go to/r/fffffffuuuuuuuuuuuu, demotivationals go to/r/Demotivational, submit eCards to/r/ecards, and standupshots go to/r/standupshotsImage Macros that aren't memes are allowed
+2025-05-14 19:04:43,329 - parser_logger - INFO - Regola 13: 13. Do not rehost webcomics - Rehosted andhotlinkedwebcomics will be removed, unless you are the creator. Please submit a link to the original comic's site, and possibly a mirror in the comments. Tumblr-exclusive comics are the exception, and may be rehosted, however if the artist's name or watermark are removed, the post will be removed.(*)(*)
+2025-05-14 19:04:43,347 - parser_logger - INFO - Regola 14: 14. No SMS or Social Media Content (including Reddit) - This includes direct linking to reddit threads, reddit comments, other subreddits, facebook profiles, twitter profiles, tweets, embedded tweets, and screenshots of the above, including text messages, omegle, snapchat, and others. This also includes any other sites that may be considered social network sites. Please read theannouncement.
+2025-05-14 19:04:43,359 - parser_logger - INFO - ✅ Regole (homepage) salvate per https://web.archive.org/web/20140706084758/http://www.reddit.com/r/funny/
+2025-05-14 19:04:43,360 - parser_logger - INFO - Url estratto: http://www.reddit.com/r/funny
+2025-05-14 19:04:43,376 - parser_logger - INFO - 📄 Inizio parsing file: /app/html_cache/fun/https___web.archive.org_web_20150102200258_http___www.reddit.com_r_funny.html
+2025-05-14 19:04:43,711 - parser_logger - INFO - 💡 Valutazione ML: '0. No posts that make no attempt at humor - We won...' → Probabilità: 0.996
+2025-05-14 19:04:43,729 - parser_logger - INFO - 💡 Valutazione ML: '1. No reaction or HIFW posts - How I Feel When pos...' → Probabilità: 0.995
+2025-05-14 19:04:43,733 - parser_logger - INFO - 💡 Valutazione ML: '2. No posts with their sole purpose being to commu...' → Probabilità: 1.000
+2025-05-14 19:04:43,750 - parser_logger - INFO - 💡 Valutazione ML: '3. No Posts for the specific point of it being you...' → Probabilità: 1.000
+2025-05-14 19:04:43,768 - parser_logger - INFO - 💡 Valutazione ML: '4. Posts which result in harassment of any individ...' → Probabilità: 1.000
+2025-05-14 19:04:43,778 - parser_logger - INFO - 💡 Valutazione ML: '5. No Politics - Anything involving politics or a ...' → Probabilità: 0.853
+2025-05-14 19:04:43,782 - parser_logger - INFO - 💡 Valutazione ML: '6. No Pictures of just text - This includes pictur...' → Probabilità: 0.887
+2025-05-14 19:04:43,795 - parser_logger - INFO - 💡 Valutazione ML: '7. No DAE posts - Go to/r/doesanybodyelse...' → Probabilità: 0.987
+2025-05-14 19:04:43,799 - parser_logger - INFO - 💡 Valutazione ML: '8. No Links to tumblr sites/pages. - Direct links ...' → Probabilità: 0.983
+2025-05-14 19:04:43,815 - parser_logger - INFO - 💡 Valutazione ML: '9. No URL shorteners - No link shorteners (or Huge...' → Probabilità: 1.000
+2025-05-14 19:04:43,830 - parser_logger - INFO - 💡 Valutazione ML: '10. No gore or porn (including sexually graphic im...' → Probabilità: 0.986
+2025-05-14 19:04:43,847 - parser_logger - INFO - 💡 Valutazione ML: '11. No personal information. - This includes anyth...' → Probabilità: 0.999
+2025-05-14 19:04:43,850 - parser_logger - INFO - 💡 Valutazione ML: '12.  No memes, rage comics, demotivationals, eCard...' → Probabilità: 1.000
+2025-05-14 19:04:43,867 - parser_logger - INFO - 💡 Valutazione ML: '13. Do not rehost or hotlink webcomics. - Rehosted...' → Probabilità: 1.000
+2025-05-14 19:04:43,881 - parser_logger - INFO - 💡 Valutazione ML: '14. No SMS or Social Media Content (including Redd...' → Probabilità: 1.000
+2025-05-14 19:04:43,893 - parser_logger - INFO - ✅ Caso 6 selezionato:
+2025-05-14 19:04:43,895 - parser_logger - INFO - Regola 1: 0. No posts that make no attempt at humor - We won't remove posts where the humor is crappy or unfunny (that's a subjective judgement), but every post must make at least some attempt at humor. Read morehere.
+2025-05-14 19:04:43,897 - parser_logger - INFO - Regola 2: 1. No reaction or HIFW posts - How I Feel When posts belong in/r/HIFW. Reaction gifs belong in/r/reactiongifs.
+2025-05-14 19:04:43,898 - parser_logger - INFO - Regola 3: 2. No posts with their sole purpose being to communicate with another redditor. - Click for an Example. This includes asking for upvotes.
+2025-05-14 19:04:43,907 - parser_logger - INFO - Regola 4: 3. No Posts for the specific point of it being your reddit birthday. - Cake day posts are not allowed.
+2025-05-14 19:04:43,909 - parser_logger - INFO - Regola 5: 4. Posts which result in harassment of any individual, subreddit, or other entity may be removed at the moderators' discretion. - Posts with titles such as "I got banned from /r/___" or "This got removed from /r/___" are not allowed.
+2025-05-14 19:04:43,910 - parser_logger - INFO - Regola 6: 5. No Politics - Anything involving politics or a political figure. Try/r/politicalhumorinstead.
+2025-05-14 19:04:43,910 - parser_logger - INFO - Regola 7: 6. No Pictures of just text - This includes pictures of text with irrelevant images that don't add context. Make a self post instead.Example
+2025-05-14 19:04:43,912 - parser_logger - INFO - Regola 8: 7. No DAE posts - Go to/r/doesanybodyelse
+2025-05-14 19:04:43,913 - parser_logger - INFO - Regola 9: 8. No Links to tumblr sites/pages. - Direct links to images hosted on tumblr (ex. 24.media.tumblr.com/img.jpg) are allowed.
+2025-05-14 19:04:43,914 - parser_logger - INFO - Regola 10: 9. No URL shorteners - No link shorteners (or HugeURL) in either post links or comments. They will be deleted regardless of intent.
+2025-05-14 19:04:43,932 - parser_logger - INFO - Regola 11: 10. No gore or porn (including sexually graphic images). - Other NSFW content must be tagged as such
+2025-05-14 19:04:43,979 - parser_logger - INFO - Regola 12: 11. No personal information. - This includes anything hosted on Facebook's servers, as they can be traced to the original account holder.
+2025-05-14 19:04:43,981 - parser_logger - INFO - Regola 13: 12.  No memes, rage comics, demotivationals, eCards, or standupshots - Memes belong in/r/adviceanimals, rage comics go to/r/fffffffuuuuuuuuuuuu, demotivationals go to/r/Demotivational, submit eCards to/r/ecards, and standupshots go to/r/standupshotsImage Macros that aren't memes are allowed
+2025-05-14 19:04:43,991 - parser_logger - INFO - Regola 14: 13. Do not rehost or hotlink webcomics. - Rehosted andhotlinkedwebcomics will be removed, unless you are the creator. Please submit a link to the original comic's site, and possibly a mirror in the comments. Tumblr-exclusive comics are the exception, and may be rehosted, however if the artist's name or watermark are removed, the post will be removed.(*)(*)
+2025-05-14 19:04:43,993 - parser_logger - INFO - Regola 15: 14. No SMS or Social Media Content (including Reddit) - This includes direct linking to reddit threads, reddit comments, other subreddits, facebook profiles, twitter profiles, tweets, embedded tweets, and screenshots of the above, including text messages, omegle, snapchat, instagram and others. This also includes any other sites that may be considered social network sites. Please read theannouncement.
+2025-05-14 19:04:43,997 - parser_logger - INFO - ✅ Regole (homepage) salvate per https://web.archive.org/web/20150102200258/http://www.reddit.com/r/funny
+2025-05-14 19:04:44,015 - parser_logger - INFO - Url estratto: https://www.reddit.com/r/funny/
+2025-05-14 19:04:44,058 - parser_logger - INFO - 📄 Inizio parsing file: /app/html_cache/fun/https___web.archive.org_web_20150701153503_https___www.reddit.com_r_funny_.html
+2025-05-14 19:04:44,420 - parser_logger - INFO - 💡 Valutazione ML: '0. All posts must make an attempt at humor. - We w...' → Probabilità: 0.966
+2025-05-14 19:04:44,454 - parser_logger - INFO - 💡 Valutazione ML: '1. No reaction or HIFW posts - How I Feel When pos...' → Probabilità: 0.995
+2025-05-14 19:04:44,464 - parser_logger - INFO - 💡 Valutazione ML: '2. No posts with their sole purpose being to commu...' → Probabilità: 1.000
+2025-05-14 19:04:44,486 - parser_logger - INFO - 💡 Valutazione ML: '3. No posts for the specific point of it being you...' → Probabilità: 1.000
+2025-05-14 19:04:44,506 - parser_logger - INFO - 💡 Valutazione ML: '4. Posts which result in harassment of any individ...' → Probabilità: 1.000
+2025-05-14 19:04:44,513 - parser_logger - INFO - 💡 Valutazione ML: '5. No Politics - Anything involving politics or a ...' → Probabilità: 0.853
+2025-05-14 19:04:44,544 - parser_logger - INFO - 💡 Valutazione ML: '6. No Pictures of just text - This includes pictur...' → Probabilità: 0.887
+2025-05-14 19:04:44,559 - parser_logger - INFO - 💡 Valutazione ML: '7. No DAE posts - Go to/r/doesanybodyelse...' → Probabilità: 0.987
+2025-05-14 19:04:44,575 - parser_logger - INFO - 💡 Valutazione ML: '8. No Links to tumblr sites/pages. - Direct links ...' → Probabilità: 0.983
+2025-05-14 19:04:44,591 - parser_logger - INFO - 💡 Valutazione ML: '9. No URL shorteners - No link shorteners (or Huge...' → Probabilità: 1.000
+2025-05-14 19:04:44,608 - parser_logger - INFO - 💡 Valutazione ML: '10. No gore or porn (including sexually graphic im...' → Probabilità: 0.986
+2025-05-14 19:04:44,637 - parser_logger - INFO - 💡 Valutazione ML: '11. No personal information. - This includes anyth...' → Probabilità: 0.999
+2025-05-14 19:04:44,653 - parser_logger - INFO - 💡 Valutazione ML: '12.  No memes, rage comics, demotivationals, eCard...' → Probabilità: 1.000
+2025-05-14 19:04:44,661 - parser_logger - INFO - 💡 Valutazione ML: '13. Do not rehost or hotlink webcomics. - Rehosted...' → Probabilità: 1.000
+2025-05-14 19:04:44,686 - parser_logger - INFO - 💡 Valutazione ML: '14. No SMS or Social Media Content (including Redd...' → Probabilità: 1.000
+2025-05-14 19:04:44,694 - parser_logger - INFO - ✅ Caso 6 selezionato:
+2025-05-14 19:04:44,698 - parser_logger - INFO - Regola 1: 0. All posts must make an attempt at humor. - We won't remove posts where the humor is crappy or unfunny (that's a subjective judgement), but every post must make at least some attempt at humor. Read morehere.
+2025-05-14 19:04:44,705 - parser_logger - INFO - Regola 2: 1. No reaction or HIFW posts - How I Feel When posts belong in/r/HIFW. Reaction gifs belong in/r/reactiongifs.
+2025-05-14 19:04:44,707 - parser_logger - INFO - Regola 3: 2. No posts with their sole purpose being to communicate with another redditor. - Click for an Example. This includes asking for upvotes.
+2025-05-14 19:04:44,708 - parser_logger - INFO - Regola 4: 3. No posts for the specific point of it being your reddit birthday. - Cake day posts are not allowed.
+2025-05-14 19:04:44,710 - parser_logger - INFO - Regola 5: 4. Posts which result in harassment of any individual, subreddit, or other entity may be removed at the moderators' discretion. - Posts with titles such as "I got banned from /r/___" or "This got removed from /r/___" are not allowed.
+2025-05-14 19:04:44,713 - parser_logger - INFO - Regola 6: 5. No Politics - Anything involving politics or a political figure. Try/r/politicalhumorinstead.
+2025-05-14 19:04:44,715 - parser_logger - INFO - Regola 7: 6. No Pictures of just text - This includes pictures of text with irrelevant images that don't add context. Make a self post instead.Example
+2025-05-14 19:04:44,724 - parser_logger - INFO - Regola 8: 7. No DAE posts - Go to/r/doesanybodyelse
+2025-05-14 19:04:44,726 - parser_logger - INFO - Regola 9: 8. No Links to tumblr sites/pages. - Direct links to images hosted on tumblr (ex. 24.media.tumblr.com/img.jpg) are allowed.
+2025-05-14 19:04:44,728 - parser_logger - INFO - Regola 10: 9. No URL shorteners - No link shorteners (or HugeURL) in either post links or comments. They will be deleted regardless of intent.
+2025-05-14 19:04:44,729 - parser_logger - INFO - Regola 11: 10. No gore or porn (including sexually graphic images). - Other NSFW content must be tagged as such
+2025-05-14 19:04:44,740 - parser_logger - INFO - Regola 12: 11. No personal information. - This includes anything hosted on Facebook's servers, as they can be traced to the original account holder.
+2025-05-14 19:04:44,742 - parser_logger - INFO - Regola 13: 12.  No memes, rage comics, demotivationals, eCards, or standupshots - Memes belong in/r/adviceanimals, rage comics go to/r/fffffffuuuuuuuuuuuu, demotivationals go to/r/Demotivational, submit eCards to/r/ecards, and standupshots go to/r/standupshots.Image Macros that aren't memes are allowed
+2025-05-14 19:04:44,744 - parser_logger - INFO - Regola 14: 13. Do not rehost or hotlink webcomics. - Rehosted andhotlinkedwebcomics will be removed, unless you are the creator. Please submit a link to the original comic's site, and possibly a mirror in the comments. Tumblr-exclusive comics are the exception, and may be rehosted, however if the artist's name or watermark are removed, the post will be removed.(*)(*)
+2025-05-14 19:04:44,746 - parser_logger - INFO - Regola 15: 14. No SMS or Social Media Content (including Reddit) - This includes direct linking to reddit threads, reddit comments, other subreddits, facebook profiles, twitter profiles, tweets, embedded tweets, and screenshots of the above, including text messages, omegle, instagram and others. This also includes any other sites that may be considered social network sites. Please read theannouncement.
+2025-05-14 19:04:44,757 - parser_logger - INFO - ✅ Regole (homepage) salvate per https://web.archive.org/web/20150701153503/https://www.reddit.com/r/funny/
+2025-05-14 19:04:44,759 - parser_logger - INFO - Url estratto: https://www.reddit.com/r/funny/
+2025-05-14 19:04:44,781 - parser_logger - INFO - 📄 Inizio parsing file: /app/html_cache/fun/https___web.archive.org_web_20160101053045_https___www.reddit.com_r_funny_.html
+2025-05-14 19:04:45,242 - parser_logger - INFO - 💡 Valutazione ML: '0. All posts must make an attempt at humor. - We w...' → Probabilità: 0.966
+2025-05-14 19:04:45,260 - parser_logger - INFO - 💡 Valutazione ML: '1. No reaction, MRW, HIFW, or "Me IRL" posts. - Re...' → Probabilità: 1.000
+2025-05-14 19:04:45,308 - parser_logger - INFO - 💡 Valutazione ML: '2. No posts with their sole purpose being to commu...' → Probabilità: 1.000
+2025-05-14 19:04:45,316 - parser_logger - INFO - 💡 Valutazione ML: '3. No posts for the specific point of it being you...' → Probabilità: 1.000
+2025-05-14 19:04:45,330 - parser_logger - INFO - 💡 Valutazione ML: '4. Posts which result in harassment of any individ...' → Probabilità: 1.000
+2025-05-14 19:04:45,356 - parser_logger - INFO - 💡 Valutazione ML: '5. No Politics - Anything involving politics or a ...' → Probabilità: 0.853
+2025-05-14 19:04:45,367 - parser_logger - INFO - 💡 Valutazione ML: '6. No Pictures of just text - This includes pictur...' → Probabilità: 0.887
+2025-05-14 19:04:45,396 - parser_logger - INFO - 💡 Valutazione ML: '7. No DAE posts - Go to/r/doesanybodyelse...' → Probabilità: 0.987
+2025-05-14 19:04:45,403 - parser_logger - INFO - 💡 Valutazione ML: '8. No Links to tumblr sites/pages. - Direct links ...' → Probabilità: 0.983
+2025-05-14 19:04:45,426 - parser_logger - INFO - 💡 Valutazione ML: '9. No URL shorteners - No link shorteners (or Huge...' → Probabilità: 1.000
+2025-05-14 19:04:45,441 - parser_logger - INFO - 💡 Valutazione ML: '10. No gore or porn (including sexually graphic im...' → Probabilità: 0.986
+2025-05-14 19:04:45,451 - parser_logger - INFO - 💡 Valutazione ML: '11. No personal information. - This includes anyth...' → Probabilità: 0.999
+2025-05-14 19:04:45,465 - parser_logger - INFO - 💡 Valutazione ML: '12.  No memes, rage comics, demotivationals, eCard...' → Probabilità: 1.000
+2025-05-14 19:04:45,478 - parser_logger - INFO - 💡 Valutazione ML: '13. Do not rehost or hotlink webcomics. - Rehosted...' → Probabilità: 1.000
+2025-05-14 19:04:45,561 - parser_logger - INFO - 💡 Valutazione ML: '14. No SMS or Social Media Content (including Redd...' → Probabilità: 1.000
+2025-05-14 19:04:45,573 - parser_logger - INFO - ✅ Caso 6 selezionato:
+2025-05-14 19:04:45,595 - parser_logger - INFO - Regola 1: 0. All posts must make an attempt at humor. - We won't remove posts where the humor is crappy or unfunny (that's a subjective judgement), but every post must make at least some attempt at humor. Read morehere.
+2025-05-14 19:04:45,632 - parser_logger - INFO - Regola 2: 1. No reaction, MRW, HIFW, or "Me IRL" posts. - Reaction gifs belong in/r/reactiongifs, "how I feel when" posts belong in/r/HIFW, and "me IRL" posts belong in/r/me_irl.
+2025-05-14 19:04:45,656 - parser_logger - INFO - Regola 3: 2. No posts with their sole purpose being to communicate with another redditor. - Click for an Example. This includes asking for upvotes.
+2025-05-14 19:04:45,659 - parser_logger - INFO - Regola 4: 3. No posts for the specific point of it being your reddit birthday. - Cake day posts are not allowed.
+2025-05-14 19:04:45,672 - parser_logger - INFO - Regola 5: 4. Posts which result in harassment of any individual, subreddit, or other entity may be removed at the moderators' discretion. - Posts with titles such as "I got banned from /r/___" or "This got removed from /r/___" are not allowed.
+2025-05-14 19:04:45,678 - parser_logger - INFO - Regola 6: 5. No Politics - Anything involving politics or a political figure. Try/r/politicalhumorinstead.
+2025-05-14 19:04:45,686 - parser_logger - INFO - Regola 7: 6. No Pictures of just text - This includes pictures of text with irrelevant images that don't add context. Make a self post instead.Example
+2025-05-14 19:04:45,701 - parser_logger - INFO - Regola 8: 7. No DAE posts - Go to/r/doesanybodyelse
+2025-05-14 19:04:45,730 - parser_logger - INFO - Regola 9: 8. No Links to tumblr sites/pages. - Direct links to images hosted on tumblr (ex. 24.media.tumblr.com/img.jpg) are allowed.
+2025-05-14 19:04:45,757 - parser_logger - INFO - Regola 10: 9. No URL shorteners - No link shorteners (or HugeURL) in either post links or comments. They will be deleted regardless of intent.
+2025-05-14 19:04:45,760 - parser_logger - INFO - Regola 11: 10. No gore or porn (including sexually graphic images). - Try/r/NSFWfunny. Other NSFW content must be tagged as such
+2025-05-14 19:04:45,790 - parser_logger - INFO - Regola 12: 11. No personal information. - This includes anything hosted on Facebook's servers, as they can be traced to the original account holder.
+2025-05-14 19:04:45,791 - parser_logger - INFO - Regola 13: 12.  No memes, rage comics, demotivationals, eCards, or standupshots - Memes belong in/r/adviceanimals, rage comics go to/r/fffffffuuuuuuuuuuuu, demotivationals go to/r/Demotivational, submit eCards to/r/ecards, and standupshots go to/r/standupshots.Image Macros that aren't memes are allowed
+2025-05-14 19:04:45,797 - parser_logger - INFO - Regola 14: 13. Do not rehost or hotlink webcomics. - Rehosted andhotlinkedwebcomics will be removed, unless you are the creator. Please submit a link to the original comic's site, and possibly a mirror in the comments. Tumblr-exclusive comics are the exception, and may be rehosted, however if the artist's name or watermark are removed, the post will be removed.(*)(*)
+2025-05-14 19:04:45,802 - parser_logger - INFO - Regola 15: 14. No SMS or Social Media Content (including Reddit) - This includes direct linking to reddit threads, reddit comments, other subreddits, facebook profiles, twitter profiles, tweets, embedded tweets, and screenshots of the above, including text messages, omegle, instagram and others. This also includes any other sites that may be considered social network sites. Please read theannouncement.
+2025-05-14 19:04:45,828 - parser_logger - INFO - ✅ Regole (homepage) salvate per https://web.archive.org/web/20160101053045/https://www.reddit.com/r/funny/
+2025-05-14 19:04:45,830 - parser_logger - INFO - Url estratto: https://www.reddit.com/r/funny/
+2025-05-14 19:04:45,932 - parser_logger - INFO - 📄 Inizio parsing file: /app/html_cache/fun/https___web.archive.org_web_20160701223428_https___www.reddit.com_r_funny_.html
+2025-05-14 19:04:46,326 - parser_logger - INFO - 💡 Valutazione ML: '0. All posts must make an attempt at humor. - We w...' → Probabilità: 0.966
+2025-05-14 19:04:46,369 - parser_logger - INFO - 💡 Valutazione ML: '1. No reaction, MRW, HIFW, or "Me IRL" posts. - Re...' → Probabilità: 1.000
+2025-05-14 19:04:46,393 - parser_logger - INFO - 💡 Valutazione ML: '2. No posts with their sole purpose being to commu...' → Probabilità: 1.000
+2025-05-14 19:04:46,409 - parser_logger - INFO - 💡 Valutazione ML: '3. No posts for the specific point of it being you...' → Probabilità: 1.000
+2025-05-14 19:04:46,440 - parser_logger - INFO - 💡 Valutazione ML: '4. Posts which result in harassment of any individ...' → Probabilità: 1.000
+2025-05-14 19:04:46,450 - parser_logger - INFO - 💡 Valutazione ML: '5. No Politics - Anything involving politics or a ...' → Probabilità: 0.853
+2025-05-14 19:04:46,467 - parser_logger - INFO - 💡 Valutazione ML: '6. No Pictures of just text - This includes pictur...' → Probabilità: 0.887
+2025-05-14 19:04:46,494 - parser_logger - INFO - 💡 Valutazione ML: '7. No DAE posts - Go to/r/doesanybodyelse...' → Probabilità: 0.987
+2025-05-14 19:04:46,511 - parser_logger - INFO - 💡 Valutazione ML: '8. No Links to tumblr sites/pages. - Direct links ...' → Probabilità: 0.983
+2025-05-14 19:04:46,525 - parser_logger - INFO - 💡 Valutazione ML: '9. No URL shorteners - No link shorteners (or Huge...' → Probabilità: 1.000
+2025-05-14 19:04:46,534 - parser_logger - INFO - 💡 Valutazione ML: '10. No gore or porn (including sexually graphic im...' → Probabilità: 0.986
+2025-05-14 19:04:46,545 - parser_logger - INFO - 💡 Valutazione ML: '11. No personal information. - This includes anyth...' → Probabilità: 0.999
+2025-05-14 19:04:46,560 - parser_logger - INFO - 💡 Valutazione ML: '12.  No memes, rage comics, demotivationals, eCard...' → Probabilità: 1.000
+2025-05-14 19:04:46,578 - parser_logger - INFO - 💡 Valutazione ML: '13. Do not rehost or hotlink webcomics. - Rehosted...' → Probabilità: 1.000
+2025-05-14 19:04:46,592 - parser_logger - INFO - 💡 Valutazione ML: '14. No SMS or Social Media Content (including Redd...' → Probabilità: 1.000
+2025-05-14 19:04:46,605 - parser_logger - INFO - ✅ Caso 6 selezionato:
+2025-05-14 19:04:46,609 - parser_logger - INFO - Regola 1: 0. All posts must make an attempt at humor. - We won't remove posts where the humor is crappy or unfunny (that's a subjective judgement), but every post must make at least some attempt at humor. Read morehere.
+2025-05-14 19:04:46,612 - parser_logger - INFO - Regola 2: 1. No reaction, MRW, HIFW, or "Me IRL" posts. - Reaction gifs belong in/r/reactiongifs, "how I feel when" posts belong in/r/HIFW, and "me IRL" posts belong in/r/me_irl.
+2025-05-14 19:04:46,615 - parser_logger - INFO - Regola 3: 2. No posts with their sole purpose being to communicate with another redditor. - Click for an Example. This includes asking for upvotes.
+2025-05-14 19:04:46,621 - parser_logger - INFO - Regola 4: 3. No posts for the specific point of it being your reddit birthday. - Cake day posts are not allowed.
+2025-05-14 19:04:46,623 - parser_logger - INFO - Regola 5: 4. Posts which result in harassment of any individual, subreddit, or other entity may be removed at the moderators' discretion. - Posts with titles such as "I got banned from /r/___" or "This got removed from /r/___" are not allowed.
+2025-05-14 19:04:46,627 - parser_logger - INFO - Regola 6: 5. No Politics - Anything involving politics or a political figure. Try/r/politicalhumorinstead.
+2025-05-14 19:04:46,629 - parser_logger - INFO - Regola 7: 6. No Pictures of just text - This includes pictures of text with irrelevant images that don't add context. Make a self post instead.Example
+2025-05-14 19:04:46,631 - parser_logger - INFO - Regola 8: 7. No DAE posts - Go to/r/doesanybodyelse
+2025-05-14 19:04:46,638 - parser_logger - INFO - Regola 9: 8. No Links to tumblr sites/pages. - Direct links to images hosted on tumblr (ex. 24.media.tumblr.com/img.jpg) are allowed.
+2025-05-14 19:04:46,641 - parser_logger - INFO - Regola 10: 9. No URL shorteners - No link shorteners (or HugeURL) in either post links or comments. They will be deleted regardless of intent.
+2025-05-14 19:04:46,645 - parser_logger - INFO - Regola 11: 10. No gore or porn (including sexually graphic images). - Try/r/NSFWfunny. Other NSFW content must be tagged as such
+2025-05-14 19:04:46,647 - parser_logger - INFO - Regola 12: 11. No personal information. - This includes anything hosted on Facebook's servers, as they can be traced to the original account holder.
+2025-05-14 19:04:46,660 - parser_logger - INFO - Regola 13: 12.  No memes, rage comics, demotivationals, eCards, or standupshots - Memes belong in/r/adviceanimals, rage comics go to/r/fffffffuuuuuuuuuuuu, demotivationals go to/r/Demotivational, submit eCards to/r/ecards, and standupshots go to/r/standupshots.Image Macros that aren't memes are allowed
+2025-05-14 19:04:46,662 - parser_logger - INFO - Regola 14: 13. Do not rehost or hotlink webcomics. - Rehosted andhotlinkedwebcomics will be removed, unless you are the creator. Please submit a link to the original comic's site, and possibly a mirror in the comments. Tumblr-exclusive comics are the exception, and may be rehosted, however if the artist's name or watermark are removed, the post will be removed.(*)(*)
+2025-05-14 19:04:46,693 - parser_logger - INFO - Regola 15: 14. No SMS or Social Media Content (including Reddit) - This includes direct linking to reddit threads, reddit comments, other subreddits, facebook profiles, twitter profiles, tweets, embedded tweets, and screenshots of the above, including text messages, omegle, instagram and others. This also includes any other sites that may be considered social network sites. Please read theannouncement.
+2025-05-14 19:04:46,698 - parser_logger - INFO - ✅ Regole (homepage) salvate per https://web.archive.org/web/20160701223428/https://www.reddit.com/r/funny/
+2025-05-14 19:04:46,714 - parser_logger - INFO - Url estratto: https://www.reddit.com/r/funny/
+2025-05-14 19:04:47,118 - parser_logger - INFO - 📄 Inizio parsing file: /app/html_cache/fun/https___web.archive.org_web_20170101100331_https___www.reddit.com_r_funny_.html
+2025-05-14 19:04:48,716 - parser_logger - INFO - 💡 Valutazione ML: '0. All posts must make an attempt at humor. - We w...' → Probabilità: 0.966
+2025-05-14 19:04:48,748 - parser_logger - INFO - 💡 Valutazione ML: '1. No reaction, MRW, HIFW, or "Me IRL" posts. - Re...' → Probabilità: 1.000
+2025-05-14 19:04:48,756 - parser_logger - INFO - 💡 Valutazione ML: '2. No posts with their sole purpose being to commu...' → Probabilità: 1.000
+2025-05-14 19:04:48,833 - parser_logger - INFO - 💡 Valutazione ML: '3. No posts for the specific point of it being you...' → Probabilità: 1.000
+2025-05-14 19:04:48,840 - parser_logger - INFO - 💡 Valutazione ML: '4. Posts which result in harassment of any individ...' → Probabilità: 1.000
+2025-05-14 19:04:48,874 - parser_logger - INFO - 💡 Valutazione ML: '5. No Politics - Anything involving politics or a ...' → Probabilità: 0.853
+2025-05-14 19:04:48,890 - parser_logger - INFO - 💡 Valutazione ML: '6. No Pictures of just text - This includes pictur...' → Probabilità: 0.887
+2025-05-14 19:04:48,917 - parser_logger - INFO - 💡 Valutazione ML: '7. No DAE posts - Go to/r/doesanybodyelse...' → Probabilità: 0.987
+2025-05-14 19:04:48,933 - parser_logger - INFO - 💡 Valutazione ML: '8. No Links to tumblr sites/pages. - Direct links ...' → Probabilità: 0.983
+2025-05-14 19:04:48,990 - parser_logger - INFO - 💡 Valutazione ML: '9. No URL shorteners - No link shorteners (or Huge...' → Probabilità: 1.000
+2025-05-14 19:04:49,041 - parser_logger - INFO - 💡 Valutazione ML: '10. No gore or porn (including sexually graphic im...' → Probabilità: 0.986
+2025-05-14 19:04:49,138 - parser_logger - INFO - 💡 Valutazione ML: '11. No personal information. - This includes anyth...' → Probabilità: 0.999
+2025-05-14 19:04:49,166 - parser_logger - INFO - 💡 Valutazione ML: '12.  No memes, rage comics, demotivationals, eCard...' → Probabilità: 1.000
+2025-05-14 19:04:49,200 - parser_logger - INFO - 💡 Valutazione ML: '13. Do not rehost or hotlink webcomics. - Rehosted...' → Probabilità: 1.000
+2025-05-14 19:04:49,237 - parser_logger - INFO - 💡 Valutazione ML: '14. No SMS or Social Media Content (including Redd...' → Probabilità: 1.000
+2025-05-14 19:04:49,261 - parser_logger - INFO - ✅ Caso 6 selezionato:
+2025-05-14 19:04:49,277 - parser_logger - INFO - Regola 1: 0. All posts must make an attempt at humor. - We won't remove posts where the humor is crappy or unfunny (that's a subjective judgement), but every post must make at least some attempt at humor. Read morehere.
+2025-05-14 19:04:49,310 - parser_logger - INFO - Regola 2: 1. No reaction, MRW, HIFW, or "Me IRL" posts. - Reaction gifs belong in/r/reactiongifs, "how I feel when" posts belong in/r/HIFW, and "me IRL" posts belong in/r/me_irl.
+2025-05-14 19:04:49,347 - parser_logger - INFO - Regola 3: 2. No posts with their sole purpose being to communicate with another redditor. - Click for an Example. This includes asking for upvotes.
+2025-05-14 19:04:49,359 - parser_logger - INFO - Regola 4: 3. No posts for the specific point of it being your reddit birthday. - Cake day posts are not allowed.
+2025-05-14 19:04:49,382 - parser_logger - INFO - Regola 5: 4. Posts which result in harassment of any individual, subreddit, or other entity may be removed at the moderators' discretion. - Posts with titles such as "I got banned from /r/___" or "This got removed from /r/___" are not allowed.
+2025-05-14 19:04:49,406 - parser_logger - INFO - Regola 6: 5. No Politics - Anything involving politics or a political figure. Try/r/politicalhumorinstead.
+2025-05-14 19:04:49,410 - parser_logger - INFO - Regola 7: 6. No Pictures of just text - This includes pictures of text with irrelevant images that don't add context. Make a self post instead.Example
+2025-05-14 19:04:49,447 - parser_logger - INFO - Regola 8: 7. No DAE posts - Go to/r/doesanybodyelse
+2025-05-14 19:04:49,458 - parser_logger - INFO - Regola 9: 8. No Links to tumblr sites/pages. - Direct links to images hosted on tumblr (ex. 24.media.tumblr.com/img.jpg) are allowed.
+2025-05-14 19:04:49,462 - parser_logger - INFO - Regola 10: 9. No URL shorteners - No link shorteners (or HugeURL) in either post links or comments. They will be deleted regardless of intent.
+2025-05-14 19:04:49,469 - parser_logger - INFO - Regola 11: 10. No gore or porn (including sexually graphic images). - Try/r/NSFWfunny. Other NSFW content must be tagged as such
+2025-05-14 19:04:49,474 - parser_logger - INFO - Regola 12: 11. No personal information. - This includes anything hosted on Facebook's servers, as they can be traced to the original account holder.
+2025-05-14 19:04:49,477 - parser_logger - INFO - Regola 13: 12.  No memes, rage comics, demotivationals, eCards, or standupshots - Memes belong in/r/adviceanimals, rage comics go to/r/fffffffuuuuuuuuuuuu, demotivationals go to/r/Demotivational, submit eCards to/r/ecards, and standupshots go to/r/standupshots.Image Macros that aren't memes are allowed
+2025-05-14 19:04:49,498 - parser_logger - INFO - Regola 14: 13. Do not rehost or hotlink webcomics. - Rehosted andhotlinkedwebcomics will be removed,unless you are the creator. Please submit a link to the original comic's site, and possibly a mirror in the comments. Tumblr-exclusive comics are the exception, and may be rehosted, however if the artist's name or watermark are removed, the post will be removed.(*)(*)
+2025-05-14 19:04:49,514 - parser_logger - INFO - Regola 15: 14. No SMS or Social Media Content (including Reddit) - This includes direct linking to reddit threads, reddit comments, other subreddits, facebook profiles, twitter profiles, tweets, embedded tweets, and screenshots of the above, including text messages, omegle, instagram and others. This also includes any other sites that may be considered social network sites. Please read theannouncement.
+2025-05-14 19:04:49,523 - parser_logger - INFO - ✅ Regole (homepage) salvate per https://web.archive.org/web/20170101100331/https://www.reddit.com/r/funny/
+2025-05-14 19:04:49,540 - parser_logger - INFO - Url estratto: https://www.reddit.com/r/funny/
+2025-05-14 19:04:49,644 - parser_logger - INFO - 📄 Inizio parsing file: /app/html_cache/fun/https___web.archive.org_web_20170701041027_https___www.reddit.com_r_funny_.html
+2025-05-14 19:04:50,069 - parser_logger - INFO - 💡 Valutazione ML: '0. All posts must make an attempt at humor. - We w...' → Probabilità: 0.966
+2025-05-14 19:04:50,078 - parser_logger - INFO - 💡 Valutazione ML: '1. No reaction, MRW, HIFW, or "Me IRL" posts. - Re...' → Probabilità: 1.000
+2025-05-14 19:04:50,091 - parser_logger - INFO - 💡 Valutazione ML: '2. No posts with their sole purpose being to commu...' → Probabilità: 1.000
+2025-05-14 19:04:50,108 - parser_logger - INFO - 💡 Valutazione ML: '3. No posts for the specific point of it being you...' → Probabilità: 1.000
+2025-05-14 19:04:50,124 - parser_logger - INFO - 💡 Valutazione ML: '4. Posts which result in harassment of any individ...' → Probabilità: 1.000
+2025-05-14 19:04:50,140 - parser_logger - INFO - 💡 Valutazione ML: '5. No Politics - Anything involving politics or a ...' → Probabilità: 0.853
+2025-05-14 19:04:50,155 - parser_logger - INFO - 💡 Valutazione ML: '6. No Pictures of just text - This includes pictur...' → Probabilità: 0.993
+2025-05-14 19:04:50,171 - parser_logger - INFO - 💡 Valutazione ML: '7. No DAE posts - Go to/r/doesanybodyelse...' → Probabilità: 0.987
+2025-05-14 19:04:50,188 - parser_logger - INFO - 💡 Valutazione ML: '8. No Links to tumblr sites/pages. - Direct links ...' → Probabilità: 0.983
+2025-05-14 19:04:50,210 - parser_logger - INFO - 💡 Valutazione ML: '9. No URL shorteners - No link shorteners (or Huge...' → Probabilità: 1.000
+2025-05-14 19:04:50,219 - parser_logger - INFO - 💡 Valutazione ML: '10. No gore or porn (including sexually graphic im...' → Probabilità: 0.986
+2025-05-14 19:04:50,264 - parser_logger - INFO - 💡 Valutazione ML: '11. No personal information. - This includes anyth...' → Probabilità: 0.999
+2025-05-14 19:04:50,313 - parser_logger - INFO - 💡 Valutazione ML: '12.  No memes, rage comics, demotivationals, eCard...' → Probabilità: 1.000
+2025-05-14 19:04:50,344 - parser_logger - INFO - 💡 Valutazione ML: '13. Do not rehost or hotlink webcomics. - Rehosted...' → Probabilità: 1.000
+2025-05-14 19:04:50,357 - parser_logger - INFO - 💡 Valutazione ML: '14. No SMS or social media content. - Any and all ...' → Probabilità: 1.000
+2025-05-14 19:04:50,365 - parser_logger - INFO - ✅ Caso 6 selezionato:
+2025-05-14 19:04:50,391 - parser_logger - INFO - Regola 1: 0. All posts must make an attempt at humor. - We won't remove posts where the humor is crappy or unfunny (that's a subjective judgement), but every post must make at least some attempt at humor. Read morehere.
+2025-05-14 19:04:50,431 - parser_logger - INFO - Regola 2: 1. No reaction, MRW, HIFW, or "Me IRL" posts. - Reaction gifs belong in/r/reactiongifs, "how I feel when" posts belong in/r/HIFW, and "me IRL" posts belong in/r/me_irl.
+2025-05-14 19:04:50,447 - parser_logger - INFO - Regola 3: 2. No posts with their sole purpose being to communicate with another redditor. - Click for an Example. This includes asking for upvotes.
+2025-05-14 19:04:50,451 - parser_logger - INFO - Regola 4: 3. No posts for the specific point of it being your reddit birthday. - Cake day posts are not allowed.
+2025-05-14 19:04:50,453 - parser_logger - INFO - Regola 5: 4. Posts which result in harassment of any individual, subreddit, or other entity may be removed at the moderators' discretion. - Posts with titles such as "I got banned from /r/___" or "This got removed from /r/___" are not allowed.
+2025-05-14 19:04:50,454 - parser_logger - INFO - Regola 6: 5. No Politics - Anything involving politics or a political figure. Try/r/politicalhumorinstead.
+2025-05-14 19:04:50,457 - parser_logger - INFO - Regola 7: 6. No Pictures of just text - This includes pictures of text with irrelevant images and photographs of signs that have no relevance to their surroundings. Make a self-post instead.Example
+2025-05-14 19:04:50,459 - parser_logger - INFO - Regola 8: 7. No DAE posts - Go to/r/doesanybodyelse
+2025-05-14 19:04:50,461 - parser_logger - INFO - Regola 9: 8. No Links to tumblr sites/pages. - Direct links to images hosted on tumblr (ex. 24.media.tumblr.com/img.jpg) are allowed.
+2025-05-14 19:04:50,462 - parser_logger - INFO - Regola 10: 9. No URL shorteners - No link shorteners (or HugeURL) in either post links or comments. They will be deleted regardless of intent.
+2025-05-14 19:04:50,470 - parser_logger - INFO - Regola 11: 10. No gore or porn (including sexually graphic images). - Try/r/NSFWfunny. Other NSFW content must be tagged as such
+2025-05-14 19:04:50,481 - parser_logger - INFO - Regola 12: 11. No personal information. - This includes anything hosted on Facebook's servers, as they can be traced to the original account holder.
+2025-05-14 19:04:50,494 - parser_logger - INFO - Regola 13: 12.  No memes, rage comics, demotivationals, eCards, or standupshots - Memes belong in/r/adviceanimals, rage comics go to/r/fffffffuuuuuuuuuuuu, demotivationals go to/r/Demotivational, submit eCards to/r/ecards, and standupshots go to/r/standupshots.Image Macros that aren't memes are allowed
+2025-05-14 19:04:50,498 - parser_logger - INFO - Regola 14: 13. Do not rehost or hotlink webcomics. - Rehosted andhotlinkedwebcomics will be removed,unless you are the creator. Please submit a link to the original comic's site, and possibly a mirror in the comments. Tumblr-exclusive comics are the exception, and may be rehosted, however if the artist's name or watermark are removed, the post will be removed.
+2025-05-14 19:04:50,530 - parser_logger - INFO - Regola 15: 14. No SMS or social media content. - Any and all social media content is prohibited on this subreddit with the exception of Snapchat-captioned photos. This rule also applies to any reddit-related content. Please read theannouncement.
+2025-05-14 19:04:50,533 - parser_logger - INFO - ✅ Regole (homepage) salvate per https://web.archive.org/web/20170701041027/https://www.reddit.com/r/funny/
+2025-05-14 19:04:50,541 - parser_logger - INFO - Url estratto: https://www.reddit.com/r/funny/
+2025-05-14 19:04:50,565 - parser_logger - INFO - 📄 Inizio parsing file: /app/html_cache/fun/https___web.archive.org_web_20180101001020_https___www.reddit.com_r_funny_.html
+2025-05-14 19:04:50,835 - parser_logger - INFO - 💡 Valutazione ML: '0. All posts must make an attempt at humor. - We w...' → Probabilità: 0.966
+2025-05-14 19:04:50,862 - parser_logger - INFO - 💡 Valutazione ML: '1. No reaction, MRW, HIFW, or "Me IRL" posts. - Re...' → Probabilità: 1.000
+2025-05-14 19:04:50,867 - parser_logger - INFO - 💡 Valutazione ML: '2. No posts with their sole purpose being to commu...' → Probabilità: 1.000
+2025-05-14 19:04:50,883 - parser_logger - INFO - 💡 Valutazione ML: '3. Reposts will be removed at the moderators' disc...' → Probabilità: 0.971
+2025-05-14 19:04:50,922 - parser_logger - INFO - 💡 Valutazione ML: '4. Posts which result in harassment of any individ...' → Probabilità: 1.000
+2025-05-14 19:04:50,952 - parser_logger - INFO - 💡 Valutazione ML: '5. No Politics - Anything involving politics or a ...' → Probabilità: 0.853
+2025-05-14 19:04:50,964 - parser_logger - INFO - 💡 Valutazione ML: '6. No Pictures of just text - This includes pictur...' → Probabilità: 0.993
+2025-05-14 19:04:50,972 - parser_logger - INFO - 💡 Valutazione ML: '7. No DAE posts - Go to/r/doesanybodyelse...' → Probabilità: 0.987
+2025-05-14 19:04:50,986 - parser_logger - INFO - 💡 Valutazione ML: '8. No Links to tumblr sites/pages. - Direct links ...' → Probabilità: 0.983
+2025-05-14 19:04:50,993 - parser_logger - INFO - 💡 Valutazione ML: '9. No URL shorteners - No link shorteners (or Huge...' → Probabilità: 1.000
+2025-05-14 19:04:51,019 - parser_logger - INFO - 💡 Valutazione ML: '10. No gore or porn (including sexually graphic im...' → Probabilità: 0.986
+2025-05-14 19:04:51,035 - parser_logger - INFO - 💡 Valutazione ML: '11. No personal information. - This includes anyth...' → Probabilità: 0.999
+2025-05-14 19:04:51,056 - parser_logger - INFO - 💡 Valutazione ML: '12.  No memes, rage comics, demotivationals, eCard...' → Probabilità: 1.000
+2025-05-14 19:04:51,075 - parser_logger - INFO - 💡 Valutazione ML: '13. Do not rehost or hotlink webcomics. - Rehosted...' → Probabilità: 1.000
+2025-05-14 19:04:51,085 - parser_logger - INFO - 💡 Valutazione ML: '14. No SMS or social media content. - Any and all ...' → Probabilità: 1.000
+2025-05-14 19:04:51,092 - parser_logger - INFO - ✅ Caso 6 selezionato:
+2025-05-14 19:04:51,093 - parser_logger - INFO - Regola 1: 0. All posts must make an attempt at humor. - We won't remove posts where the humor is crappy or unfunny (that's a subjective judgement), but every post must make at least some attempt at humor. Read morehere.
+2025-05-14 19:04:51,094 - parser_logger - INFO - Regola 2: 1. No reaction, MRW, HIFW, or "Me IRL" posts. - Reaction gifs belong in/r/reactiongifs, "how I feel when" posts belong in/r/HIFW, and "me IRL" posts belong in/r/me_irl.
+2025-05-14 19:04:51,112 - parser_logger - INFO - Regola 3: 2. No posts with their sole purpose being to communicate with another redditor. - Click for an Example. This includes asking for upvotes and posts about your cakeday.
+2025-05-14 19:04:51,115 - parser_logger - INFO - Regola 4: 3. Reposts will be removed at the moderators' discretion. - Serial reposters will be banned.
+2025-05-14 19:04:51,123 - parser_logger - INFO - Regola 5: 4. Posts which result in harassment of any individual, subreddit, or other entity may be removed at the moderators' discretion. - Posts with titles such as "I got banned from /r/___" or "This got removed from /r/___" are not allowed.
+2025-05-14 19:04:51,125 - parser_logger - INFO - Regola 6: 5. No Politics - Anything involving politics or a political figure. Try/r/politicalhumorinstead.
+2025-05-14 19:04:51,127 - parser_logger - INFO - Regola 7: 6. No Pictures of just text - This includes pictures of text with irrelevant images and photographs of signs that have no relevance to their surroundings. Make a self-post instead.Example
+2025-05-14 19:04:51,128 - parser_logger - INFO - Regola 8: 7. No DAE posts - Go to/r/doesanybodyelse
+2025-05-14 19:04:51,129 - parser_logger - INFO - Regola 9: 8. No Links to tumblr sites/pages. - Direct links to images hosted on tumblr (ex. 24.media.tumblr.com/img.jpg) are allowed.
+2025-05-14 19:04:51,131 - parser_logger - INFO - Regola 10: 9. No URL shorteners - No link shorteners (or HugeURL) in either post links or comments. They will be deleted regardless of intent.
+2025-05-14 19:04:51,147 - parser_logger - INFO - Regola 11: 10. No gore or porn (including sexually graphic images). - Try/r/NSFWfunny. Other NSFW content must be tagged as such
+2025-05-14 19:04:51,148 - parser_logger - INFO - Regola 12: 11. No personal information. - This includes anything hosted on Facebook's servers, as they can be traced to the original account holder.
+2025-05-14 19:04:51,154 - parser_logger - INFO - Regola 13: 12.  No memes, rage comics, demotivationals, eCards, or standupshots - Memes belong in/r/adviceanimals, rage comics go to/r/fffffffuuuuuuuuuuuu, demotivationals go to/r/Demotivational, submit eCards to/r/ecards, and standupshots go to/r/standupshots.Image Macros that aren't memes are allowed
+2025-05-14 19:04:51,155 - parser_logger - INFO - Regola 14: 13. Do not rehost or hotlink webcomics. - Rehosted andhotlinkedwebcomics will be removed,unless you are the creator. Please submit a link to the original comic's site, and possibly a mirror in the comments. Tumblr-exclusive comics are the exception, and may be rehosted, however if the artist's name or watermark are removed, the post will be removed.
+2025-05-14 19:04:51,156 - parser_logger - INFO - Regola 15: 14. No SMS or social media content. - Any and all social media content is prohibited on this subreddit with the exception of Snapchat-captioned photos. This rule also applies to any reddit-related content. Please read theannouncement.
+2025-05-14 19:04:51,157 - parser_logger - INFO - ✅ Regole (homepage) salvate per https://web.archive.org/web/20180101001020/https://www.reddit.com/r/funny/
+2025-05-14 19:04:51,158 - parser_logger - INFO - Url estratto: https://www.reddit.com/r/funny/
+2025-05-14 19:04:51,161 - parser_logger - INFO - 📄 Inizio parsing file: /app/html_cache/fun/https___web.archive.org_web_20180701181537_https___www.reddit.com_r_funny_.html
+2025-05-14 19:04:51,611 - parser_logger - WARNING - ❌ Nessuna regola trovata in nessun caso.
+2025-05-14 19:04:51,648 - parser_logger - INFO - Url estratto: https://www.reddit.com/r/funny/
+2025-05-14 19:04:51,860 - parser_logger - INFO - 📄 Inizio parsing file: /app/html_cache/fun/https___web.archive.org_web_20190101021015_https___www.reddit.com_r_funny_.html
+2025-05-14 19:04:52,192 - parser_logger - INFO - 💡 Valutazione ML: 'All posts must make an attempt at humor....' → Probabilità: 0.350
+2025-05-14 19:04:52,205 - parser_logger - INFO - 💡 Valutazione ML: 'No memes, and no HIFW, MRW, MeIRL, or DAE posts....' → Probabilità: 0.993
+2025-05-14 19:04:52,214 - parser_logger - INFO - 💡 Valutazione ML: 'No reposts....' → Probabilità: 0.769
+2025-05-14 19:04:52,223 - parser_logger - INFO - 💡 Valutazione ML: 'No personal info, no hate speech, no harassment....' → Probabilità: 0.769
+2025-05-14 19:04:52,238 - parser_logger - INFO - 💡 Valutazione ML: 'No politics....' → Probabilità: 0.769
+2025-05-14 19:04:52,242 - parser_logger - INFO - 💡 Valutazione ML: 'No forbidden titles....' → Probabilità: 0.769
+2025-05-14 19:04:52,263 - parser_logger - INFO - 💡 Valutazione ML: 'No gore, pornography, or sexually graphic images....' → Probabilità: 0.853
+2025-05-14 19:04:52,275 - parser_logger - INFO - 💡 Valutazione ML: 'Do not rehost or hotlink webcomics....' → Probabilità: 0.945
+2025-05-14 19:04:52,306 - parser_logger - INFO - 💡 Valutazione ML: 'No pictures of just text....' → Probabilità: 0.461
+2025-05-14 19:04:52,324 - parser_logger - INFO - 💡 Valutazione ML: 'No SMS or social media content (including Reddit)....' → Probabilità: 0.951
+2025-05-14 19:04:52,330 - parser_logger - INFO - ✅ Caso 8 selezionato:
+2025-05-14 19:04:52,340 - parser_logger - INFO - Regola 1: No memes, and no HIFW, MRW, MeIRL, or DAE posts.
+2025-05-14 19:04:52,346 - parser_logger - INFO - Regola 2: No reposts.
+2025-05-14 19:04:52,346 - parser_logger - INFO - Regola 3: No personal info, no hate speech, no harassment.
+2025-05-14 19:04:52,347 - parser_logger - INFO - Regola 4: No politics.
+2025-05-14 19:04:52,348 - parser_logger - INFO - Regola 5: No forbidden titles.
+2025-05-14 19:04:52,356 - parser_logger - INFO - Regola 6: No gore, pornography, or sexually graphic images.
+2025-05-14 19:04:52,358 - parser_logger - INFO - Regola 7: Do not rehost or hotlink webcomics.
+2025-05-14 19:04:52,359 - parser_logger - INFO - Regola 8: No SMS or social media content (including Reddit).
+2025-05-14 19:04:52,360 - parser_logger - INFO - ⚠️ Regole escluse dal classificatore ML:
+2025-05-14 19:04:52,361 - parser_logger - INFO - ❌ Scartata: All posts must make an attempt at humor.
+2025-05-14 19:04:52,363 - parser_logger - INFO - ❌ Scartata: No pictures of just text.
+2025-05-14 19:04:52,368 - parser_logger - INFO - ✅ Regole (homepage) salvate per https://web.archive.org/web/20190101021015/https://www.reddit.com/r/funny/
+2025-05-14 19:04:52,370 - parser_logger - INFO - Url estratto: https://www.reddit.com/r/funny/
+2025-05-14 19:04:52,373 - parser_logger - INFO - 📄 Inizio parsing file: /app/html_cache/fun/https___web.archive.org_web_20190701174850_https___www.reddit.com_r_funny_.html
+2025-05-14 19:04:52,542 - parser_logger - INFO - 💡 Valutazione ML: 'All posts must make an attempt at humor....' → Probabilità: 0.350
+2025-05-14 19:04:52,577 - parser_logger - INFO - 💡 Valutazione ML: 'No memes, and no HIFW, MRW, MeIRL, or DAE posts....' → Probabilità: 0.993
+2025-05-14 19:04:52,603 - parser_logger - INFO - 💡 Valutazione ML: 'No reposts....' → Probabilità: 0.769
+2025-05-14 19:04:52,653 - parser_logger - INFO - 💡 Valutazione ML: 'No personal info, no hate speech, no harassment....' → Probabilità: 0.769
+2025-05-14 19:04:52,671 - parser_logger - INFO - 💡 Valutazione ML: 'No politics....' → Probabilità: 0.769
+2025-05-14 19:04:52,685 - parser_logger - INFO - 💡 Valutazione ML: 'No forbidden titles....' → Probabilità: 0.769
+2025-05-14 19:04:52,695 - parser_logger - INFO - 💡 Valutazione ML: 'No gore, pornography, or sexually graphic images....' → Probabilità: 0.853
+2025-05-14 19:04:52,706 - parser_logger - INFO - 💡 Valutazione ML: 'Do not rehost or hotlink webcomics....' → Probabilità: 0.945
+2025-05-14 19:04:52,730 - parser_logger - INFO - 💡 Valutazione ML: 'No pictures of just text....' → Probabilità: 0.461
+2025-05-14 19:04:52,741 - parser_logger - INFO - 💡 Valutazione ML: 'No SMS or social media content (including Reddit)....' → Probabilità: 0.951
+2025-05-14 19:04:52,752 - parser_logger - INFO - ✅ Caso 7 selezionato:
+2025-05-14 19:04:52,777 - parser_logger - INFO - Regola 1: No memes, and no HIFW, MRW, MeIRL, or DAE posts.
+2025-05-14 19:04:52,781 - parser_logger - INFO - Regola 2: No reposts.
+2025-05-14 19:04:52,792 - parser_logger - INFO - Regola 3: No personal info, no hate speech, no harassment.
+2025-05-14 19:04:52,812 - parser_logger - INFO - Regola 4: No politics.
+2025-05-14 19:04:52,819 - parser_logger - INFO - Regola 5: No forbidden titles.
+2025-05-14 19:04:52,871 - parser_logger - INFO - Regola 6: No gore, pornography, or sexually graphic images.
+2025-05-14 19:04:52,873 - parser_logger - INFO - Regola 7: Do not rehost or hotlink webcomics.
+2025-05-14 19:04:52,881 - parser_logger - INFO - Regola 8: No SMS or social media content (including Reddit).
+2025-05-14 19:04:52,899 - parser_logger - INFO - ⚠️ Regole escluse dal classificatore ML:
+2025-05-14 19:04:52,907 - parser_logger - INFO - ❌ Scartata: All posts must make an attempt at humor.
+2025-05-14 19:04:52,911 - parser_logger - INFO - ❌ Scartata: No pictures of just text.
+2025-05-14 19:04:52,915 - parser_logger - INFO - ✅ Regole (homepage) salvate per https://web.archive.org/web/20190701174850/https://www.reddit.com/r/funny/
+2025-05-14 19:04:52,926 - parser_logger - INFO - Url estratto: https://www.reddit.com/r/funny/
+2025-05-14 19:04:53,028 - parser_logger - INFO - 📄 Inizio parsing file: /app/html_cache/fun/https___web.archive.org_web_20200701010902_https___www.reddit.com_r_funny_.html
+2025-05-14 19:04:53,311 - parser_logger - INFO - 💡 Valutazione ML: 'All posts must make an attempt at humor....' → Probabilità: 0.350
+2025-05-14 19:04:53,327 - parser_logger - INFO - 💡 Valutazione ML: 'No memes, and no HIFW, MRW, MeIRL, or DAE posts....' → Probabilità: 0.993
+2025-05-14 19:04:53,348 - parser_logger - INFO - 💡 Valutazione ML: 'No reposts....' → Probabilità: 0.769
+2025-05-14 19:04:53,374 - parser_logger - INFO - 💡 Valutazione ML: 'No personal info, no hate speech, no harassment....' → Probabilità: 0.769
+2025-05-14 19:04:53,393 - parser_logger - INFO - 💡 Valutazione ML: 'No politics....' → Probabilità: 0.769
+2025-05-14 19:04:53,412 - parser_logger - INFO - 💡 Valutazione ML: 'No forbidden titles....' → Probabilità: 0.769
+2025-05-14 19:04:53,425 - parser_logger - INFO - 💡 Valutazione ML: 'No gore, pornography, or sexually graphic images....' → Probabilità: 0.853
+2025-05-14 19:04:53,441 - parser_logger - INFO - 💡 Valutazione ML: 'Do not rehost or hotlink webcomics....' → Probabilità: 0.945
+2025-05-14 19:04:53,468 - parser_logger - INFO - 💡 Valutazione ML: 'No pictures of just text....' → Probabilità: 0.461
+2025-05-14 19:04:53,475 - parser_logger - INFO - 💡 Valutazione ML: 'No SMS or social media content (including Reddit)....' → Probabilità: 0.951
+2025-05-14 19:04:53,476 - parser_logger - INFO - ✅ Caso 7 selezionato:
+2025-05-14 19:04:53,483 - parser_logger - INFO - Regola 1: No memes, and no HIFW, MRW, MeIRL, or DAE posts.
+2025-05-14 19:04:53,484 - parser_logger - INFO - Regola 2: No reposts.
+2025-05-14 19:04:53,486 - parser_logger - INFO - Regola 3: No personal info, no hate speech, no harassment.
+2025-05-14 19:04:53,488 - parser_logger - INFO - Regola 4: No politics.
+2025-05-14 19:04:53,491 - parser_logger - INFO - Regola 5: No forbidden titles.
+2025-05-14 19:04:53,492 - parser_logger - INFO - Regola 6: No gore, pornography, or sexually graphic images.
+2025-05-14 19:04:53,494 - parser_logger - INFO - Regola 7: Do not rehost or hotlink webcomics.
+2025-05-14 19:04:53,495 - parser_logger - INFO - Regola 8: No SMS or social media content (including Reddit).
+2025-05-14 19:04:53,497 - parser_logger - INFO - ⚠️ Regole escluse dal classificatore ML:
+2025-05-14 19:04:53,498 - parser_logger - INFO - ❌ Scartata: All posts must make an attempt at humor.
+2025-05-14 19:04:53,512 - parser_logger - INFO - ❌ Scartata: No pictures of just text.
+2025-05-14 19:04:53,516 - parser_logger - INFO - ✅ Regole (homepage) salvate per https://web.archive.org/web/20200701010902/https://www.reddit.com/r/funny/
+2025-05-14 19:04:53,530 - parser_logger - INFO - Url estratto: https://www.reddit.com/r/funny/
+2025-05-14 19:04:53,600 - parser_logger - INFO - 📄 Inizio parsing file: /app/html_cache/fun/https___web.archive.org_web_20210101045758_https___www.reddit.com_r_funny_.html
+2025-05-14 19:04:53,898 - parser_logger - INFO - 💡 Valutazione ML: 'All posts must make an attempt at humor....' → Probabilità: 0.350
+2025-05-14 19:04:53,917 - parser_logger - INFO - 💡 Valutazione ML: 'No memes, HIFW, MRW, MeIRL, DAE, or similar posts....' → Probabilità: 0.935
+2025-05-14 19:04:53,929 - parser_logger - INFO - 💡 Valutazione ML: 'No reposts....' → Probabilità: 0.769
+2025-05-14 19:04:53,936 - parser_logger - INFO - 💡 Valutazione ML: 'No personal info, no hate speech, no harassment....' → Probabilità: 0.769
+2025-05-14 19:04:53,945 - parser_logger - INFO - 💡 Valutazione ML: 'No politics or political figures....' → Probabilità: 0.853
+2025-05-14 19:04:53,956 - parser_logger - INFO - 💡 Valutazione ML: 'No forbidden titles, low-effort titles, or posts a...' → Probabilità: 0.950
+2025-05-14 19:04:53,970 - parser_logger - INFO - 💡 Valutazione ML: 'No gore or pornography....' → Probabilità: 0.853
+2025-05-14 19:04:53,989 - parser_logger - INFO - 💡 Valutazione ML: 'Do not rehost or hotlink webcomics....' → Probabilità: 0.945
+2025-05-14 19:04:54,002 - parser_logger - INFO - 💡 Valutazione ML: 'No pictures of just text....' → Probabilità: 0.461
+2025-05-14 19:04:54,023 - parser_logger - INFO - 💡 Valutazione ML: 'No electronic messaging or social media content (i...' → Probabilità: 0.951
+2025-05-14 19:04:54,039 - parser_logger - INFO - ✅ Caso 7 selezionato:
+2025-05-14 19:04:54,041 - parser_logger - INFO - Regola 1: No memes, HIFW, MRW, MeIRL, DAE, or similar posts.
+2025-05-14 19:04:54,043 - parser_logger - INFO - Regola 2: No reposts.
+2025-05-14 19:04:54,045 - parser_logger - INFO - Regola 3: No personal info, no hate speech, no harassment.
+2025-05-14 19:04:54,047 - parser_logger - INFO - Regola 4: No politics or political figures.
+2025-05-14 19:04:54,049 - parser_logger - INFO - Regola 5: No forbidden titles, low-effort titles, or posts about Reddit cakedays.
+2025-05-14 19:04:54,052 - parser_logger - INFO - Regola 6: No gore or pornography.
+2025-05-14 19:04:54,054 - parser_logger - INFO - Regola 7: Do not rehost or hotlink webcomics.
+2025-05-14 19:04:54,055 - parser_logger - INFO - Regola 8: No electronic messaging or social media content (including Reddit).
+2025-05-14 19:04:54,057 - parser_logger - INFO - ⚠️ Regole escluse dal classificatore ML:
+2025-05-14 19:04:54,059 - parser_logger - INFO - ❌ Scartata: All posts must make an attempt at humor.
+2025-05-14 19:04:54,059 - parser_logger - INFO - ❌ Scartata: No pictures of just text.
+2025-05-14 19:04:54,067 - parser_logger - INFO - ✅ Regole (homepage) salvate per https://web.archive.org/web/20210101045758/https://www.reddit.com/r/funny/
+2025-05-14 19:04:54,074 - parser_logger - INFO - Url estratto: https://www.reddit.com/r/funny/
+2025-05-14 19:04:54,083 - parser_logger - INFO - 📄 Inizio parsing file: /app/html_cache/fun/https___web.archive.org_web_20210701045047_https___www.reddit.com_r_funny_.html
+2025-05-14 19:04:54,398 - parser_logger - INFO - 💡 Valutazione ML: '1. All posts must make an attempt at humor. - Humo...' → Probabilità: 1.000
+2025-05-14 19:04:54,417 - parser_logger - INFO - 💡 Valutazione ML: '2. No memes, HIFW, MRW, MeIRL, DAE, or similar pos...' → Probabilità: 1.000
+2025-05-14 19:04:54,431 - parser_logger - INFO - 💡 Valutazione ML: '3. No reposts. - Reposts will be removed at the mo...' → Probabilità: 0.999
+2025-05-14 19:04:54,445 - parser_logger - INFO - 💡 Valutazione ML: '4. No personal info, hate-speech, or harassment. -...' → Probabilità: 1.000
+2025-05-14 19:04:54,475 - parser_logger - INFO - 💡 Valutazione ML: '5. No politics or political figures. - Anything in...' → Probabilità: 1.000
+2025-05-14 19:04:54,497 - parser_logger - INFO - 💡 Valutazione ML: '6. No forbidden titles, low-effort titles, or post...' → Probabilità: 1.000
+2025-05-14 19:04:54,505 - parser_logger - INFO - 💡 Valutazione ML: '7. No gore or pornography. - Gore, pornography, an...' → Probabilità: 1.000
+2025-05-14 19:04:54,513 - parser_logger - INFO - 💡 Valutazione ML: '8. Do not rehost or hotlink comics. - Comics may n...' → Probabilità: 1.000
+2025-05-14 19:04:54,523 - parser_logger - INFO - 💡 Valutazione ML: '9. No pictures of just text. - Image-based submiss...' → Probabilità: 1.000
+2025-05-14 19:04:54,532 - parser_logger - INFO - 💡 Valutazione ML: '10. No social media or electronic messaging conten...' → Probabilità: 1.000
+2025-05-14 19:04:54,548 - parser_logger - INFO - ✅ Caso 6 selezionato:
+2025-05-14 19:04:54,563 - parser_logger - INFO - Regola 1: 1. All posts must make an attempt at humor. - Humor is subjective, but all posts must at least make an attempt at humor. Posts which are intentionally disruptive, inane, or nonsensical will be removed.Read more here.
+2025-05-14 19:04:54,564 - parser_logger - INFO - Regola 2: 2. No memes, HIFW, MRW, MeIRL, DAE, or similar posts. - If your submission begins with "When you…" or "When they…" or anything of a similar nature, it is not allowed here. Submissions depicting or containing intentionally emulated behaviors (memes) are also not allowed, including memetic image macros, "challenges," or elements thereof. HIFW, MRW, TFW, MeIRL, demotivationals, eCards, and DAE posts are similarly disallowed.  Non-meme image macros are allowed.
+2025-05-14 19:04:54,565 - parser_logger - INFO - Regola 3: 3. No reposts. - Reposts will be removed at the moderators’ discretion. Serial reposters will be banned. Please useKarmaDecayto determine if something has been submitted before.
+2025-05-14 19:04:54,565 - parser_logger - INFO - Regola 4: 4. No personal info, hate-speech, or harassment. - No identifying information, including anything hosted on platforms making that information public. Posts encouraging the harassment of any individual, group, community, or subreddit will be removed, and the submitting user may be banned. If necessary, a report will be made to the site administration. In accordance withReddit's policies, there is zero tolerance for this.
+2025-05-14 19:04:54,565 - parser_logger - INFO - Regola 5: 5. No politics or political figures. - Anything involving politics or a political figure (regardless of context) will be removed. Try/r/politicalhumorinstead.
+2025-05-14 19:04:54,572 - parser_logger - INFO - Regola 6: 6. No forbidden titles, low-effort titles, or posts about Reddit cakedays. (See below). - No asking for upvotes (in any form), no “Cake Day” posts, and no posts to communicate with another Redditor. Posts with titles such as "I got banned from /r/___" or "This got removed from /r/___" are not allowed. For an inclusive list,please read the complete rules page. Low-effort titles, memetic titles, titles which circumvent other rules, and titles comprising excessive or disruptive emojis are similarly disallowed.
+2025-05-14 19:04:54,575 - parser_logger - INFO - Regola 7: 7. No gore or pornography. - Gore, pornography, and sexually graphic images are not allowed. Try/r/NSFWfunny. All other NSFW content must be tagged as such.
+2025-05-14 19:04:54,576 - parser_logger - INFO - Regola 8: 8. Do not rehost or hotlink comics. - Comics may not be posted on Wednesdays. If you are not the author of the comic in question, you may only submit links to the page where it is hosted. Webcomic authors mayrequest verificationfrom the moderators, after which they may rehost their own work.
+2025-05-14 19:04:54,578 - parser_logger - INFO - Regola 9: 9. No pictures of just text. - Image-based submissions in which the humor can be conveyed via text alone are not allowed. This includes pictures of text with images that don't add necessary context, transcriptions of standup comedy (as with/r/standupshots), and screenshots of jokes.Here are some examples. Text posts using Reddit's native system are allowed.
+2025-05-14 19:04:54,579 - parser_logger - INFO - Regola 10: 10. No social media or electronic messaging content (including Reddit). - Social media content of any kind is not allowed. This includes anything from Reddit, Twitter, Tumblr, Facebook, YouTube, TikTok, or any form of "comments section" on the Internet, as well ascontent accompanied by text from those platforms. Images with SnapChat text added are allowed, as long as all UI elements have been removed. Please viewour wikifor suggestions of where these submissions can be offered.
+2025-05-14 19:04:54,582 - parser_logger - INFO - ✅ Regole (homepage) salvate per https://web.archive.org/web/20210701045047/https://www.reddit.com/r/funny/
+2025-05-14 19:04:54,586 - parser_logger - INFO - Url estratto: https://www.reddit.com/r/funny/
+2025-05-14 19:04:54,592 - parser_logger - INFO - 📄 Inizio parsing file: /app/html_cache/fun/https___web.archive.org_web_20220701040303_https___www.reddit.com_r_funny_.html
+2025-05-14 19:04:54,856 - parser_logger - INFO - 💡 Valutazione ML: 'All posts must make an attempt at humor....' → Probabilità: 0.350
+2025-05-14 19:04:54,873 - parser_logger - INFO - 💡 Valutazione ML: 'No memes, HIFW, MRW, MeIRL, DAE, or similar posts....' → Probabilità: 0.935
+2025-05-14 19:04:54,899 - parser_logger - INFO - 💡 Valutazione ML: 'No reposts....' → Probabilità: 0.769
+2025-05-14 19:04:54,925 - parser_logger - INFO - 💡 Valutazione ML: 'No personal info, no hate speech, no harassment....' → Probabilità: 0.769
+2025-05-14 19:04:54,959 - parser_logger - INFO - 💡 Valutazione ML: 'No politics or political figures....' → Probabilità: 0.853
+2025-05-14 19:04:54,974 - parser_logger - INFO - 💡 Valutazione ML: 'No forbidden titles, low-effort titles, or posts a...' → Probabilità: 0.950
+2025-05-14 19:04:54,984 - parser_logger - INFO - 💡 Valutazione ML: 'No gore or pornography....' → Probabilità: 0.853
+2025-05-14 19:04:54,997 - parser_logger - INFO - 💡 Valutazione ML: 'No unoriginal comics....' → Probabilità: 0.769
+2025-05-14 19:04:55,026 - parser_logger - INFO - 💡 Valutazione ML: 'No pictures of just text....' → Probabilità: 0.461
+2025-05-14 19:04:55,041 - parser_logger - INFO - 💡 Valutazione ML: 'No electronic messaging or social media content (i...' → Probabilità: 0.951
+2025-05-14 19:04:55,055 - parser_logger - INFO - ✅ Caso 7 selezionato:
+2025-05-14 19:04:55,056 - parser_logger - INFO - Regola 1: No memes, HIFW, MRW, MeIRL, DAE, or similar posts.
+2025-05-14 19:04:55,064 - parser_logger - INFO - Regola 2: No reposts.
+2025-05-14 19:04:55,068 - parser_logger - INFO - Regola 3: No personal info, no hate speech, no harassment.
+2025-05-14 19:04:55,075 - parser_logger - INFO - Regola 4: No politics or political figures.
+2025-05-14 19:04:55,078 - parser_logger - INFO - Regola 5: No forbidden titles, low-effort titles, or posts about Reddit cakedays.
+2025-05-14 19:04:55,079 - parser_logger - INFO - Regola 6: No gore or pornography.
+2025-05-14 19:04:55,100 - parser_logger - INFO - Regola 7: No unoriginal comics.
+2025-05-14 19:04:55,102 - parser_logger - INFO - Regola 8: No electronic messaging or social media content (including Reddit).
+2025-05-14 19:04:55,104 - parser_logger - INFO - ⚠️ Regole escluse dal classificatore ML:
+2025-05-14 19:04:55,107 - parser_logger - INFO - ❌ Scartata: All posts must make an attempt at humor.
+2025-05-14 19:04:55,109 - parser_logger - INFO - ❌ Scartata: No pictures of just text.
+2025-05-14 19:04:55,113 - parser_logger - INFO - ✅ Regole (homepage) salvate per https://web.archive.org/web/20220701040303/https://www.reddit.com/r/funny/
+2025-05-14 19:04:55,115 - parser_logger - INFO - Url estratto: https://www.reddit.com/r/funny/
+2025-05-14 19:04:55,140 - parser_logger - INFO - 📄 Inizio parsing file: /app/html_cache/fun/https___web.archive.org_web_20230101003212_https___www.reddit.com_r_funny_.html
+2025-05-14 19:04:55,570 - parser_logger - INFO - 💡 Valutazione ML: '1. All posts must make an attempt at humor. - Humo...' → Probabilità: 1.000
+2025-05-14 19:04:55,578 - parser_logger - INFO - 💡 Valutazione ML: '2. No memes, HIFW, MRW, MeIRL, DAE, or similar pos...' → Probabilità: 1.000
+2025-05-14 19:04:55,589 - parser_logger - INFO - 💡 Valutazione ML: '3. No reposts. - Reposts will be removed at the mo...' → Probabilità: 0.999
+2025-05-14 19:04:55,624 - parser_logger - INFO - 💡 Valutazione ML: '4. No personal info, hate-speech, or harassment. -...' → Probabilità: 1.000
+2025-05-14 19:04:55,642 - parser_logger - INFO - 💡 Valutazione ML: '5. No politics or political figures. - Anything in...' → Probabilità: 1.000
+2025-05-14 19:04:55,658 - parser_logger - INFO - 💡 Valutazione ML: '6. No forbidden titles, low-effort titles, or post...' → Probabilità: 1.000
+2025-05-14 19:04:55,667 - parser_logger - INFO - 💡 Valutazione ML: '7. No gore, pornography, or animal cruelty. - Gore...' → Probabilità: 1.000
+2025-05-14 19:04:55,679 - parser_logger - INFO - 💡 Valutazione ML: '8. No unoriginal comics. - Comics may only be post...' → Probabilità: 0.992
+2025-05-14 19:04:55,686 - parser_logger - INFO - 💡 Valutazione ML: '9. No pictures of just text. - Image-based submiss...' → Probabilità: 1.000
+2025-05-14 19:04:55,698 - parser_logger - INFO - 💡 Valutazione ML: '10. No social media or electronic messaging conten...' → Probabilità: 1.000
+2025-05-14 19:04:55,713 - parser_logger - INFO - ✅ Caso 6 selezionato:
+2025-05-14 19:04:55,723 - parser_logger - INFO - Regola 1: 1. All posts must make an attempt at humor. - Humor is subjective, but all posts must at least make an attempt at humor. Posts which are intentionally disruptive, inane, or nonsensical will be removed.Read more here.
+2025-05-14 19:04:55,724 - parser_logger - INFO - Regola 2: 2. No memes, HIFW, MRW, MeIRL, DAE, or similar posts. - If your submission begins with "When you…" or "When they…" or anything of a similar nature, it is not allowed here. Submissions depicting or containing intentionally emulated behaviors (memes) are also not allowed, including memetic image macros, "challenges," or elements thereof. HIFW, MRW, TFW, MeIRL, demotivationals, eCards, and DAE posts are similarly disallowed.  Non-meme image macros are allowed.
+2025-05-14 19:04:55,726 - parser_logger - INFO - Regola 3: 3. No reposts. - Reposts will be removed at the moderators’ discretion. Serial reposters will be banned. Please useTinEyeto determine if something has been submitted before.
+2025-05-14 19:04:55,728 - parser_logger - INFO - Regola 4: 4. No personal info, hate-speech, or harassment. - No identifying information, including anything hosted on platforms making that information public. Posts encouraging the harassment of any individual, group, community, or subreddit will be removed, and the submitting user may be banned. If necessary, a report will be made to the site administration. In accordance withReddit's policies, there is zero tolerance for this.
+2025-05-14 19:04:55,730 - parser_logger - INFO - Regola 5: 5. No politics or political figures. - Anything involving politics or a political figure (regardless of context) will be removed. Try/r/politicalhumorinstead.
+2025-05-14 19:04:55,732 - parser_logger - INFO - Regola 6: 6. No forbidden titles, low-effort titles, or posts about Reddit cakedays. (See below). - No asking for upvotes (in any form), no “Cake Day” posts, and no posts to communicate with another Redditor. Posts with titles such as "I got banned from /r/___" or "This got removed from /r/___" are not allowed. For an inclusive list,please read the complete rules page. Low-effort titles, memetic titles, titles which circumvent other rules, and titles comprising excessive or disruptive emojis are similarly disallowed.
+2025-05-14 19:04:55,747 - parser_logger - INFO - Regola 7: 7. No gore, pornography, or animal cruelty. - Gore, pornography, and sexually-graphic images are not allowed. Try/r/NSFWfunny. Animal cruelty is strictly forbidden. All other NSFW content must be tagged as such.
+2025-05-14 19:04:55,760 - parser_logger - INFO - Regola 8: 8. No unoriginal comics. - Comics may only be posted on Wednesdays and Sundays (measured using Pacific Time), and only by their original artists.
+2025-05-14 19:04:55,764 - parser_logger - INFO - Regola 9: 9. No pictures of just text. - Image-based submissions in which the humor can be conveyed via text alone are not allowed. This includes pictures of text with images that don't add necessary context, transcriptions of standup comedy (as with/r/standupshots), and screenshots of jokes.Here are some examples. Text posts using Reddit's native system are allowed.
+2025-05-14 19:04:55,769 - parser_logger - INFO - Regola 10: 10. No social media or electronic messaging content (including Reddit). - Social media content of any kind is not allowed. This includes anything from Reddit, Twitter, Tumblr, Facebook, YouTube, TikTok, or any form of "comments section" on the Internet, as well ascontent accompanied by text from those platforms. Images with SnapChat text added are allowed, as long as all UI elements have been removed. Please viewour wikifor suggestions of where these submissions can be offered.
+2025-05-14 19:04:55,771 - parser_logger - INFO - ✅ Regole (homepage) salvate per https://web.archive.org/web/20230101003212/https://www.reddit.com/r/funny/
+2025-05-14 19:04:55,773 - parser_logger - INFO - Url estratto: https://www.reddit.com/r/funny/
+2025-05-14 19:04:55,825 - parser_logger - INFO - 📄 Inizio parsing file: /app/html_cache/fun/https___web.archive.org_web_20230701115215_https___www.reddit.com_r_funny_.html
+2025-05-14 19:04:56,137 - parser_logger - INFO - 💡 Valutazione ML: 'All posts must make an attempt at humor....' → Probabilità: 0.350
+2025-05-14 19:04:56,335 - parser_logger - INFO - 💡 Valutazione ML: 'No memes, HIFW, MRW, MeIRL, DAE, or similar posts....' → Probabilità: 0.935
+2025-05-14 19:04:56,341 - parser_logger - INFO - 💡 Valutazione ML: 'No reposts....' → Probabilità: 0.769
+2025-05-14 19:04:56,352 - parser_logger - INFO - 💡 Valutazione ML: 'No personal info, no hate speech, no harassment....' → Probabilità: 0.769
+2025-05-14 19:04:56,366 - parser_logger - INFO - 💡 Valutazione ML: 'No politics or political figures....' → Probabilità: 0.853
+2025-05-14 19:04:56,400 - parser_logger - INFO - 💡 Valutazione ML: 'No forbidden titles, low-effort titles, or posts a...' → Probabilità: 0.950
+2025-05-14 19:04:56,409 - parser_logger - INFO - 💡 Valutazione ML: 'No gore, pornography, or animal cruelty....' → Probabilità: 0.853
+2025-05-14 19:04:56,422 - parser_logger - INFO - 💡 Valutazione ML: 'No unoriginal comics....' → Probabilità: 0.769
+2025-05-14 19:04:56,457 - parser_logger - INFO - 💡 Valutazione ML: 'No pictures of just text....' → Probabilità: 0.461
+2025-05-14 19:04:56,468 - parser_logger - INFO - 💡 Valutazione ML: 'No social-media, messaging, or AI-generated conten...' → Probabilità: 0.951
+2025-05-14 19:04:56,482 - parser_logger - INFO - ✅ Caso 7 selezionato:
+2025-05-14 19:04:56,489 - parser_logger - INFO - Regola 1: No memes, HIFW, MRW, MeIRL, DAE, or similar posts.
+2025-05-14 19:04:56,541 - parser_logger - INFO - Regola 2: No reposts.
+2025-05-14 19:04:56,544 - parser_logger - INFO - Regola 3: No personal info, no hate speech, no harassment.
+2025-05-14 19:04:56,546 - parser_logger - INFO - Regola 4: No politics or political figures.
+2025-05-14 19:04:56,548 - parser_logger - INFO - Regola 5: No forbidden titles, low-effort titles, or posts about Reddit cakedays.
+2025-05-14 19:04:56,551 - parser_logger - INFO - Regola 6: No gore, pornography, or animal cruelty.
+2025-05-14 19:04:56,562 - parser_logger - INFO - Regola 7: No unoriginal comics.
+2025-05-14 19:04:56,580 - parser_logger - INFO - Regola 8: No social-media, messaging, or AI-generated content.
+2025-05-14 19:04:56,582 - parser_logger - INFO - ⚠️ Regole escluse dal classificatore ML:
+2025-05-14 19:04:56,590 - parser_logger - INFO - ❌ Scartata: All posts must make an attempt at humor.
+2025-05-14 19:04:56,592 - parser_logger - INFO - ❌ Scartata: No pictures of just text.
+2025-05-14 19:04:56,595 - parser_logger - INFO - ✅ Regole (homepage) salvate per https://web.archive.org/web/20230701115215/https://www.reddit.com/r/funny/
+2025-05-14 19:04:56,597 - parser_logger - INFO - Url estratto: https://www.reddit.com/r/funny/
+2025-05-14 19:04:56,658 - parser_logger - INFO - 📄 Inizio parsing file: /app/html_cache/fun/https___web.archive.org_web_20240101153849_https___www.reddit.com_r_funny_.html
+2025-05-14 19:04:56,978 - parser_logger - WARNING - ❌ Nessuna regola trovata in nessun caso.
+2025-05-14 19:04:56,979 - parser_logger - INFO - Url estratto: https://www.reddit.com/r/funny/
+2025-05-14 19:04:57,226 - parser_logger - INFO - 📄 Inizio parsing file: /app/html_cache/fun/https___web.archive.org_web_20200101082548_https___www.reddit.com_r_funny_.html
+2025-05-14 19:04:57,829 - parser_logger - INFO - 💡 Valutazione ML: 'All posts must make an attempt at humor....' → Probabilità: 0.350
+2025-05-14 19:04:57,844 - parser_logger - INFO - 💡 Valutazione ML: 'No memes, and no HIFW, MRW, MeIRL, or DAE posts....' → Probabilità: 0.993
+2025-05-14 19:04:57,885 - parser_logger - INFO - 💡 Valutazione ML: 'No reposts....' → Probabilità: 0.769
+2025-05-14 19:04:57,893 - parser_logger - INFO - 💡 Valutazione ML: 'No personal info, no hate speech, no harassment....' → Probabilità: 0.769
+2025-05-14 19:04:57,951 - parser_logger - INFO - 💡 Valutazione ML: 'No politics....' → Probabilità: 0.769
+2025-05-14 19:04:57,980 - parser_logger - INFO - 💡 Valutazione ML: 'No forbidden titles....' → Probabilità: 0.769
+2025-05-14 19:04:57,992 - parser_logger - INFO - 💡 Valutazione ML: 'No gore, pornography, or sexually graphic images....' → Probabilità: 0.853
+2025-05-14 19:04:58,024 - parser_logger - INFO - 💡 Valutazione ML: 'Do not rehost or hotlink webcomics....' → Probabilità: 0.945
+2025-05-14 19:04:58,031 - parser_logger - INFO - 💡 Valutazione ML: 'No pictures of just text....' → Probabilità: 0.461
+2025-05-14 19:04:58,081 - parser_logger - INFO - 💡 Valutazione ML: 'No SMS or social media content (including Reddit)....' → Probabilità: 0.951
+2025-05-14 19:04:58,097 - parser_logger - INFO - ✅ Caso 7 selezionato:
+2025-05-14 19:04:58,126 - parser_logger - INFO - Regola 1: No memes, and no HIFW, MRW, MeIRL, or DAE posts.
+2025-05-14 19:04:58,131 - parser_logger - INFO - Regola 2: No reposts.
+2025-05-14 19:04:58,161 - parser_logger - INFO - Regola 3: No personal info, no hate speech, no harassment.

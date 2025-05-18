@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  scraper:
+    build: .
+    container_name: scraper
+    depends_on:
+      - mongodb
+    environment:
+      - MONGO_URI=mongodb://mongodb:27017
+    volumes:
+      - ./app:/app
+      - ./embedding-metadata.tsv:/embedding-metadata.tsv
+    working_dir: /app
+    command: [ "python", "main.py" ]
+
+  parser:
+    build: .
+    container_name: parser
+    depends_on:
+      - mongodb
+    environment:
+      - MONGO_URI=mongodb://mongodb:27017
+      - PYTHONPATH=/app
+    volumes:
+      - ./app:/app
+
+    working_dir: /app
+    command: [ "python", "parser/main_parser.py" ]
+
+  mongodb:
+    image: mongo:4.4
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./mongo_data:/data/db

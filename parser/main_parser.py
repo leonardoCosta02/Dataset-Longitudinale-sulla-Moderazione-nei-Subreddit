@@ -26,7 +26,8 @@ if __name__ == "__main__":
     collection_mod=db["moderatori"]
 
     subreddits = [
-        "funny", "FIFA", "fantasyfootball", "hockey",
+        "funny","community","keto","politics","pics","leagueoflegends",
+         "nfl","worldnews","videos","WTF","FIFA", "fantasyfootball", "hockey",
         "darksouls3", "gaming","pokemon", "Overwatch","AskReddit",
         "guns","halo"
     ]

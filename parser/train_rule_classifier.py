@@ -3,6 +3,8 @@ import re #Serve per usare le espressioni regolari (per pulire il testo).
 from sklearn.model_selection import train_test_split #Serve per dividere il dataset in 80% per allenamento e 20% per test.
 from sklearn.feature_extraction.text import TfidfVectorizer #Serve per trasformare il testo in numeri che il modello può capire (TF-IDF).
 from sklearn.metrics import classification_report, precision_recall_curve #Serve per valutare quanto è bravo il modello con metriche come Precision, Recall, F1-score
+from sklearn.metrics import confusion_matrix
+import numpy as np
 import joblib #Serve a salvare il modello e il vettorizzatore su disco.
 from scraper.logger_setup import setup_logger
 logger = setup_logger("parser_logger", to_file=True, log_dir="parser/logger")
@@ -180,6 +182,10 @@ def start_class():
          
     
     """
+    #STAMPO LA MATRICE DI CONFUSIONE DALLA QUALE VENGONO CALCOLATI I VALORI 
+    cm = confusion_matrix(y_test, y_pred)
+    logger.info(f"🔎 Confusion Matrix:\n{cm}")
+
     logger.info("\n📊 Report di classificazione:\n")
     logger.info(classification_report(y_test, y_pred))
     

@@ -1,0 +1,268 @@
+2025-04-22 15:11:49,430 - app.core.wayback_client - INFO - Parametri di richiesta: {'url': 'https://old.reddit.com/r/keto/about/rules', 'from': '2012', 'to': '2024', 'output': 'json', 'collapse': 'digest'}
+2025-04-22 15:11:49,432 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-22 15:11:53,572 - app.core.wayback_client - INFO - Parametri di richiesta: {'url': 'https://old.reddit.com/r/keto/about/rules/.json', 'from': '2012', 'to': '2024', 'output': 'json', 'collapse': 'digest'}
+2025-04-22 15:11:53,595 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-22 15:11:54,903 - app.core.wayback_client - INFO - ⏳ Rate limit attivo: attendo 2.67s
+2025-04-22 15:11:57,580 - app.core.wayback_client - INFO - Parametri di richiesta: {'url': 'https://www.reddit.com/mod/keto/rules', 'from': '2012', 'to': '2024', 'output': 'json', 'collapse': 'digest'}
+2025-04-22 15:11:57,591 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-22 15:11:58,703 - app.core.wayback_client - INFO - ⏳ Rate limit attivo: attendo 2.88s
+2025-04-22 15:12:01,584 - app.core.wayback_client - INFO - Parametri di richiesta: {'url': 'https://www.reddit.com/r/keto', 'from': '2012', 'to': '2024', 'output': 'json', 'collapse': 'digest'}
+2025-04-22 15:12:01,586 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-22 15:12:10,814 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:12:10,816 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20120103105706/http://reddit.com/r/keto | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-22 15:12:23,758 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:12:23,762 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20140701021818/http://reddit.com/r/keto | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-22 15:12:39,288 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:12:39,295 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20170108165846/https://www.reddit.com/r/keto | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-22 15:12:45,463 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:12:45,478 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20170702131347/http://www.reddit.com/r/keto | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-22 15:12:53,621 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:12:53,627 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20180104132803/https://www.reddit.com/r/keto | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-22 15:13:02,296 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:13:02,330 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20180711224347/http://www.reddit.com/r/keto | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-22 15:13:10,361 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:13:10,371 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20190716030910/http://www.reddit.com/r/keto | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-22 15:13:23,140 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:13:23,142 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20210102005905/https://www.reddit.com/r/keto | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-22 15:13:38,018 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:13:38,049 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20240107012007/https://www.reddit.com/r/keto | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-22 15:13:43,256 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:13:43,257 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20240711170532/https://www.reddit.com/r/keto/ | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-22 15:14:19,696 - app.core.wayback_client - INFO - Parametri di richiesta: {'url': 'https://old.reddit.com/r/keto', 'from': '2012', 'to': '2024', 'output': 'json', 'collapse': 'digest'}
+2025-04-22 15:14:19,697 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-22 15:14:31,462 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:14:31,482 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20210117235706/https://old.reddit.com/r/keto | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-22 15:14:47,496 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:14:47,568 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20240222215058/https://old.reddit.com/r/keto | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-22 15:15:23,984 - app.core.wayback_client - INFO - Parametri di richiesta: {'url': 'https://old.reddit.com/r/keto/about/moderators/.json', 'from': '2012', 'to': '2024', 'output': 'json', 'collapse': 'digest'}
+2025-04-22 15:15:23,986 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-22 15:15:25,557 - app.core.wayback_client - INFO - ⏳ Rate limit attivo: attendo 2.43s
+2025-04-22 15:15:27,985 - app.core.wayback_client - INFO - Parametri di richiesta: {'url': 'https://old.reddit.com/r/keto/about/moderators', 'from': '2012', 'to': '2024', 'output': 'json', 'collapse': 'digest'}
+2025-04-22 15:15:27,989 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-22 15:15:29,144 - app.core.wayback_client - INFO - ⏳ Rate limit attivo: attendo 2.84s
+2025-04-22 15:15:31,990 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:15:31,996 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20220906151123/https://old.reddit.com/r/keto/about/moderators | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-22 15:15:33,426 - app.core.wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-22 15:15:33,427 - app.core.wayback_client - INFO - 🌐 GET http://web.archive.org/web/20220906151123/http://old.reddit.com/r/keto/about/moderators | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-22 15:15:34,778 - app.core.wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20220906151123/https://old.reddit.com/r/keto/about/moderators
+2025-04-22 15:15:35,864 - app.core.wayback_client - INFO - ⏳ Rate limit attivo: attendo 0.13s
+2025-04-22 15:15:36,086 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:15:36,128 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20230324154132/https://old.reddit.com/r/keto/about/moderators | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-22 15:15:38,375 - app.core.wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-22 15:15:38,410 - app.core.wayback_client - INFO - 🌐 GET http://web.archive.org/web/20230324154132/http://old.reddit.com/r/keto/about/moderators | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-22 15:15:40,701 - app.core.wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20230324154132/https://old.reddit.com/r/keto/about/moderators
+2025-04-22 15:15:40,758 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:15:40,761 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20240824223623/https://old.reddit.com/r/keto/about/moderators | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-22 15:15:42,707 - app.core.wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-22 15:15:42,716 - app.core.wayback_client - INFO - 🌐 GET http://web.archive.org/web/20240824223623/http://old.reddit.com/r/keto/about/moderators | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-22 15:15:43,821 - app.core.wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20240824223623/https://old.reddit.com/r/keto/about/moderators
+2025-04-22 15:15:43,892 - app.core.wayback_client - INFO - ⏳ Rate limit attivo: attendo 0.87s
+2025-04-22 15:15:44,772 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:15:44,773 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20240917142422/https://old.reddit.com/r/keto/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-22 15:15:47,518 - app.core.wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-22 15:15:47,521 - app.core.wayback_client - INFO - 🌐 GET http://web.archive.org/web/20240917142422/http://old.reddit.com/r/keto/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-22 15:15:48,498 - app.core.wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20240917142422/https://old.reddit.com/r/keto/about/moderators
+2025-04-22 15:15:48,540 - app.core.wayback_client - INFO - ⏳ Rate limit attivo: attendo 0.23s
+2025-04-22 15:15:48,773 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:15:48,776 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20241002205130/https://old.reddit.com/r/keto/about/moderators | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-22 15:15:50,263 - app.core.wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-22 15:15:50,271 - app.core.wayback_client - INFO - 🌐 GET http://web.archive.org/web/20241002205130/http://old.reddit.com/r/keto/about/moderators | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-22 15:15:51,564 - app.core.wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20241002205130/https://old.reddit.com/r/keto/about/moderators
+2025-04-22 15:15:51,591 - app.core.wayback_client - INFO - ⏳ Rate limit attivo: attendo 1.18s
+2025-04-22 15:15:52,775 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:15:52,779 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20241115070135/https://old.reddit.com/r/keto/about/moderators | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-22 15:15:55,292 - app.core.wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-22 15:15:55,294 - app.core.wayback_client - INFO - 🌐 GET http://web.archive.org/web/20241115070135/http://old.reddit.com/r/keto/about/moderators | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-22 15:15:56,831 - app.core.wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20241115070135/https://old.reddit.com/r/keto/about/moderators
+2025-04-22 15:15:56,897 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:15:56,904 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20241222142003/https://old.reddit.com/r/keto/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-22 15:15:59,161 - app.core.wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-22 15:15:59,214 - app.core.wayback_client - INFO - 🌐 GET http://web.archive.org/web/20241222142003/http://old.reddit.com/r/keto/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-22 15:16:00,341 - app.core.wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20241222142003/https://old.reddit.com/r/keto/about/moderators
+2025-04-22 15:16:30,532 - app.core.wayback_client - INFO - Parametri di richiesta: {'url': 'https://www.reddit.com/mod/keto/moderators', 'from': '2012', 'to': '2024', 'output': 'json', 'collapse': 'digest'}
+2025-04-22 15:16:30,534 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-22 15:16:31,897 - app.core.wayback_client - INFO - ⏳ Rate limit attivo: attendo 2.63s
+2025-04-22 15:16:34,550 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:16:34,555 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20240930195459/https://www.reddit.com/mod/keto/moderators/ | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-22 15:17:09,620 - app.core.wayback_client - INFO - Parametri di richiesta: {'url': 'https://old.reddit.com/r/AskReddit/about/rules', 'from': '2012', 'to': '2024', 'output': 'json', 'collapse': 'digest'}
+2025-04-22 15:17:09,623 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-22 15:17:42,920 - app.core.wayback_client - INFO - Parametri di richiesta: {'url': 'https://old.reddit.com/r/AskReddit/about/rules/.json', 'from': '2012', 'to': '2024', 'output': 'json', 'collapse': 'digest'}
+2025-04-22 15:17:42,922 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-22 15:17:44,420 - app.core.wayback_client - INFO - ⏳ Rate limit attivo: attendo 2.50s
+2025-04-22 15:17:46,945 - app.core.wayback_client - INFO - Parametri di richiesta: {'url': 'https://www.reddit.com/mod/AskReddit/rules', 'from': '2012', 'to': '2024', 'output': 'json', 'collapse': 'digest'}
+2025-04-22 15:17:46,946 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-22 15:17:48,017 - app.core.wayback_client - INFO - ⏳ Rate limit attivo: attendo 2.93s
+2025-04-22 15:17:50,948 - app.core.wayback_client - INFO - Parametri di richiesta: {'url': 'https://www.reddit.com/r/AskReddit', 'from': '2012', 'to': '2024', 'output': 'json', 'collapse': 'digest'}
+2025-04-22 15:17:50,951 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-22 15:18:12,725 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:18:12,726 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20150702234629/https://www.reddit.com/r/askreddit | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-22 15:18:19,899 - app.core.wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-22 15:18:19,936 - app.core.wayback_client - INFO - 🌐 GET http://web.archive.org/web/20150702234629/http://www.reddit.com/r/askreddit | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-22 15:18:23,485 - app.core.wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20150702234629/https://www.reddit.com/r/askreddit
+2025-04-22 15:18:23,561 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:18:23,625 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20150702234846/https://www.reddit.com/r/AskReddit/ | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-22 15:18:27,461 - app.core.wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-22 15:18:27,465 - app.core.wayback_client - INFO - 🌐 GET http://web.archive.org/web/20150702234846/http://www.reddit.com/r/AskReddit/ | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-22 15:18:31,352 - app.core.wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20150702234846/https://www.reddit.com/r/AskReddit/
+2025-04-22 15:18:32,048 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:18:32,228 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20150702234947/https://www.reddit.com/r/AskReddit/ | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-22 15:18:41,103 - app.core.wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-22 15:18:41,215 - app.core.wayback_client - INFO - 🌐 GET http://web.archive.org/web/20150702234947/http://www.reddit.com/r/AskReddit/ | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-22 15:18:46,873 - app.core.wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20150702234947/https://www.reddit.com/r/AskReddit/
+2025-04-22 15:18:46,905 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:18:46,909 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20150702235132/http://www.reddit.com/r/askreddit | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-22 15:18:51,038 - app.core.wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-22 15:18:51,041 - app.core.wayback_client - INFO - 🌐 GET http://web.archive.org/web/20150702235132/http://www.reddit.com/r/askreddit | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-22 15:18:57,029 - app.core.wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20150702235132/http://www.reddit.com/r/askreddit
+2025-04-22 15:18:57,060 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:18:57,062 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20150703000335/http://www.reddit.com/r/AskReddit/ | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-22 15:19:01,908 - app.core.wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-22 15:19:01,911 - app.core.wayback_client - INFO - 🌐 GET http://web.archive.org/web/20150703000335/http://www.reddit.com/r/AskReddit/ | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-22 15:19:06,639 - app.core.wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20150703000335/http://www.reddit.com/r/AskReddit/
+2025-04-22 15:19:06,668 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:19:06,670 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20150703000343/http://www.reddit.com/r/AskReddit/ | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-22 15:19:10,962 - app.core.wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-22 15:19:10,965 - app.core.wayback_client - INFO - 🌐 GET http://web.archive.org/web/20150703000343/http://www.reddit.com/r/AskReddit/ | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-22 15:19:14,992 - app.core.wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20150703000343/http://www.reddit.com/r/AskReddit/
+2025-04-22 15:19:15,052 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:19:15,054 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20150703002259/https://www.reddit.com/r/askreddit | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-22 15:19:18,162 - app.core.wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-22 15:19:18,169 - app.core.wayback_client - INFO - 🌐 GET http://web.archive.org/web/20150703002259/http://www.reddit.com/r/askreddit | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-22 15:19:23,018 - app.core.wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20150703002259/https://www.reddit.com/r/askreddit
+2025-04-22 15:19:23,054 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:19:23,058 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20150703003049/http://reddit.com/r/askreddit | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-22 15:19:30,941 - app.core.wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-22 15:19:30,942 - app.core.wayback_client - INFO - 🌐 GET http://web.archive.org/web/20150703003049/http://reddit.com/r/askreddit | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-22 15:19:37,253 - app.core.wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20150703003049/http://reddit.com/r/askreddit
+2025-04-22 15:19:37,292 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:19:37,300 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20150703003049/http://www.reddit.com/r/askreddit | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-22 15:19:41,715 - app.core.wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-22 15:19:41,718 - app.core.wayback_client - INFO - 🌐 GET http://web.archive.org/web/20150703003049/http://www.reddit.com/r/askreddit | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-22 15:19:44,564 - app.core.wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20150703003049/http://www.reddit.com/r/askreddit
+2025-04-22 15:19:44,581 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:19:44,583 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20150703004929/http://www.reddit.com/r/AskReddit | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-22 15:19:48,397 - app.core.wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-22 15:19:48,406 - app.core.wayback_client - INFO - 🌐 GET http://web.archive.org/web/20150703004929/http://www.reddit.com/r/AskReddit | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-22 15:19:52,345 - app.core.wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20150703004929/http://www.reddit.com/r/AskReddit
+2025-04-22 15:19:52,371 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:19:52,373 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20150703005529/https://www.reddit.com/r/AskReddit | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-22 15:19:55,779 - app.core.wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-22 15:19:55,787 - app.core.wayback_client - INFO - 🌐 GET http://web.archive.org/web/20150703005529/http://www.reddit.com/r/AskReddit | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-22 15:19:58,396 - app.core.wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20150703005529/https://www.reddit.com/r/AskReddit
+2025-04-22 15:19:58,807 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:19:58,826 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20150703015953/http://www.reddit.com/r/AskReddit/ | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-22 15:20:04,543 - app.core.wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-22 15:20:04,551 - app.core.wayback_client - INFO - 🌐 GET http://web.archive.org/web/20150703015953/http://www.reddit.com/r/AskReddit/ | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-22 15:20:09,201 - app.core.wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20150703015953/http://www.reddit.com/r/AskReddit/
+2025-04-22 15:20:09,221 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:20:09,224 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20150703020039/https://www.reddit.com/r/AskReddit/ | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-22 15:20:12,744 - app.core.wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-22 15:20:12,759 - app.core.wayback_client - INFO - 🌐 GET http://web.archive.org/web/20150703020039/http://www.reddit.com/r/AskReddit/ | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-22 15:20:15,137 - app.core.wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20150703020039/https://www.reddit.com/r/AskReddit/
+2025-04-22 15:20:15,156 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:20:15,157 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20150703020102/https://www.reddit.com/r/AskReddit | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-22 15:20:18,590 - app.core.wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-22 15:20:18,591 - app.core.wayback_client - INFO - 🌐 GET http://web.archive.org/web/20150703020102/http://www.reddit.com/r/AskReddit | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-22 15:20:21,577 - app.core.wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20150703020102/https://www.reddit.com/r/AskReddit
+2025-04-22 15:20:22,025 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:20:22,044 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20150703021107/http://www.reddit.com/r/AskReddit/ | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-22 15:20:26,127 - app.core.wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-22 15:20:26,128 - app.core.wayback_client - INFO - 🌐 GET http://web.archive.org/web/20150703021107/http://www.reddit.com/r/AskReddit/ | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-22 15:20:28,796 - app.core.wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20150703021107/http://www.reddit.com/r/AskReddit/
+2025-04-22 15:20:28,863 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:20:28,905 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20150703021409/http://www.reddit.com/r/AskReddit/ | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-22 15:20:32,776 - app.core.wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-22 15:20:32,812 - app.core.wayback_client - INFO - 🌐 GET http://web.archive.org/web/20150703021409/http://www.reddit.com/r/AskReddit/ | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-22 15:20:42,866 - app.core.wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20150703021409/http://www.reddit.com/r/AskReddit/
+2025-04-22 15:20:42,889 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:20:42,890 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20150703021900/http://www.reddit.com/r/AskReddit/ | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-22 15:20:45,514 - app.core.wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-22 15:20:45,523 - app.core.wayback_client - INFO - 🌐 GET http://web.archive.org/web/20150703021900/http://www.reddit.com/r/AskReddit/ | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-22 15:20:49,522 - app.core.wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20150703021900/http://www.reddit.com/r/AskReddit/
+2025-04-22 15:20:49,534 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:20:49,539 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20150703022701/https://www.reddit.com/r/AskReddit/ | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-22 15:20:54,003 - app.core.wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-22 15:20:54,004 - app.core.wayback_client - INFO - 🌐 GET http://web.archive.org/web/20150703022701/http://www.reddit.com/r/AskReddit/ | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-22 15:20:58,318 - app.core.wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20150703022701/https://www.reddit.com/r/AskReddit/
+2025-04-22 15:20:58,700 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:20:58,794 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20150703023023/http://www.reddit.com/r/AskReddit/ | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-22 15:21:02,622 - app.core.wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-22 15:21:02,624 - app.core.wayback_client - INFO - 🌐 GET http://web.archive.org/web/20150703023023/http://www.reddit.com/r/AskReddit/ | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-22 15:21:05,555 - app.core.wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20150703023023/http://www.reddit.com/r/AskReddit/
+2025-04-22 15:21:05,589 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:21:05,594 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20150703023342/https://www.reddit.com/r/askreddit | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-22 15:21:08,819 - app.core.wayback_client - WARNING - 🔌 Errore di connessione: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /web/20150703023342/https://www.reddit.com/r/askreddit (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f6ef9998800>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-22 15:21:33,072 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:21:33,075 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20190701000511/https://www.reddit.com/r/AskReddit | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-22 15:21:40,366 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:21:40,390 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20200101035118/http://www.reddit.com/r/askreddit | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-22 15:21:47,207 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:21:47,232 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20200701021028/http://www.reddit.com/r/askreddit | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-22 15:22:02,575 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:22:02,627 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20220101011728/https://www.reddit.com/r/AskReddit | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-22 15:22:12,286 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:22:12,298 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20220701014723/http://www.reddit.com/r/askreddit | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-22 15:22:30,489 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:22:30,490 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20240101025612/https://www.reddit.com/r/AskReddit/ | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-22 15:23:12,652 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:23:12,670 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20150703023342/https://www.reddit.com/r/askreddit | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-22 15:23:15,766 - app.core.wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-22 15:23:15,846 - app.core.wayback_client - INFO - 🌐 GET http://web.archive.org/web/20150703023342/http://www.reddit.com/r/askreddit | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-22 15:23:20,198 - app.core.wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20150703023342/https://www.reddit.com/r/askreddit
+2025-04-22 15:23:20,218 - app.core.wayback_client - INFO - Parametri di richiesta: {'url': 'https://old.reddit.com/r/AskReddit', 'from': '2012', 'to': '2024', 'output': 'json', 'collapse': 'digest'}
+2025-04-22 15:23:20,226 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-22 15:23:46,323 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:23:46,324 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20210101050103/https://old.reddit.com/r/AskReddit/ | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-22 15:23:53,219 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:23:53,257 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20210701015655/https://old.reddit.com/r/AskReddit/ | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-22 15:24:10,045 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:24:10,046 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20220101010301/https://old.reddit.com/r/AskReddit/ | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-22 15:24:31,482 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:24:31,595 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20220701010141/https://old.reddit.com/r/AskReddit/ | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-22 15:24:39,765 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:24:39,773 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20230101010057/https://old.reddit.com/r/AskReddit/ | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-22 15:24:47,678 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:24:47,683 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20230701015946/https://old.reddit.com/r/AskReddit/ | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-22 15:24:53,916 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:24:53,925 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20240101021735/https://old.reddit.com/r/AskReddit/ | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-22 15:25:04,202 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:25:04,207 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20240701000956/https://old.reddit.com/r/AskReddit/ | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-22 15:25:44,064 - app.core.wayback_client - INFO - Parametri di richiesta: {'url': 'https://old.reddit.com/r/AskReddit/about/moderators/.json', 'from': '2012', 'to': '2024', 'output': 'json', 'collapse': 'digest'}
+2025-04-22 15:25:44,066 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-22 15:25:46,311 - app.core.wayback_client - INFO - ⏳ Rate limit attivo: attendo 1.75s
+2025-04-22 15:25:48,066 - app.core.wayback_client - INFO - Parametri di richiesta: {'url': 'https://old.reddit.com/r/AskReddit/about/moderators', 'from': '2012', 'to': '2024', 'output': 'json', 'collapse': 'digest'}
+2025-04-22 15:25:48,067 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/cdx/search/cdx | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-22 15:25:50,466 - app.core.wayback_client - INFO - ⏳ Rate limit attivo: attendo 1.60s
+2025-04-22 15:25:52,094 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:25:52,097 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20181114023726/https://old.reddit.com/r/AskReddit/about/moderators | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-22 15:25:56,868 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:25:56,872 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20190211233435/https://old.reddit.com/r/AskReddit/about/moderators | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-22 15:26:10,801 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:26:10,812 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20190701001414/https://old.reddit.com/r/AskReddit/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-22 15:26:15,302 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:26:15,303 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20200218014251/https://old.reddit.com/r/AskReddit/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+2025-04-22 15:26:19,522 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:26:19,529 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20200813212812/https://old.reddit.com/r/AskReddit/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-22 15:26:24,066 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:26:24,105 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20210112064212/https://old.reddit.com/r/AskReddit/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-22 15:26:29,981 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:26:29,984 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20210819232050/https://old.reddit.com/r/AskReddit/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-22 15:26:31,401 - app.core.wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-22 15:26:31,405 - app.core.wayback_client - INFO - 🌐 GET http://web.archive.org/web/20210819232050/http://old.reddit.com/r/AskReddit/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0
+2025-04-22 15:26:33,003 - app.core.wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20210819232050/https://old.reddit.com/r/AskReddit/about/moderators
+2025-04-22 15:26:33,047 - app.core.wayback_client - INFO - ⏳ Rate limit attivo: attendo 0.93s
+2025-04-22 15:26:33,987 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:26:33,989 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20211011085459/https://old.reddit.com/r/AskReddit/about/moderators | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-22 15:26:36,679 - app.core.wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-22 15:26:36,707 - app.core.wayback_client - INFO - 🌐 GET http://web.archive.org/web/20211011085459/http://old.reddit.com/r/AskReddit/about/moderators | User-Agent: Mozilla/5.0 (Linux; Android 10; Pixel 4 XL Build/QP1A.190711.020) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.120 Mobile Safari/537.36
+2025-04-22 15:26:38,393 - app.core.wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20211011085459/https://old.reddit.com/r/AskReddit/about/moderators
+2025-04-22 15:26:38,779 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:26:38,795 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20211127071545/https://old.reddit.com/r/AskReddit/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-22 15:26:41,443 - app.core.wayback_client - WARNING - 🔁 403 Forbidden. Provo fallback a HTTP...
+2025-04-22 15:26:41,449 - app.core.wayback_client - INFO - 🌐 GET http://web.archive.org/web/20211127071545/http://old.reddit.com/r/AskReddit/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-04-22 15:26:42,889 - app.core.wayback_client - ERROR - ❌ HTTP error 403 per https://web.archive.org/web/20211127071545/https://old.reddit.com/r/AskReddit/about/moderators
+2025-04-22 15:26:42,918 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:26:42,923 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20220309140639/https://old.reddit.com/r/AskReddit/about/moderators | User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36
+2025-04-22 15:26:45,936 - app.core.wayback_client - WARNING - 🔌 Errore di connessione: HTTPSConnectionPool(host='web.archive.org', port=443): Max retries exceeded with url: /web/20220309140639/https://old.reddit.com/r/AskReddit/about/moderators (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f6ef9c29970>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2025-04-22 15:26:57,556 - app.core.wayback_client - INFO - Parametri di richiesta: {}
+2025-04-22 15:26:57,559 - app.core.wayback_client - INFO - 🌐 GET https://web.archive.org/web/20220916092237/https://old.reddit.com/r/AskReddit/about/moderators | User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:51.0) Gecko/20100101 Firefox/51.0

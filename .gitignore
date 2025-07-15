@@ -1,0 +1,9 @@
+/Dataset_longitudinale/app/html_cache/
+/.venv/
+/Dataset_longitudinale/mongo_data/
+*.log
+*.json
+*.jsonl
+*.pyc
+*.joblib
+*.zip

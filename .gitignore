@@ -7,3 +7,5 @@
 *.pyc
 *.joblib
 *.zip
+/Dataset_longitudinale/app/logs/
+/Dataset_longitudinale/app/parser/logger/
